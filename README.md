@@ -4,7 +4,7 @@ Welcome to the Docker Community repo! This repo aims to centralize content (HOW-
 
 The main objective is to help members of the Docker community who share similar interests to learn from & collaborate with each other during Docker Meetups. 
 
-# Docker Meetup in a Container (DMAC) program
+# Docker Meetup in a Container (DMAC) Program
 
 The Docker Community team will be regularly building container of new content to be used by different Docker community groups (Meetup Organizers, Bloggers, Speakers, etc). [Register here] (https://docker.mobilize.io/entities/3177/registrations) If you're interested in geting involved as an active members of the Docker community and want to receive an alert any time we add new content to this repo.
 
