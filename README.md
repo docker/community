@@ -16,8 +16,10 @@ A Docker meetup is an event organized by community members interested in talking
 
 - Adam Herzog [@ah3rz](https://twitter.com/AshlynnPolini)
 - Ashlynn Polini [@ashlynnpolini] (https://twitter.com/AshlynnPolini)
+- Daniela Kronenberg ([@dkroftw] (https://twitter.com/dkroftw)
+- Jacqueline Lum [@LumJacqueline] (https://twitter.com/LumJacqueline)
 - Karen Bajza [@kbajza13] (https://twitter.com/kbajza13)
-- Victor Coisne [@vcoisne] (https://twitter.com/vcoisne) 
+- Victor Coisne [@vcoisne] (https://twitter.com/vcoisne)
 
 Don't hesitate to [contact us](mailto:meetups@docker.com) if you have questions or want to get involved as a meetup organizers, speakers, sponsors, bloggers, etc.
 
