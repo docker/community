@@ -12,7 +12,7 @@
 # Docker Multi Host Networking demo
 
 - [Video] (https://www.youtube.com/watch?v=B2wd_UigNxU)
-- [Demo Script](hhttps://github.com/dave-tucker/docker-network-demos/blob/master/multihost-local.sh)
+- [Demo Script](https://github.com/dave-tucker/docker-network-demos/blob/master/multihost-local.sh)
 - [Multi Host Networking Blog Post](http://blog.docker.com/2015/11/docker-multi-host-networking-ga)
 
 # Docker Multi Host Networking and Docker Swarm Demo 
