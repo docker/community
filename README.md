@@ -14,7 +14,7 @@ A Docker meetup is an event organized by community members interested in talking
 
 # The Docker Community Team
 
-- Adam Herzog [@ah3rz](https://twitter.com/AshlynnPolini)
+- Adam Herzog [@ah3rz](https://twitter.com/ah3rz)
 - Ashlynn Polini [@ashlynnpolini] (https://twitter.com/AshlynnPolini)
 - Daniela Kronenberg [@dkroftw] (https://twitter.com/dkroftw)
 - Jacqueline Lum [@LumJacqueline] (https://twitter.com/LumJacqueline)
