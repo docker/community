@@ -1,4 +1,4 @@
-# Docker community
+# Docker Community
 
 Welcome to the Docker Community repo! This repo aims to centralize content (HOW-TOs, scripts, slides, etc) created by the Docker Team for the Docker Community.
 
