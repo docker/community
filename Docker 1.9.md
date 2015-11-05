@@ -1,6 +1,7 @@
 # Docker Platform 1.9 release
 - [Docker 1.9 Release video] (https://www.youtube.com/watch?v=wtHkh4gIU70)
-- [Docker 1.9 Release Blog Post](http://blog.docker.com/2015/11/docker-1-9-production-ready-swarm-multi-host-networking
+- [Docker 1.9 Release Blog Post](http://blog.docker.com/2015/11/docker-1-9-production-ready-swarm-multi-host-networking)
+- [Docker 1.9 Slides](http://www.slideshare.net/Docker/docker-platform-19)
 - [Docker Engine 1.9 Release Notes] (https://github.com/docker/docker/blob/master/CHANGELOG.md)
 - [Docker Machine 0.4 release Notes] (https://github.com/docker/machine/blob/master/CHANGELOG.md)
 - [Docker Swarm 1.0 release Notes](https://github.com/docker/swarm/blob/master/CHANGELOG.md)
