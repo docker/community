@@ -69,6 +69,7 @@
 - IPVS Daemon [gorb](http://github.com/kobolog/gorb)
 - [dvol](https://github.com/ClusterHQ/dvol)
 - [Using Docker to parallelize rails tests](http://blog.codeship.com/using-docker-to-parallelize-rails-tests) with [Jet](https://codeship.com/documentation/tags/jet/)
+- With container images becoming ever more minimal, we can no longer rely on basic binaries being available within a container, enter [infilter](https://github.com/yadutaf/infilter) which provides us a way to inject binaries from the host into the namespaces of the running container. See [this dockercon demo repository](https://github.com/yadutaf/2015-dockercon-infilter)
 - AWS Immutable Deployment Framework [ionroller](https://github.com/gilt/ionroller) - Alternative: Cloudformation+CodeDeploy
 - Docker Labels Linter: [Docker-label-inspector](https://github.com/garethr/docker-label-inspector)
 - DNS Service Discovery for Swarm: [wagl](https://github.com/ahmetalpbalkan/wagl) - [blog](https://ahmetalpbalkan.com/blog/wagl/)
