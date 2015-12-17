@@ -62,6 +62,21 @@
 - Day 2 General section: https://www.youtube.com/watch?v=i8YM4bkpR-E
 - Day 2 Closing general section: https://www.youtube.com/watch?v=ZBcMy-_xuYk
 
+## Hands On Labs
+
+The complete set of Docker Hands On Labs can be found [here](https://github.com/docker/dceu_tutorials). The labs include:
+
+* Introduction to Docker
+* Docker Orchestration
+* Docker Trusted Registry
+* Tutum: Provision, Deploy, Manage
+* Docker Content Trust
+* Docker Networking
+* Understanding Docker Volumes
+* Continuous Integration and Continious Delivery(CICD) with Docker, GitHub, and Jenkins
+* Automated Builds with Docker Hub and GitHub
+
+
 ## Cool Tools Highlighted at DockerCon 2015
 
 - [Unikernel demo source code](http://unikernel.org/blog/2015/contain-your-unikernels/)
