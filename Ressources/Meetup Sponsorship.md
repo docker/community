@@ -13,7 +13,6 @@ The main benefit of sponsoring a Docker Meetup is visibility. As a sponsor, you 
 -Docker Weekly newsletter
 -Docker Monthly Events blog
 	 	
-
 There are three sponsorship options available:
 -Venue Host sponsorship
 -Food/ Beverage sponsorship
@@ -44,7 +43,7 @@ While we often secure a separate sponsor for food and beverages, many venues are
 
 #4. Food/ Beverage Sponsor FAQ			
  		 	 	 				
-###Do we need to provide vegetarian/gluten-free/vegan meal options? 
+####Do we need to provide vegetarian/gluten-free/vegan meal options? 
 We ask for a vegetarian option to be served but we do not require vegan or gluten-­free options.
 
 ####What is a typical meal that is served look like? 
