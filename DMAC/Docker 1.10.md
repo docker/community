@@ -1,6 +1,6 @@
 # Docker 1.10
 
-### Slides: https://docs.google.com/presentation/d/1nOoCDreO7U6jF7GS1KGUtkpVTlW4a61TQsh4ClcR4_Y/edit?usp=sharing
+### Slidedeck overview: https://docs.google.com/presentation/d/1nOoCDreO7U6jF7GS1KGUtkpVTlW4a61TQsh4ClcR4_Y/edit?usp=sharing
 *feel free to use and modify these slides*
 
 
