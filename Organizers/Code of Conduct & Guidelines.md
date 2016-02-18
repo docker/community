@@ -32,6 +32,6 @@ All Docker community members should strive to follow our community guidelines. A
 Docker reserves the right to remove any member from the Organizer program for violating this Code of Conduct. In the event of a violation, the Docker community team will review the situation and determine the consequences on a case by case basis. When an organizer is removed from the program, we retire the remaining benefits and his or her access to Docker Organizer resources.
 Additional Resources
 
-[Docker Meetup Guide](https://github.com/docker/community/blob/master/Organizers/Resources/Docker%20Meetup%20Guide.md)
-[Docker Meetup FAQ] (https://github.com/docker/community/blob/master/Organizers/Resources/Docker%20meetup%20FAQ.md)
-[Meetup Sponsorship Guidelines] (https://github.com/docker/community/blob/master/Organizers/Resources/Meetup%20Sponsorship.md)
+- [Docker Meetup Guide](https://github.com/docker/community/blob/master/Organizers/Resources/Docker%20Meetup%20Guide.md)
+- [Docker Meetup FAQ] (https://github.com/docker/community/blob/master/Organizers/Resources/Docker%20meetup%20FAQ.md)
+- [Meetup Sponsorship Guidelines] (https://github.com/docker/community/blob/master/Organizers/Resources/Meetup%20Sponsorship.md)
