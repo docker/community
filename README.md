@@ -1,6 +1,6 @@
 # Docker Community
 
-Welcome to the Docker Community repo! This repo aims to centralize content (HOW-TOs, scripts, slides, etc) created by the Docker Team for the Docker Community.
+Welcome to the Docker Community repo! This repo aims to centralize content (HOW-TOs, scripts, slides, etc) created or curated by the Docker Team for the Docker Community.
 
 The main objective is to help members of the Docker community who share similar interests to learn from & collaborate with each other during Docker Meetups. 
 
