@@ -28,7 +28,7 @@ All Docker community members should strive to follow our community guidelines. A
 - Be rigorous in assessing the content submitted by potential speakers. If you need help validating results and analyses, reach out for assistance. 
 - If you experience difficulties with Docker products or programs, give us the opportunity to address your feedback in advance. 
 
-## Enforcing this Code of Conduct
+#Enforcing this Code of Conduct
 Docker reserves the right to remove any member from the Organizer program for violating this Code of Conduct. In the event of a violation, the Docker community team will review the situation and determine the consequences on a case by case basis. When an organizer is removed from the program, we retire the remaining benefits and his or her access to Docker Organizer resources.
 
 #Additional Resources
