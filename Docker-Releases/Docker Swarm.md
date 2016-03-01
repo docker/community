@@ -26,15 +26,15 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 - [Rescheduling containers on node failures with Docker Swarm 1.1] (http://container-solutions.com/rescheduling-containers-on-node-failures-with-docker-swarm-1-1/) by [Max Schöfmann] (https://twitter.com/schoefmann)
 
 - [Running an Elasticsearch cluster on Docker 1.9 with Swarm and Compose] (https://medium.com/@yoanis_gil/running-an-elasticsearch-cluster-on-docker-1-9-with-swarm-and-compose-efabe110c675#.r5e84gy3v) by [Yoanis Gil Delgado] (https://twitter.com/yoanis_gil)
-- 
-- [Docker Swarm: Collecting Metrics, Events & Logs] (http://blog.sematext.com/2016/01/12/docker-swarm-collecting-metrics-events-logs/?_tmc=p9YSlYM8PUi910_DgJBWHWy5TAOXitPRIcD-63k32ac) by {Stefan Thies] (https://twitter.com/seti321)
+
+- [Docker Swarm: Collecting Metrics, Events & Logs] (http://blog.sematext.com/2016/01/12/docker-swarm-collecting-metrics-events-logs/?_tmc=p9YSlYM8PUi910_DgJBWHWy5TAOXitPRIcD-63k32ac) by [Stefan Thies] (https://twitter.com/seti321)
 
 - [Getting Started with Docker Swarm] (http://collabnix.com/archives/967) by [Ajeet Singha Raina] (https://twitter.com/ajeetsraina)
 
 - [Run a local Windows Docker Swarm] (https://stefanscherer.github.io/build-your-local-windows-docker-swarm/0) by [Stefan Scherer](https://github.com/StefanScherer)
 
 - [One year+ feedback of using Docker and Swarm in DEV and QA environments] (https://medium.com/@frntn/one-year-feedback-of-using-docker-and-swarm-in-dev-and-qa-environments-deaf2ec6dc61#.j4rr4lkwv) by [Matthieu Fronton] (https://twitter.com/frntn)
-- 
+ 
 # Videos
 
 - [Docker Swarm and Kubernetes] (https://www.youtube.com/watch?v=8jepaoATuN0&feature=youtu.be&_tmc=oC-fMVZxskFghRKSlk9pTVFD01VR86mu9Oh8jvazNhc) by [Sam Alba] (https://twitter.com/samalba) and [Andrea Luzzardi] (https://twitter.com/aluzzardi)
