@@ -20,6 +20,8 @@
 
 - [Getting Started with Docker Swarm] (http://collabnix.com/archives/967) by [Ajeet Singha Raina] (https://twitter.com/ajeetsraina)
 
+- [Run a local Windows Docker Swarm] (https://stefanscherer.github.io/build-your-local-windows-docker-swarm/0 by [Stefan Scherer](https://github.com/StefanScherer)
 
-#
+- [One year+ feedback of using Docker and Swarm in DEV and QA environments] (https://medium.com/@frntn/one-year-feedback-of-using-docker-and-swarm-in-dev-and-qa-environments-deaf2ec6dc61#.j4rr4lkwv) by [Matthieu Fronton] (https://twitter.com/frntn)
+
 
