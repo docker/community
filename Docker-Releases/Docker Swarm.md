@@ -5,7 +5,7 @@
 How do you use Docker Swarm? Are you using Docker Swarm in production? Let us know!
 We’re raffling off tickets to DockerCon 2016 in exchange for user stories. Write a blog post or share a screenshot or video of your UCP dashboard or Swarm cluster and tweet with the hashtag #SwarmWeek and we’ll enter you into a drawing for a free ticket.
 - Have a Swarm question?
-Now is a great time to ask all of your questions about Docker Swarm. Feel free to post your questions as a comment on this blog post – just scroll down to submit your question. We’ll answer them on this blog and also share those answers during the Q&A with the Docker Swarm team on Monday.
+Now is a great time to ask all of your questions about Docker Swarm. Feel free to post your questions on twitter with the hashtaf [#swarmweek] (https://twitter.com/search?f=tweets&vertical=default&q=%23swarmweek&src=typd) . We’ll answer them on this blog and also share those answers during the Q&A with the Docker Swarm team on Monday.
 
 # Slides
 
