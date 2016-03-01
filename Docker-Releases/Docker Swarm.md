@@ -19,6 +19,8 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 ---
 # Blog posts
 
+- [Scale test Docker Swarm to 30,000 containers on 1,000 nodes at DockerCon EU 2015] (https://blog.docker.com/2015/11/scale-testing-docker-swarm-30000-containers/) by [Andrea Luzzardi] (https://twitter.com/aluzzardi)
+
 - [Using Docker Swarm in Production] (https://www.linux-toys.com/?p=411) by [Phillip Tribble] (https://twitter.com/rusher81572)
 
 - [An Example of Docker Multi-Host Networking With Hadoop] (http://javaarchramble.blogspot.com/2016/02/an-example-of-docker-multi-host_18.html?view=classic) by [Joshua Davis] (https://twitter.com/joshuad2)
@@ -37,6 +39,12 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
  
 # Videos
 
-- [Docker Swarm and Kubernetes] (https://www.youtube.com/watch?v=8jepaoATuN0&feature=youtu.be&_tmc=oC-fMVZxskFghRKSlk9pTVFD01VR86mu9Oh8jvazNhc) by [Sam Alba] (https://twitter.com/samalba) and [Andrea Luzzardi] (https://twitter.com/aluzzardi)
+- [Docker orchestration at production scale] (https://www.youtube.com/watch?v=ZNmzoGzmnlc) by [Andrea Luzzardi] (https://twitter.com/aluzzardi)
+ & [Victor Vieux] (https://twitter.com/vieux)
 
+- [DNS Service Discovery for Docker Swarm Clusters] (https://www.youtube.com/watch?v=WXESsPqC8to&list=PLkA60AVN3hh87OoVra6MHf2L4UR9xwJkv&index=16) by [Ahmet Alp Balkan] (https://twitter.com/AhmetAlpBalkan)
+
+- [Swarming Spark Application] (https://www.youtube.com/watch?v=pgIlYd_NnjM&list=PLkA60AVN3hh87OoVra6MHf2L4UR9xwJkv&index=24) by [Daniele Venzano] (https://www.linkedin.com/in/venza)
+
+- [Docker Swarm and Kubernetes] (https://www.youtube.com/watch?v=8jepaoATuN0&feature=youtu.be&_tmc=oC-fMVZxskFghRKSlk9pTVFD01VR86mu9Oh8jvazNhc) by [Sam Alba] (https://twitter.com/sam_alba) and [Andrea Luzzardi] (https://twitter.com/aluzzardi)
 
