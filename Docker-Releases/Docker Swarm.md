@@ -36,6 +36,9 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 - [Run a local Windows Docker Swarm] (https://stefanscherer.github.io/build-your-local-windows-docker-swarm/0) by [Stefan Scherer](https://github.com/StefanScherer)
 
 - [One year+ feedback of using Docker and Swarm in DEV and QA environments] (https://medium.com/@frntn/one-year-feedback-of-using-docker-and-swarm-in-dev-and-qa-environments-deaf2ec6dc61#.j4rr4lkwv) by [Matthieu Fronton] (https://twitter.com/frntn)
+
+- [Setting up a Flocker-powered Swarm Cluster in less than 30 minutes on AWS]
+(https://clusterhq.com/2016/02/08/flocker-swarm-in-30-minutes-aws/) by [Stephen Nguyen] (https://twitter.com/Stephenitis)
  
 # Videos
 
