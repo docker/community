@@ -39,6 +39,8 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
  
 # Videos
 
+- [Docker Swarm Youtube Playlist] (https://www.youtube.com/playlist?list=PLkA60AVN3hh8lmRdhPKzsNJvZxJ8dpj4t) by [Alex Beslic] (https://twitter.com/abronan)
+
 - [Docker orchestration at production scale] (https://www.youtube.com/watch?v=ZNmzoGzmnlc) by [Andrea Luzzardi] (https://twitter.com/aluzzardi)
  & [Victor Vieux] (https://twitter.com/vieux)
 
