@@ -16,7 +16,19 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 
 - [Clustering with Docker Swarm] (http://www.slideshare.net/gionn2/clustering-with-docker-swarm-dockerops-2016-cento-fe-italy) by [Giovanni Toraldo] (https://twitter.com/gionn)
 
----
+# Videos
+
+- [Docker Swarm Youtube Playlist] (https://www.youtube.com/playlist?list=PLkA60AVN3hh8lmRdhPKzsNJvZxJ8dpj4t) by [Alex Beslic] (https://twitter.com/abronan)
+
+- [Docker orchestration at production scale] (https://www.youtube.com/watch?v=ZNmzoGzmnlc) by [Andrea Luzzardi] (https://twitter.com/aluzzardi)
+ & [Victor Vieux] (https://twitter.com/vieux)
+
+- [DNS Service Discovery for Docker Swarm Clusters] (https://www.youtube.com/watch?v=WXESsPqC8to&list=PLkA60AVN3hh87OoVra6MHf2L4UR9xwJkv&index=16) by [Ahmet Alp Balkan] (https://twitter.com/AhmetAlpBalkan)
+
+- [Swarming Spark Application] (https://www.youtube.com/watch?v=pgIlYd_NnjM&list=PLkA60AVN3hh87OoVra6MHf2L4UR9xwJkv&index=24) by [Daniele Venzano] (https://www.linkedin.com/in/venza)
+
+- [Docker Swarm and Kubernetes] (https://www.youtube.com/watch?v=8jepaoATuN0&feature=youtu.be&_tmc=oC-fMVZxskFghRKSlk9pTVFD01VR86mu9Oh8jvazNhc) by [Sam Alba] (https://twitter.com/sam_alba) and [Andrea Luzzardi] (https://twitter.com/aluzzardi)
+
 # Blog posts
 
 - [Scale test Docker Swarm to 30,000 containers on 1,000 nodes at DockerCon EU 2015] (https://blog.docker.com/2015/11/scale-testing-docker-swarm-30000-containers/) by [Andrea Luzzardi] (https://twitter.com/aluzzardi)
@@ -36,17 +48,4 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 - [Run a local Windows Docker Swarm] (https://stefanscherer.github.io/build-your-local-windows-docker-swarm/0) by [Stefan Scherer](https://github.com/StefanScherer)
 
 - [One year+ feedback of using Docker and Swarm in DEV and QA environments] (https://medium.com/@frntn/one-year-feedback-of-using-docker-and-swarm-in-dev-and-qa-environments-deaf2ec6dc61#.j4rr4lkwv) by [Matthieu Fronton] (https://twitter.com/frntn)
- 
-# Videos
-
-- [Docker Swarm Youtube Playlist] (https://www.youtube.com/playlist?list=PLkA60AVN3hh8lmRdhPKzsNJvZxJ8dpj4t) by [Alex Beslic] (https://twitter.com/abronan)
-
-- [Docker orchestration at production scale] (https://www.youtube.com/watch?v=ZNmzoGzmnlc) by [Andrea Luzzardi] (https://twitter.com/aluzzardi)
- & [Victor Vieux] (https://twitter.com/vieux)
-
-- [DNS Service Discovery for Docker Swarm Clusters] (https://www.youtube.com/watch?v=WXESsPqC8to&list=PLkA60AVN3hh87OoVra6MHf2L4UR9xwJkv&index=16) by [Ahmet Alp Balkan] (https://twitter.com/AhmetAlpBalkan)
-
-- [Swarming Spark Application] (https://www.youtube.com/watch?v=pgIlYd_NnjM&list=PLkA60AVN3hh87OoVra6MHf2L4UR9xwJkv&index=24) by [Daniele Venzano] (https://www.linkedin.com/in/venza)
-
-- [Docker Swarm and Kubernetes] (https://www.youtube.com/watch?v=8jepaoATuN0&feature=youtu.be&_tmc=oC-fMVZxskFghRKSlk9pTVFD01VR86mu9Oh8jvazNhc) by [Sam Alba] (https://twitter.com/sam_alba) and [Andrea Luzzardi] (https://twitter.com/aluzzardi)
 
