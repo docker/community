@@ -1,0 +1,13 @@
+{
+  "name": "result-type",
+  "repo": "jkroso/result-type",
+  "description": "nothing but a Result type",
+  "version": "1.0.0",
+  "keywords": ["result", "type", "spec"],
+  "dependencies": {},
+  "development": {},
+  "scripts": [
+	  "index.js"
+  ],
+  "license": "MIT"
+}
