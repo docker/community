@@ -1,6 +1,6 @@
-# Swarm Week
+# #SwarmWeek
 
-[Swarmweek is coming on March 7-11! Check this blog post for more info] (https://blog.docker.com/2016/02/swarmweek-is-coming/)
+[#SwarmWeek is coming on March 7-11! Check this blog post for more info] (https://blog.docker.com/2016/02/swarmweek-is-coming/)
 - Share your Docker Swarm story! 
 How do you use Docker Swarm? Are you using Docker Swarm in production? Let us know!
 We’re raffling off tickets to DockerCon 2016 in exchange for user stories. Write a blog post or share a screenshot or video of your UCP dashboard or Swarm cluster and tweet with the hashtag #SwarmWeek and we’ll enter you into a drawing for a free ticket.
