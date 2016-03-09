@@ -3,9 +3,7 @@
 
 *Learn to build and deploy your distributed applications easily to the cloud with Docker*
 
-Written and developed by [Prakhar Srivastav](http://prakhar.me).
-
-<a href="#top" class="top" id="getting-started">Top</a>
+Special thanks and shout out to [Prakhar Srivastav](http://prakhar.me) for his contribution to this tutorial. 
 
 ## Getting Started: FAQs
 
@@ -723,3 +721,5 @@ And that's a wrap! After a long, exhaustive but fun tutorial you are now ready t
 ## References
 - [What is docker](https://www.docker.com/what-docker)
 - [Docker Compose](https://docs.docker.com/compose)
+- 
+<a href="#top" class="top" id="getting-started">Top</a>
