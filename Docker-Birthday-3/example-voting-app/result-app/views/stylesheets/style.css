@@ -46,11 +46,6 @@ body{
   text-align:center;
   vertical-align:middle;
 }
-#complete-button{
-  display:table-cell;
-  text-align:center;
-  vertical-align:middle;
-}
 #result{
   position: absolute;
   bottom: 40px;
@@ -92,12 +87,12 @@ body{
   text-transform: uppercase;
 }
 
-#choice .choice.dogs{
+#choice .choice.two{
   color: #00cbca;
   float: right;
 }
 
-#choice .choice.cats{
+#choice .choice.one{
   color: #2196f3;
   float: left;
 }
