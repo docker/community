@@ -3,8 +3,6 @@ Example Voting App
 
 This is an example Docker app with multiple services. It is run with Docker Compose and uses Docker Networking to connect containers together. You will need Docker Compose 1.6 or later.
 
-More info at https://blog.docker.com/2015/11/docker-toolbox-compose/
-
 Architecture
 -----
 
@@ -22,12 +20,3 @@ Run in this directory:
     $ docker-compose up
 
 The app will be running on port 5000 on your Docker host, and the results will be on port 5001.
-
-Docker Hub images
------------------
-
-Docker Hub images for services in this app are built automatically from master:
-
- - [docker/example-voting-app-voting-app](https://hub.docker.com/r/docker/example-voting-app-voting-app/)
- - [docker/example-voting-app-result-app](https://hub.docker.com/r/docker/example-voting-app-result-app/)
- - [docker/example-voting-app-worker](https://hub.docker.com/r/docker/example-voting-app-worker/)
