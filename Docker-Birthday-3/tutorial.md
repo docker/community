@@ -252,7 +252,7 @@ Then there are two more types of images that can be both base and child images, 
 <a id="our-image"></a>
 ### 2.3 Our First Image
 
-Now that you have a better understanding of images, it's time to create our own. Our goal in this section will be to create an image that sandboxes a simple [Flask](http://flask.pocoo.org) application. For the purposes of this workshop, I've already created a fun, little [Flask app](https://github.com/manomarks/docker-curriculum/tree/master/flask-app) that displays a random cat `.gif` every time it is loaded - because you know, who doesn't like cats? If you haven't already, please go ahead the clone the repository locally.
+Now that you have a better understanding of images, it's time to create our own. Our goal in this section will be to create an image that sandboxes a simple [Flask](http://flask.pocoo.org) application. For the purposes of this workshop, I've already created a fun, little [Flask app](https://github.com/docker/community/master/Docker-Birthday-3/flask-app) that displays a random cat `.gif` every time it is loaded - because you know, who doesn't like cats? If you haven't already, please go ahead the clone the repository locally.
 
 <a id="dockerfiles"></a>
 ### 2.4 Dockerfile
@@ -488,7 +488,7 @@ $ docker run -p 8888:5000 YOUR_USERNAME/myfirstapp
 
 Head over to the URL above and your app should be live.
 
-<img src="https://raw.githubusercontent.com/manomarks/docker-curriculum/master/images/catgif.png" title="static">
+<img src="https://raw.githubusercontent.com/docker/community/master/Docker-Birthday-3/images/catgif.png" title="static">
 
 Congratulations! You have successfully created your first docker image.
 
@@ -729,7 +729,7 @@ Open a browser and access [http://192.168.64.2:5001/birthday.html](http://192.16
 The page displayed will look like the one below:
 
 
-<img src="https://raw.githubusercontent.com/seqvence/docker-bday-miscellaneous/master/tutorial-images/submit_work.png?token=AHzdrwSVdVQ3YrENaqlAxJ3yskvLxY0iks5W6yj6wA%3D%3D" title="static">
+<img src="https://raw.githubusercontent.com/docker/community/master/Docker-Birthday-3/images/submit_work.png" title="static">
 
 Button message is more than intuitive so go ahead and press it. 
 
