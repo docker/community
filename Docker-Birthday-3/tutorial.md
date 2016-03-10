@@ -55,6 +55,8 @@ This document contains a series of several sections, each of which explains a pa
 		- [3.2.3 Build and tag images](#buildandtag)
 		- [3.2.4 Push images to Docker Hub](#pushimages)
 	- [3.3 Enter competition](#entercompetition)
+		- [3.3.1 Using the a web page published from container](#usingbutton)
+		- [3.3.2 Using curl](#usingcurl)
 	- [3.4 Check your submission status](#checkstatus)
 -   [4.0 Wrap Up](#wrap-up)
 -   [References](#references)
@@ -68,13 +70,13 @@ This document contains a series of several sections, each of which explains a pa
 
 <a id="prerequisites"></a>
 ### Prerequisites
-There are no specific skills needed for this tutorial beyond a basic comfort with the command line and using a text editor. Prior experience in developing web applications will be helpful but is not required. As you proceed further along the tutorial, we'll make use of a Docker Hub, so please create an account on each of these websites:
+There are no specific skills needed for this tutorial beyond a basic comfort with the command line and using a text editor. Prior experience in developing web applications will be helpful but is not required. As you proceed further along the tutorial, we'll make use of Docker Hub, so please create an account on each of these websites:
 
 - [Docker Hub](https://hub.docker.com/)
 
 <a id="setup"></a>
 ### Setting up your computer
-Getting all the tooling setup on your computer can be a daunting task, but thankfully as Docker has become stable, getting Docker up and running on your favorite OS has become very easy. First, we'll install Docker.
+Getting all the tooling setup on your computer can be a daunting task, but thankfully as Docker has become stable, getting Docker up and running on your favourite OS has become very easy. First, we'll install Docker.
 
 Docker has invested significantly into improving the on-boarding experience for its users on these OSes, thus running Docker now is a cakewalk. The *getting started* guide on Docker has detailed instructions for setting up Docker on [Mac](http://docs.docker.com/mac/step_one/), [Linux](http://docs.docker.com/linux/step_one/) and [Windows](http://docs.docker.com/windows/step_one/).
 
@@ -154,7 +156,7 @@ In the last section, you used a lot of Docker-specific jargon which might be con
 - *Containers* - Created from Docker images and run the actual application. you create a container using `docker run` which you did using the busybox image that you downloaded. A list of running containers can be seen using the `docker ps` command.
 - *Docker Daemon* - The background service running on the host that manages building, running and distributing Docker containers. The daemon is the process that runs in the operation system to which clients talk to.
 - *Docker Client* - The command line tool that allows the user to interact with the daemon.
-- *Docker hub* - A [registry](https://hub.docker.com/explore/) of Docker images. You can think of the registry as a directory of all available Docker images. You'll be using this later in this tutorial.
+- *Docker Hub* - A [registry](https://hub.docker.com/explore/) of Docker images. You can think of the registry as a directory of all available Docker images. You'll be using this later in this tutorial.
 
 <a href="#table-of-contents" class="top" id="preface">Top</a>
 <a id="webapps"></a>
@@ -165,19 +167,17 @@ Great! So you have now looked at `docker run`, played with a docker container an
 ### 2.1 Static Sites
 Let's start by taking baby-steps. The first thing we're going to look at is how you can run a dead-simple static website. You're going to pull a docker image from the docker hub, running the container and see how easy it so to run a webserver.
 
-[comment]: # (We have to figure out a different image than static-site which isn't real at the moment)
-
-Let's begin. The image that you are going to use is a single-page [website](http://github.com/manomarks/docker-curriculum) that I've already created for the purposes of this demo and hosted it on the [registry](https://hub.docker.com/r/manomarks/static-site/) - `manomarks/static-site`. you can download and run the image directly in one go using `docker run`.
+Let's begin. The image that you are going to use is a single-page website that was already created for the purposes of this demo and hosted it on the [registry](https://hub.docker.com/r/seqvence/static-site/) - `seqvence/static-site`. you can download and run the image directly in one go using `docker run`.
 
 ```
-$ docker run manomarks/static-site
+$ docker run seqvence/static-site
 ```
-Since the image doesn't exist locally, the client will first fetch the image from the registry and then run the image. If all goes well, you should see a `Nginx is running...` message in your terminal. Okay now that the server is running, how do see the website? What port is it running on? And more importantly, how do you access the container directly from our host machine?
+Since the image doesn't exist locally, the client will first fetch the image from the registry and then run the image. If all goes well, you should see a greeting message with a short message (`This is being served from a docker container`) about the webserver  in your browser. Okay now that the server is running, how do see the website? What port is it running on? And more importantly, how do you access the container directly from our host machine?
 
-Well in this case, the client is not exposing any ports so you need to re-run the `docker run` command to publish ports. While were at it, you should also find a way so that our terminal is not attached to the running container. So that you can happily close your terminal and keep the container running. This is called the **detached** mode.
+Well in this case, the client is not exposing any ports so you need to re-run the `docker run` command to publish ports and pass your name to the container to customize the message displayed. While were at it, you should also find a way so that our terminal is not attached to the running container. So that you can happily close your terminal and keep the container running. This is called the **detached** mode.
 
 ```
-$ docker run -d -P --name static-site manomarks/static-site
+$ docker run --name static-site -e AUTHOR=Your_Name -d -P seqvence/static-site
 e61d12292d69556eabe2a44c16cbd54486b2527e2ce4f95438e504afb7b02810
 ```
 
@@ -198,8 +198,7 @@ $ docker-machine ip default
 You can now open [http://192.168.99.100:32772](http://192.168.99.100:32772) to see your site live! You can also specify a custom port to which the client will forward connections to the container.
 
 ```
-$ docker run -p 8888:80 manomarks/static-site
-Nginx is running...
+$ docker run --name static-site -e AUTHOR=Your_Name -d -p 8888:80 seqvence/static-site
 ```
 <img src="https://raw.githubusercontent.com/manomarks/docker-curriculum/master/images/static.png" title="static">
 
@@ -212,20 +211,21 @@ Now that you've seen how to run a webserver inside a docker image, you must be w
 
 You've looked at images before but in this section we'll dive deeper into what docker images are and build our own image. And, we'll also use that image to run our application locally. Finally, you'll push some of your images to Docker Hub.
 
-Docker images are the basis of containers. In the previous example, you **pulled** the *Busybox* image from the registry and asked the docker client to run a container **based** on that image. To see the list of images that are available locally, use the `docker images` command.
-
-[comment]: # (the following must be redone with some real images)
+Docker images are the basis of containers. In the previous example, you **pulled** the *seqvence/static-site* image from the registry and asked the docker client to run a container **based** on that image. To see the list of images that are available locally, use the `docker images` command.
 
 ```
 $ docker images
-REPOSITORY                      TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
-manomarks/catnip                latest              c7ffb5626a50        2 hours ago         697.9 MB
-manomarks/static-site           latest              b270625a1631        21 hours ago        133.9 MB
-python                          3-onbuild           cf4002b2c383        5 days ago          688.8 MB
-martin/docker-cleanup-volumes   latest              b42990daaca2        7 weeks ago         22.14 MB
-ubuntu                          latest              e9ae3c220b23        7 weeks ago         187.9 MB
-busybox                         latest              c51f86c28340        9 weeks ago         1.109 MB
-hello-world                     latest              0a6ba66e537a        11 weeks ago        960 B
+REPOSITORY             TAG                 IMAGE ID            CREATED             SIZE
+seqvence/static-site   latest              92a386b6e686        2 hours ago        190.5 MB
+nginx                  latest              af4b3d7d5401        3 hours ago        190.5 MB
+python                 2.7                 1c32174fd534        14 hours ago        676.8 MB
+postgres               9.4                 88d845ac7a88        14 hours ago        263.6 MB
+containous/traefik     latest              27b4e0c6b2fd        4 days ago          20.75 MB
+node                   0.10                42426a5cba5f        6 days ago          633.7 MB
+redis                  latest              4f5f397d4b7c        7 days ago          177.5 MB
+mongo                  latest              467eb21035a8        7 days ago          309.7 MB
+alpine                 3.3                 70c557e50ed6        8 days ago          4.794 MB
+java                   7                   21f6ce84e43c        8 days ago          587.7 MB
 ```
 
 The above gives a list of images that I've pulled from the registry and the ones that I've created myself (we'll shortly see how). The `TAG` refers to a particular snapshot of the image and the `ID` is the corresponding unique identifier for that image.
@@ -245,7 +245,7 @@ An important distinction to be aware of when it comes to images is between base 
 
 Then there are two more types of images that can be both base and child images, they are official and user images.
 
-- **Official images** Docker, Inc. sponsors a dedicated team that is responsible for reviewing and publishing all Official Repositories content. This team works in collaboration with upstream software maintainers, security experts, and the broader Docker community. These are typically one word long. In the list of images above, the `python`, `ubuntu`, `busybox` and `hello-world` images are base images. To find out more about them, check out the [Official Images Documentation](https://docs.docker.com/docker-hub/official_repos/).
+- **Official images** Docker, Inc. sponsors a dedicated team that is responsible for reviewing and publishing all Official Repositories content. This team works in collaboration with upstream software maintainers, security experts, and the broader Docker community. These are typically one word long. In the list of images above, the `python`, `node`, `alpine` and `nginx` images are base images. To find out more about them, check out the [Official Images Documentation](https://docs.docker.com/docker-hub/official_repos/).
 
 - **User images** are images created and shared by users like you. They build on base images and add additional functionality. Typically these are formatted as `user/image-name`.
 
@@ -254,25 +254,6 @@ Then there are two more types of images that can be both base and child images, 
 
 Now that you have a better understanding of images, it's time to create our own. Our goal in this section will be to create an image that sandboxes a simple [Flask](http://flask.pocoo.org) application. For the purposes of this workshop, I've already created a fun, little [Flask app](https://github.com/manomarks/docker-curriculum/tree/master/flask-app) that displays a random cat `.gif` every time it is loaded - because you know, who doesn't like cats? If you haven't already, please go ahead the clone the repository locally.
 
-Before you get started on creating the image, let's first test that the application works correctly locally. Step one is to `cd` into the `flask-app` directory and install the dependencies
-```
-$ cd flask-app
-$ pip install -r requirements.txt
-$ python app.py
- * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-```
-If all goes well, you should see the output as above. Head over to [http://localhost:5000](http://localhost:5000) to see the app in action.
-
-> Note: If `pip install` is giving you permission denied errors, you might need to try running the command as `sudo`.
-
-Looks great doesn't it? The next step now is to create an image with this web app. As mentioned above, all user images are based off a base image. Since our application is written in Python, the base image we're going to use will be [Python 3](https://hub.docker.com/_/python/). More specifically, you are going to use the `python:3-onbuild` version of the python image.
-
-What's the `onbuild` version you might ask?
-
-> These images include multiple ONBUILD triggers, which should be all you need to bootstrap most applications. The build will COPY a `requirements.txt` file, RUN `pip install` on said file, and then copy the current directory into `/usr/src/app`.
-
-In other words, the `onbuild` version of the image includes helpers that automate the boring parts of getting an app running. Rather than doing these tasks manually (or scripting these tasks), these images do that work for you. you now have all the ingredients to create our own image - a functioning web app and a base image. How are you going to do that? The answer is - using a **Dockerfile**.
-
 <a id="dockerfiles"></a>
 ### 2.4 Dockerfile
 
@@ -280,7 +261,7 @@ A [Dockerfile](https://docs.docker.com/engine/reference/builder/) is a simple te
 
 **The goal of this exercise is to create a Docker image which will run a Flask app.**
 
-Start by creating an empty folder where we'll create the following files:
+Start by creating a folder ```flask-app``` where we'll create the following files:
 
 ```
 - Dockerfile
@@ -361,6 +342,28 @@ Create directory template and edit there **index.html** file to have the same co
   </body>
 </html>
 ```
+
+Before you get started on creating the image, let's first test that the application works correctly locally. Step one is to `cd` into the `flask-app` directory and install the dependencies
+
+```
+$ cd flask-app
+$ pip install -r requirements.txt
+$ python app.py
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+```
+
+If all goes well, you should see the output as above. Head over to [http://localhost:5000](http://localhost:5000) to see the app in action.
+
+> Note: If `pip install` is giving you permission denied errors, you might need to try running the command as `sudo`.
+
+Looks great doesn't it? The next step now is to create an image with this web app. As mentioned above, all user images are based off a base image. Since our application is written in Python, the base image we're going to use will be [Python 3](https://hub.docker.com/_/python/). More specifically, you are going to use the `python:3-onbuild` version of the python image.
+
+What's the `onbuild` version you might ask?
+
+> These images include multiple ONBUILD triggers, which should be all you need to bootstrap most applications. The build will COPY a `requirements.txt` file, RUN `pip install` on said file, and then copy the current directory into `/usr/src/app`.
+
+In other words, the `onbuild` version of the image includes helpers that automate the boring parts of getting an app running. Rather than doing these tasks manually (or scripting these tasks), these images do that work for you. you now have all the ingredients to create our own image - a functioning web app and a base image. How are you going to do that? The answer is - using a **Dockerfile**.
+
 
 Having all the pieces created it is now time to create the **Dockerfile**.
 
@@ -501,7 +504,7 @@ WARNING: login credentials saved in C:\Users\your_username\.docker\config.json
 Login Succeeded
 ```
 
-Pushing the image is achived by running the following command*:
+Pushing the image is achieved by running the following command*:
 
 ```
 $ docker push YOUR_USERNAME/myfirstapp
@@ -527,7 +530,7 @@ Start by quickly reading the documentation available [here](https://docs.docker.
 Once you are familiar with Docker compose install it using the [instructions](https://docs.docker.com/compose/install/).
 
 
-<a id="dockerompetition"></a>
+<a id="dockercompetition"></a>
 ## 3 Docker birthday competition
 
 <a id="pullimage"></a>
@@ -541,7 +544,10 @@ git pull https://github.com/ManoMarks/example-voting-app.git
 
 A Docker compose file is available for you to start the voting-app and get familiar with the containers and the app.
 
-Navigate to newly created directory (example-voting-app) and run start docker compose useing docker-compose.yml.
+<a id="buildvotingapp"></a>
+### 3.2 Instruction for building your voting app
+
+Navigate to newly created directory (example-voting-app) and run start docker compose using docker-compose.yml.
 
 ```
 $ docker-compose up -d
@@ -559,10 +565,7 @@ fd1bf9d1b8c0        examplevotingapp_worker       "/usr/lib/jvm/java-7-"   3 min
 be5b0b21ab07        postgres:9.4                  "/docker-entrypoint.s"   6 minutes ago        Up 6 minutes        5432/tcp                  examplevotingapp_db_1
 ```
 
-<a id="buildvotingapp"></a>
-### 3.2 Instruction for building your voting app
-
-Navigate and browse around the conainers to understand the structure and how the application is built.
+Browse around the containers to understand the structure and how the application is built.
 
 Connect to a shell within the containers using the following command.
 
@@ -605,8 +608,7 @@ Its content looks now like:
   "name":"Gordon",
   "twitter":"@docker",
   "location":"San Francisco, CA, USA",
-  "repo":["example/examplevotingapp_worker",\
-  			"example/examplevotingapp_voting-app",\
+  "repo":["example/examplevotingapp_voting-app",\
   			"example/examplevotingapp_result-app"],
   "vote":"Cats"
 }
@@ -619,8 +621,7 @@ and you need to replace it with your data:
   "name":"John Doe",
   "twitter":"@djohnd",
   "location":"San Francisco, CA, USA",
-  "repo":["johnd/votingapp_worker", \
-  			"johnd/votingapp_voting-app", \
+  "repo":["johnd/votingapp_voting-app", \
   			"johnd/votingapp_result-app"],
   "vote":"Python"
 }
@@ -644,7 +645,7 @@ However you decide to build your images using Docker files do not forget to test
 ###To check:
 
 - File **config.json** must be available in one of the images you are going to build next. 
-	- You need to make its content avaible via an HTTP call on port 80.
+	- You need to make its content available via an HTTP call on port 80.
 	- Example of the HTTP GET call:
 	
 	```
@@ -653,21 +654,18 @@ However you decide to build your images using Docker files do not forget to test
 	  "name":"John Doe",
 	  "twitter":"@djohnd",
 	  "location":"San Francisco, CA, USA",
-	  "repo":["johnd/votingapp_worker", \
-	  			"johnd/votingapp_voting-app", \
+	  "repo":["johnd/votingapp_voting-app", \
 	  			"johnd/votingapp_result-app"],
 	  "vote":"Python"
 	}
 	``` 
-- Your containers have an ENTRYPOINT or COMMAND so that when started with the command ```docker run -d image_name ``` they will not exit imediatelly.
+- Your containers have an ENTRYPOINT or COMMAND so that when started with the command ```docker run -d image_name ``` they will not exit immediately.
 
 You are all set then. Navigate to each of the directories where you have a Dockerfile to build and tag your images that you want to submit.
 
 In order to build the images, make sure to replace your *Docker Hub username* and *Docker image name* in the following commands:
 
 ```
-$ docker build --no-cache -t johnd/votingapp_worker .
-...
 $ docker build --no-cache -t johnd/votingapp_voting-app .
 ...
 $ docker build --no-cache -t johnd/votingapp_result-app .
@@ -680,8 +678,6 @@ $ docker build --no-cache -t johnd/votingapp_result-app .
 Quickly, push the images to Docker hub using:
 
 ```
-$ docker push johnd/votingapp_worker
-...
 $ docker push johnd/votingapp_voting-app
 ...
 $ docker push johnd/votingapp_result-app
@@ -691,7 +687,67 @@ $ docker push johnd/votingapp_result-app
 <a id="entercompetition"></a>
 ### 3.3 Enter competition
 
-In order to submit your work in the competition make use of the config.json file and you need to run an API call as described below:
+There are two ways to submit your entry in the competition:
+
+<a id="usingbutton"></a>
+#### 3.3.1 Using the a web page published from examplevotingapp_result-app container
+
+Double check once again the content of ```config.json file``` to make sure all the information is correct and start all containers from example voting app image **examplevotingapp_result-app**.
+
+
+```
+$ cd example-voting-app
+$ docker-compose up -d 
+```  
+
+Get the *ID* of the running container running from image *examplevotingapp_result-app*:
+
+```
+$ docker ps -a | grep votingapp_result-app
+5d92bc17124e        examplevotingapp_result-app   "node server.js"    3 minutes ago       Up 3 minutes        192.168.64.2:5001->80/tcp   compassionate_golick
+```
+
+Access the log files for the container **5d92bc17124e** using the following command:
+
+```
+$ docker logs -f 5d92bc17124e
+Thu, 10 Mar 2016 21:48:15 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at server.js:77:9
+Thu, 10 Mar 2016 21:48:16 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+App running on port 80
+Connected to db
+```
+
+Obtain the ip address of your docker machine
+
+```
+$ docker-machine ip default
+192.168.64.2
+```
+
+Open a browser and access [http://192.168.64.2:5001/birthday.html](http://192.168.64.2:5001/birthday.html)
+
+The page displayed will look like the one below:
+
+
+<img src="https://raw.githubusercontent.com/seqvence/docker-bday-miscellaneous/master/tutorial-images/submit_work.png?token=AHzdrwSVdVQ3YrENaqlAxJ3yskvLxY0iks5W6yj6wA%3D%3D" title="static">
+
+Button message is more than intuitive so go ahead and press it. 
+
+Soon as you did you need to return to your docker container where you are watching the log files and the output should look like:
+
+```
+Thu, 10 Mar 2016 21:48:15 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at server.js:77:9
+Thu, 10 Mar 2016 21:48:16 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+App running on port 80
+Connected to db
+http://dockerize.it/competition/56e0d42b9be64d0016050302
+```
+
+<a id="usingcurl"></a>
+#### 3.3.2 Using ```curl```
+
+
+Another way of submitting work in the competition is by making use of ```curl``` command and you need to run an API call as described below:
 
 ```
 $ curl -H "Content-type: application/json" \
@@ -705,10 +761,9 @@ The API will return a link where you can check the status of your submission.
 <a id="checkstatus"></a>
 ### 3.4 Check your submission status
 
-You can check your submission by accessing:
+You can check your submission by accessing the link returned when you submitted your work:
 
-*http://dockerize.it/competition/56df6ea39be64d001328870e*
-
+	http://dockerize.it/competition/56e0d42b9be64d0016050302
 
 
 <a id="wrap-up"></a>
