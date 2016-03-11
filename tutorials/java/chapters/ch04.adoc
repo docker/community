@@ -1,187 +1,339 @@
 :imagesdir: images
 
-== Build a Docker Image
+## Run a Docker Container
 
-*PURPOSE*: This chapter explains how to create a Docker image.
+The first step in running any application on Docker is to run a container from an image. There are plenty of images available from the official Docker registry (aka https://hub.docker.com[Docker Hub]). To run any of them, you just have to ask the Docker Client to run it. The client will check if the image already exists on Docker Host. If it exists then it'll run it, otherwise the host will download the image and then run it.
 
-As explained in <<Docker_Basics>>, Docker image is the *build component* of Docker and a read-only template of application operating system.
+### Pull Image
 
-=== Dockerfile
+Let's first check, if any images are available:
 
-Docker build images by reading instructions from a _Dockerfile_. A _Dockerfile_ is a text document that contains all the commands a user could call on the command line to assemble an image. `docker build` command uses this file and executes all the commands in succession to create an image.
-
-`build` command is also passed a context that is used during image creation. This context can be a path on your local filesystem or a URL to a Git repository.
-
-_Dockerfile_ is usually called _Dockerfile_. The complete list of commands that can be specified in this file are explained at https://docs.docker.com/reference/builder/. The common commands are listed below:
-
-.Common commands for Dockerfile
-[width="100%", options="header", cols="1,4,4"]
-|==================
-| Command | Purpose | Example
-| FROM | First non-comment instruction in _Dockerfile_ | `FROM ubuntu`
-| COPY | Copies mulitple source files from the context to the file system of the container at the specified path | `COPY .bash_profile /home`
-| ENV | Sets the environment variable | `ENV HOSTNAME=test`
-| RUN | Executes a command | `RUN apt-get update`
-| CMD | Defaults for an executing container | `CMD ["/bin/echo", "hello world"]`
-| EXPOSE | Informs the network ports that the container will listen on | `EXPOSE 8093`
-|==================
-
-=== Create your first Docker image
-
-. Create a new directory.
-. Create a new text file, name it _Dockerfile_, and use the following contents:
-+
 [source, text]
 ----
-FROM ubuntu
-
-CMD ["/bin/echo", "hello world"]
+docker images
 ----
-+
-This image uses `ubuntu` as the base image. `CMD` command defines the command that needs to run. It provides a different entry point of `/bin/echo` and gives the argument "`hello world`".
-+
-. Build this image:
-+
-```console
-> docker build -t helloworld .
-Sending build context to Docker daemon 2.048 kB
-Step 0 : FROM ubuntu
-Pulling repository docker.io/library/ubuntu
-a5a467fddcb8: Download complete 
-3fd0c2ae8ed2: Download complete 
-9e19ac89d27c: Download complete 
-ac65c371c3a5: Download complete 
-Status: Downloaded newer image for ubuntu:latest
- ---> a5a467fddcb8
-Step 1 : CMD /bin/echo hello world
- ---> Running in 132bb0bf823f
- ---> e81a394f71e3
-Removing intermediate container 132bb0bf823f
-Successfully built e81a394f71e3
-```
-+
-`.` in this command is the context for `docker build`.
-+
-. List the images available:
-+
-```console
-> docker images
-REPOSITORY          TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
-helloworld          latest              9c0e7b56cbee        13 minutes ago      187.9 MB
-```
-+
-. Run the container:
-+
-  docker run helloworld
-+
-to see the output:
-+
-  hello world
-+
-. Change the base image from `ubuntu` to `busybox` in `Dockerfile`. Build the image again:
-+
-  docker build -t helloworld2 .
-+
-and view the images as:
-+
-```console
-> docker images
-REPOSITORY          TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
-helloworld          latest              e81a394f71e3        26 minutes ago      187.9 MB
-helloworld2         latest              c458787fadcf        3 seconds ago       1.113 MB
-ubuntu              latest              a5a467fddcb8        2 days ago          187.9 MB
-busybox             latest              3d5bcd78e074        4 days ago          1.113 MB
-```
 
-=== WildFly Image
+At first, this list is empty. Now, let's get a vanilla `tomee` image:
 
-. Create a new directory.
-. Create a new text file, name it _Dockerfile_, and use the following contents:
-+
 [source, text]
 ----
-FROM jboss/wildfly
+docker pull tomee:8-jre-1.7.2-plus
 ----
-+
-. Build the image:
-+
-  docker build -t mywildfly .
-+
-. Run the container:
-+
-  docker run -it mywildfly
-+
-NOTE: On Windows, you may have to use `winpty` so that TTY can be attached. The updated command will be `winpty docker run -it mywildfly`.
 
-=== Java EE Application Image
+By default, docker images are retrieved from https://hub.docker.com/[Docker Hub].
 
-. Create a new directory.
-. Create a new text file, name it _Dockerfile_, and use the following contents:
-+
+You can see, that Docker is downloading the image with it's different layers.
+
+[NOTE]
+====
+In a traditional Linux boot, the Kernel first mounts the root File System as read-only, checks its integrity, and then switches the whole rootfs volume to read-write mode.
+When Docker mounts the rootfs, it starts read-only, as in a traditional Linux boot, but then, instead of changing the file system to read-write mode, it takes advantage of a union mount to add a read-write file system over the read-only file system. In fact there may be multiple read-only file systems stacked on top of each other. Consider each one of these file systems as a layer.
+
+At first, the top read-write layer has nothing in it, but any time a process creates a file, this happens in the top layer. And if something needs to update an existing file in a lower layer, then the file gets copied to the upper layer and changes go into the copy. The version of the file on the lower layer cannot be seen by the applications anymore, but it is there, unchanged.
+
+We call the union of the read-write layer and all the read-only layers a _union file system_.
+====
+
+In our particular case, the https://github.com/tomitribe/docker-tomee/blob/master/8-jre-1.7.2-plus/Dockerfile[tomee:8-jre-1.7.2-plus] image extends the https://github.com/docker-library/openjdk/blob/2dd0496901a9c01c78895d0e6618b36c08f78bde/openjdk-8-jre/Dockerfile[java:8-jre] image which adds the OpenJDK 8 JRE on top of the https://hub.docker.com/_/buildpack-deps/[buildpack] image.
+
+When the download is done, you can list the images again using the `docker images` command and will see the following output:
+
 [source, text]
 ----
-FROM jboss/wildfly <1>
-
-CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-c", "standalone-full.xml", "-b", "0.0.0.0"] <2>
-
-RUN curl -L https://github.com/javaee-samples/javaee7-hol/raw/master/solution/movieplex7-1.0-SNAPSHOT.war -o /opt/jboss/wildfly/standalone/deployments/movieplex7-1.0-SNAPSHOT.war <3>
+docker images
+REPOSITORY            TAG                 IMAGE ID            CREATED             SIZE
+tomee                 8-jre-1.7.2-plus    62a59415ac15        3 months ago        362 MB
 ----
-+
-Three things in this image:
-+
-<1> Uses "`jboss/wildfly`" as the base image
-<2> Starts WildFly application server in Full Platform mode
-<3> Copies the WAR file from from a URL to the deployment directory of WildFly
-+
-. Build the image:
 
-  docker build -t movieplex .
+More details about the image can be obtained using `docker history tomee:8-jre-1.7.2-plus` command:
 
-=== Dockerfile Command Design Patterns
+[source, text]
+----
+IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
+62a59415ac15        3 months ago        /bin/sh -c #(nop) CMD ["catalina.sh" "run"]     0 B                 
+<missing>           3 months ago        /bin/sh -c #(nop) EXPOSE 8080/tcp               0 B                 
+<missing>           3 months ago        /bin/sh -c set -x  && curl -fSL https://dist.   51.49 MB            
+<missing>           3 months ago        /bin/sh -c set -xe  && for key in $GPG_KEYS;    57.13 kB            
+<missing>           3 months ago        /bin/sh -c #(nop) ENV GPG_KEYS=223D3A74B068EC   0 B                 
+<missing>           3 months ago        /bin/sh -c #(nop) WORKDIR /usr/local/tomee      0 B                 
+<missing>           3 months ago        /bin/sh -c mkdir -p /usr/local/tomee            0 B                 
+<missing>           3 months ago        /bin/sh -c #(nop) ENV PATH=/usr/local/tomee/b   0 B                 
+<missing>           3 months ago        /bin/sh -c apt-get update && apt-get install    3.219 kB            
+<missing>           3 months ago        /bin/sh -c /var/lib/dpkg/info/ca-certificates   413.1 kB            
+<missing>           3 months ago        /bin/sh -c set -x  && apt-get update  && apt-   140 MB              
+<missing>           3 months ago        /bin/sh -c #(nop) ENV CA_CERTIFICATES_JAVA_VE   0 B                 
+<missing>           3 months ago        /bin/sh -c #(nop) ENV JAVA_DEBIAN_VERSION=8u6   0 B                 
+<missing>           3 months ago        /bin/sh -c #(nop) ENV JAVA_VERSION=8u66         0 B                 
+<missing>           3 months ago        /bin/sh -c #(nop) ENV LANG=C.UTF-8              0 B                 
+<missing>           3 months ago        /bin/sh -c echo 'deb http://httpredir.debian.   61 B                
+<missing>           3 months ago        /bin/sh -c apt-get update && apt-get install    681.7 kB            
+<missing>           3 months ago        /bin/sh -c apt-get update && apt-get install    44.29 MB            
+<missing>           3 months ago        /bin/sh -c #(nop) CMD ["/bin/bash"]             0 B                 
+<missing>           3 months ago        /bin/sh -c #(nop) ADD file:863d6edd178364362a   125.1 MB
+----
 
-==== Difference between CMD and ENTRYPOINT
+### Run Container
 
-*TL;DR* `CMD` will work for most of the cases.
+#### Interactive Container
 
-Default entry point for a container is `/bin/sh`, the default shell.
+Run TomEE container in an interactive mode.
 
-Running a container as `docker run -it ubuntu` uses that command and starts the default shell. The output is shown as:
+[source, text]
+----
+docker run -it tomee:8-jre-1.7.2-plus
+----
 
-```console
-> docker run -it ubuntu
-root@88976ddee107:/#
-```
+This will show the output as:
 
-`ENTRYPOINT` allows to override the entry point to some other command, and even customize it. For example, a container can be started as:
+[source, text]
+----
+Using CATALINA_BASE:   /usr/local/tomee
+Using CATALINA_HOME:   /usr/local/tomee
+Using CATALINA_TMPDIR: /usr/local/tomee/temp
+Using JRE_HOME:        /usr
+Using CLASSPATH:       /usr/local/tomee/bin/bootstrap.jar:/usr/local/tomee/bin/tomcat-juli.jar
 
-```console
-> docker run -it --entrypoint=/bin/cat ubuntu /etc/passwd
-root:x:0:0:root:/root:/bin/bash
-daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
-bin:x:2:2:bin:/bin:/usr/sbin/nologin
-sys:x:3:3:sys:/dev:/usr/sbin/nologin
 . . .
-```
 
-This command overrides the entry point to the container to `/bin/cat`. The argument(s) passed to the CLI are used by the entry point.
+Mar 10, 2016 10:45:32 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 10, 2016 10:45:32 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1664 ms
+----
 
-==== Difference between ADD and COPY
+This shows that the server started correctly, congratulations!
 
-*TL;DR* `COPY` will work for most of the cases.
+By default, Docker runs in the foreground. `-i` allows to interact with the STDIN and `-t` attach a TTY to the process. Switches can be combined together and used as `-it`.
 
-`ADD` has all capabilities of `COPY` and has the following additional features:
+Hit Ctrl+C to stop the container.
 
-. Allows tar file auto-extraction in the image, for example, `ADD app.tar.gz /opt/var/myapp`.
-. Allows files to be downloaded from a remote URL. However, the downloaded files will become part of the image. This causes the image size to bloat. So its recommended to use `curl` or `wget` to download the archive explicitly, extract, and remove the archive.
+#### Detached Container
 
-==== Import and export images
+Restart the container in detached mode:
 
-Docker images can be saved using `save` command to a .tar file:
+[source, text]
+----
+docker run -d tomee:8-jre-1.7.2-plus
+827d56aa25855d7187a889b6672ec9632e85f0fecf45377eca438cb74d5aec40
+----
 
-  docker save helloworld > helloworld.tar
+`-d`, instead of `-it`, runs the container in detached mode.
 
-These tar files can then be imported using `load` command:
+The output is the unique id assigned to the container. Check the logs using `docker logs <CONTAINER_ID>` command. `<CONTAINER_ID>` is the id of the container.
 
-  docker load -i helloworld.tar
+We can check the status of the container by `docker ps` command:
 
+[source, text]
+----
+CONTAINER ID        IMAGE                    COMMAND             CREATED             STATUS              PORTS               NAMES
+827d56aa2585        tomee:8-jre-1.7.2-plus   "catalina.sh run"   37 seconds ago      Up 37 seconds       8080/tcp            nostalgic_shockley
+----
 
+Also try `docker ps -a` to see all the containers on this machine.
+
+### Run Container with Default Port
+
+Startup log of the server shows that the server is located in the `/usr/local/glassfish4/glassfish` directory. It also shows that the public interfaces are bound to the `0.0.0.0` address.
+
+`docker-machine ip <machine-name>` gives us the Docker Host IP address and this was already added to the hosts file. So, we can give it another try by accessing: http://dockerhost:8080. However, this will not work either.
+
+If you want containers to accept incoming connections, you will need to provide special options when invoking `docker run`. The container, we just started, can't be accessed by our browser. We need to stop it again and restart with different options.
+
+[source, text]
+----
+docker stop `docker ps | grep tomee | awk '{print $1}'`
+----
+
+Restart the container as:
+
+[source, text]
+----
+docker run -d -P tomee:8-jre-1.7.2-plus
+----
+
+`-P` map any exposed ports inside the image to a random port on Docker host. This can be verified using `docker ps` command:
+
+[source, text]
+----
+CONTAINER ID        IMAGE                    COMMAND             CREATED             STATUS              PORTS                     NAMES
+0ded29c1d14d        tomee:8-jre-1.7.2-plus   "catalina.sh run"   9 seconds ago       Up 8 seconds        0.0.0.0:32786->8080/tcp   naughty_swanson
+----
+
+The port mapping is shown in the `PORTS` column. Access the GlassFish server at http://dockerhost:32786. Make sure to use the correct port number as shown in your case.
+
+NOTE: Exact port number may be different in your case.
+
+The page would look like:
+
+image::tomee-first-run-default-page.png[]
+
+### Run Container with Specified Port
+
+Lets stop the previously running container as:
+
+[source, text]
+----
+docker stop `docker ps | grep tomee | awk '{print $1}'`
+----
+
+Restart the container as:
+
+[source, text]
+----
+docker run -it -p 8080:8080 tomee:8-jre-1.7.2-plus
+----
+
+The format is `-p hostPort:containerPort`. This option maps container ports to host ports and allows other containers on our host to access them.
+
+Now we're ready to test http://dockerhost:8080 again. This works with the exposed port, as expected.
+
+### Deploy a WAR file to Application Server
+
+Now that your application server is running, lets see how to deploy a WAR file to it.
+
+Use the following Dockerfile in a new directory:
+
+[source, text]
+----
+FROM tomee:8-jre-7.0.0-M2-plus
+
+RUN curl -L https://github.com/javaee-samples/javaee7-simple-sample/releases/download/v1.10/javaee7-simple-sample-1.10.war -o /usr/local/tomee/webapps/javaee-simple-sample.war
+----
+
+Create an image:
+
+[source, text]
+----
+docker build -t javaee-sample .
+----
+
+Start the container:
+
+[source, text]
+----
+docker run -d -p 8080:8080 javaee-sample
+----
+
+Access the endpoint:
+
+[source, text]
+----
+curl http://192.168.99.100:8080/javaee7-simple-sample/resources/persons | xml-fmt
+----
+
+See the output:
+
+[source, text]
+----
+<persons>
+	<person>
+		<name>
+		Penny
+		</name>
+	</person>
+	<person>
+		<name>
+		Leonard
+		</name>
+	</person>
+	<person>
+		<name>
+		Sheldon
+		</name>
+	</person>
+	<person>
+		<name>
+		Amy
+		</name>
+	</person>
+	<person>
+		<name>
+		Howard
+		</name>
+	</person>
+	<person>
+		<name>
+		Bernadette
+		</name>
+	</person>
+	<person>
+		<name>
+		Raj
+		</name>
+	</person>
+	<person>
+		<name>
+		Priya
+		</name>
+	</person>
+</persons>
+----
+
+### Stop Container
+
+Stop a specific container:
+
+[source, text]
+----
+docker stop <CONTAINER ID>
+----
+
+Stop all the running containers
+
+[source, text]
+----
+docker stop $(docker ps -q)
+----
+
+Stop only the exited containers
+
+[source, text]
+----
+docker ps -a -f "exited=-1"
+----
+
+### Remove Container
+
+Remove a specific container:
+
+[source, text]
+----
+docker rm <CONTAINER_ID>
+----
+
+Remove containers meeting a regular expression
+
+[source, text]
+----
+docker ps -a | grep tomee | awk '{print $1}' | xargs docker rm
+----
+
+Remove all containers, without any criteria
+
+[source, text]
+----
+docker rm $(docker ps -aq)
+----
+
+##### Additional Ways To Find Port Mapping
+
+The exact mapped port can also be found using `docker port` command:
+
+[source, text]
+----
+docker port <CONTAINER_ID>
+----
+
+This shows the output as:
+
+[source, text]
+----
+8080/tcp -> 0.0.0.0:32786
+----
+
+Port mapping can be also be found using `docker inspect` command:
+
+[source, text]
+----
+docker inspect --format='{{(index (index .NetworkSettings.Ports "8080/tcp") 0).HostPort}}' <CONTAINER ID>
+----

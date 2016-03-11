@@ -1,8 +1,42 @@
-== Preface
+:imagesdir: images
 
-Containers are enabling developers to package their applications (and underlying dependencies) in new ways that are portable and work consistently everywhere? On your machine, in production, in your data center, and in the cloud. And Docker has become the de facto standard for those portable containers in the cloud.
+== Setup Environments
 
-Docker is the developer-friendly Linux container technology that enables creation of your stack: OS, JVM, app server, app, and all your custom configuration. So with all it offers, how comfortable are you and your team taking Docker from development to production? Are you hearing developers say, “But it works on my machine!” when code breaks in production?
+This section describes the software needed for this workshop. This workshop is designed for a BYOL (Brying Your Own Laptop) style hands-on-lab.
 
-This tutorial offers developers an intro-level, hands-on session with Docker, from installation, to exploring Docker Hub, to crafting their own images, to adding Java apps and running custom containers. It will also explain how to use Swarm to orchestrate these containers together.
+=== Hardware
 
+. Operating System: Mac OS X (10.8+), Windows 7+, Ubuntu 12+, CentOS 7+, Fedora 21+
+. Memory: At least 4 GB+, preferred 8 GB
+
+=== Docker Toolbox or Packages
+
+Docker runs natively on Linux. Because the Docker daemon uses Linux-specific kernel features, you can’t run Docker natively in OS X or Windows. Instead, you must use `docker-machine` to create and attach to a virtual machine (VM). This machine is a Linux VM that hosts Docker for you on your Mac or Windows.
+
+Follow the instructions to install Docker:
+
+. https://www.docker.com/products/docker-toolbox[Docker Toolbox for Mac or Windows]
+. http://docs.docker.com/engine/installation/ubuntulinux/[Docker on Ubuntu]
+. http://docs.docker.com/engine/installation/centos/[Docker on Centos]
+. http://docs.docker.com/engine/installation/fedora/[Docker on Fedora]
+
+Complete set of operating systems are listed at http://docs.docker.com/engine/installation/[Install Docker Engine].
+
+=== Create Docker Host Mapping
+
+To make it easier to start/stop the containers, an entry is added into the host mapping table of your operating system. Find out the IP address of your machine:
+
+```console
+docker-machine ip default
+```
+
+This will provide the IP address associated with the Docker Machine created earlier.
+
+For Linux machine, Docker host is running on local machine and so the IP address would be `127.0.0.1`.
+
+Edit `/etc/hosts` (Mac OS or Linux) or `C:\Windows\System32\drivers\etc\hosts` (Windows) and add:
+
+[source, text]
+----
+<IP ADDRESS>  dockerhost
+----

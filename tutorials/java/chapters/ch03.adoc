@@ -1,146 +1,343 @@
 :imagesdir: images
 
-[[Docker_Basics]]
-## Docker Basics
+== Build a Docker Image
 
-*PURPOSE*: This chapter introduces the basic terminology of Docker.
+*PURPOSE*: This chapter explains how to create a Docker image.
 
-[quote, docs.docker.com/]
-Docker is a platform for developers and sysadmins to develop, ship, and run applications. Docker lets you quickly assemble applications from components and eliminates the friction that can come when shipping code. Docker lets you get your code tested and deployed into production as fast as possible.
+As explained in <<Docker_Basics>>, Docker image is the *build component* of Docker and a read-only template of application operating system.
 
-Docker simplifies software delivery by making it easy to build and share images that contain your application’s entire environment, or _application operating system_.
+=== Dockerfile
 
-**What does it mean by an application operating system ?**
+Docker build images by reading instructions from a _Dockerfile_. A _Dockerfile_ is a text document that contains all the commands a user could call on the command line to assemble an image. `docker build` command uses this file and executes all the commands in succession to create an image.
 
-Your application typically require a specific version of operating system, application server, JDK, database server, may require to tune the configuration files, and similarly multiple other dependencies. The application may need binding to specific ports and certain amount of memory. The components and configuration together required to run your application is what is referred to as application operating system.
+`build` command is also passed a context that is used during image creation. This context can be a path on your local filesystem or a URL to a Git repository.
 
-You can certainly provide an installation script that will download and install these components. Docker simplifies this process by allowing to create an image that contains your application and infrastructure together, managed as one component. These images are then used to create Docker containers which run on the container virtualization platform, provided by Docker.
+_Dockerfile_ is usually called _Dockerfile_. The complete list of commands that can be specified in this file are explained at https://docs.docker.com/reference/builder/. The common commands are listed below:
 
-**Main Components of Docker**
+.Common commands for Dockerfile
+[width="100%", options="header", cols="1,4,4"]
+|==================
+| Command | Purpose | Example
+| FROM | First non-comment instruction in _Dockerfile_ | `FROM ubuntu`
+| COPY | Copies mulitple source files from the context to the file system of the container at the specified path | `COPY .bash_profile /home`
+| ENV | Sets the environment variable | `ENV HOSTNAME=test`
+| RUN | Executes a command | `RUN apt-get update`
+| CMD | Defaults for an executing container | `CMD ["/bin/echo", "hello world"]`
+| EXPOSE | Informs the network ports that the container will listen on | `EXPOSE 8093`
+|==================
 
-Docker has three main components:
+=== Create your first Docker image
 
-. __Images__ are the *build component* of Docker and are the read-only templates defining an application operating system.
-. __Containers__ are the *run component* of Docker and created from images. Containers can be run, started, stopped, moved, and deleted.
-. Images are stored, shared, and managed in a __registry__ and are the *distribution component* of Docker. Docker Hub is a publicly available registry and is available at http://hub.docker.com.
 
-In order for these three components to work together, the *Docker Daemon* runs on a host machine and does the heavy lifting of building, running, and distributing Docker containers. In addition, the *Client* is a Docker binary which accepts commands from the user and communicates back and forth with the Daemon.
+Create a new directory.
 
-.Docker architecture
-image::docker-architecture.png[]
-
-The Client communicates with a Daemon that is either co-located on the same host or on a different host. Use the `pull` command on the Client to request the Daemon to pull an image from the registry. The Daemon then downloads the image from Docker Hub, or whichever registry is configured. Multiple images can be downloaded from the registry and installed on the Daemon host. To run an Image, use the `run` command on the Client to request the Daemon to create a container on-demand based on the image.
-
-**How does a Docker Image work?**
-
-We've already seen that Docker images are read-only templates from which Docker containers are launched. Each image consists of a series of layers. Docker makes use of union file systems to combine these layers into a single image. Union file systems allow files and directories of separate file systems, known as branches, to be transparently overlaid, forming a single coherent file system.
-
-One of the reasons Docker is so lightweight is because of these layers. When you change a Docker image—for example, update an application to a new version— a new layer gets built. Thus, rather than replacing the whole image or entirely rebuilding, as you may do with a virtual machine, only that layer is added or updated. Now you don't need to distribute a whole new image, just the update, making distributing Docker images faster and simpler.
-
-Every image starts from a base image, for example `ubuntu`, a base Ubuntu image, or `fedora`, a base Fedora image. You can also use images of your own as the basis for a new image, for example if you have a base Apache image you could use this as the base of all your web application images.
-
-NOTE: By default, Docker obtains these base images from Docker Hub.
-
-Docker images are then built from these base images using a simple, descriptive set of steps we call instructions. Each instruction creates a new layer in our image. Instructions include actions like:
-
-. Run a command
-. Add a file or directory
-. Create an environment variable
-. Run a process when launching a container
-
-These instructions are stored in a file called a Dockerfile. Docker reads this Dockerfile when you request a build of an image, executes the instructions, and returns a final image.
-
-**How does a Container work?**
-
-A container consists of an operating system, user-added files, and meta-data. As we've seen, each container is built from an image. That image tells Docker what the container holds, what process to run when the container is launched, and a variety of other configuration data. The Docker image is read-only. When Docker runs a container from an image, it adds a read-write layer on top of the image (using a union file system as we saw earlier) in which your application can then run.
-
-### Docker Machine
-
-Machine makes it really easy to create Docker hosts on your computer, on cloud providers and inside your own data center. It creates servers, installs Docker on them, then configures the Docker client to talk to them.
-
-Once your Docker host has been created, it then has a number of commands for managing containers:
-
-. Start, stop, restart container
-. Upgrade Docker
-. Configure the Docker client to talk to a host
-
-Docker Machine was already installed as part of Docker Toolbox during the setup.
-
-Find out more details at link:https://docs.docker.com/machine/[Docker Machine Website].
-
-Open Docker shell, check if docker machine is working:
-
-  docker-machine -v
-
-It shows the output:
-
-  docker-machine version 0.5.0 (04cfa58)
-
-NOTE: The exact version may differ based upon how recently the installation was performed.
-
-### Docker Client
-
-The client communicates with the demon process on your host and let's you work with images and containers.
-
-Check if your client is working using the following command:
-
-  docker -v
-
-It shows the output:
-
-  Docker version 1.9.0, build 76d6bc9
-
-NOTE: The exact version may differ based upon how recently the installation was performed.
-
-The most important options you'll be using frequently are:
-
-. `run` - runs a container
-. `ps`- lists containers
-. `stop` - stops a container
-. `rm` - Removes a container
-
-Get a full list of available commands with
-
-  docker
-
-A more commonly used list of commands is available at <<Common_Docker_Commands>>.
-
-### Verify Docker Configuration
-
-Open Docker shell, check if your Docker Host is running:
-
-  docker-machine ls
-
-You should see the output similar to:
+Create a new text file, name it _Dockerfile_, and use the following contents:
 
 [source, text]
 ----
-NAME        ACTIVE   DRIVER       STATE     URL                         SWARM
-default     *        virtualbox   Running   tcp://192.168.99.100:2376   
+FROM ubuntu
+
+CMD ["/bin/echo", "hello world"]
 ----
 
-This machine is shown in "`Running`" state. If the machine state is stopped, start it with:
+This image uses `ubuntu` as the base image. `CMD` command defines the command that needs to run. It provides a different entry point of `/bin/echo` and gives the argument "`hello world`".
 
-  docker-machine start default
-
-After it is started you can find out IP address of your Docker Host with:
-
-  docker-machine ip default
-
-We already did this during the setup document, remember? So, this is a good chance to check, if you already added this IP to your hosts file.
-
-Type:
-
-  ping dockerhost
-
-and see if this resolves to the IP address that the docker-machine command printed out. You should see an output as:
+Build the image:
 
 [source, text]
 ----
-> ping dockerhost
-PING dockerhost (192.168.99.101): 56 data bytes
-64 bytes from 192.168.99.101: icmp_seq=0 ttl=64 time=0.394 ms
-64 bytes from 192.168.99.101: icmp_seq=1 ttl=64 time=0.387 ms
+> docker build -t helloworld .
+Sending build context to Docker daemon 2.048 kB
+Step 0 : FROM ubuntu
+Pulling repository docker.io/library/ubuntu
+a5a467fddcb8: Download complete 
+3fd0c2ae8ed2: Download complete 
+9e19ac89d27c: Download complete 
+ac65c371c3a5: Download complete 
+Status: Downloaded newer image for ubuntu:latest
+ ---> a5a467fddcb8
+Step 1 : CMD /bin/echo hello world
+ ---> Running in 132bb0bf823f
+ ---> e81a394f71e3
+Removing intermediate container 132bb0bf823f
+Successfully built e81a394f71e3
 ----
 
-If it does, you're ready to start the workshop.
+`.` in this command is the context for `docker build`.
+
+List the images available:
+
+[source, text]
+----
+> docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
+helloworld          latest              9c0e7b56cbee        13 minutes ago      187.9 MB
+----
+
+Run the container:
+
+  docker run helloworld
+
+to see the output:
+
+  hello world
+
+Change the base image from `ubuntu` to `busybox` in `Dockerfile`. Build the image again:
+
+  docker build -t helloworld2 .
+
+and view the images using `docker images` command:
+
+[source, text]
+----
+REPOSITORY          TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
+helloworld          latest              e81a394f71e3        26 minutes ago      187.9 MB
+helloworld2         latest              c458787fadcf        3 seconds ago       1.113 MB
+ubuntu              latest              a5a467fddcb8        2 days ago          187.9 MB
+busybox             latest              3d5bcd78e074        4 days ago          1.113 MB
+----
+
+Note how base images for Ubuntu and Busybox are downloaded.
+
+=== Create your first Docker image using Java
+
+==== Create a simple Java application
+
+Create a new Java project:
+
+[source, text]
+----
+mvn archetype:generate -DgroupId=org.examples.java -DartifactId=helloworld -DinteractiveMode=false
+----
+
+Build the project:
+
+[source, text]
+----
+cd helloworld
+mvn package
+----
+
+Run the Java class:
+
+[source, text]
+----
+java -cp target/helloworld-1.0-SNAPSHOT.jar org.examples.java.App
+----
+
+This shows the output:
+
+[source, text]
+----
+Hello World!
+----
+
+Let's package this application as a Docker image.
+
+==== Java Docker image
+
+Pull the latest Docker image for Java:
+
+[source, text]
+----
+docker pull java
+----
+
+Run the container in an interactive manner:
+
+[source, text]
+----
+docker run -it java
+----
+
+Check the version of Java:
+
+[source, text]
+----
+root@44b355b45ab1:/# java -version
+openjdk version "1.8.0_72-internal"
+OpenJDK Runtime Environment (build 1.8.0_72-internal-b15)
+OpenJDK 64-Bit Server VM (build 25.72-b15, mixed mode)
+----
+
+A different version may be seen in your case.
+
+==== Package and Run Java application as Docker image
+
+Create a new Dockerfile in `helloworld` directory:
+
+[source, text]
+----
+FROM java
+
+COPY target/helloworld-1.0-SNAPSHOT.jar /usr/src/helloworld-1.0-SNAPSHOT.jar
+
+CMD java -cp /usr/src/helloworld-1.0-SNAPSHOT.jar org.examples.java.App
+----
+
+Build the image:
+
+[source, text]
+----
+docker build -t hello-java .
+----
+
+Run the image:
+
+[source, text]
+----
+docker run hello-java
+----
+
+This displays the output:
+
+[source, text]
+----
+Hello World!
+----
+
+==== Package and Run Java Application using Docker Maven Plugin
+
+https://github.com/fabric8io/docker-maven-plugin[Docker Maven Plugin] allows you to manage Docker images and containers using Maven. It comes with predefined goals:
+
+[options="header"]
+|====
+|Goal | Description
+| `docker:build` | Build images
+| `docker:start` | Create and start containers
+| `docker:stop` | Stop and destroy containers
+| `docker:push` | Push images to a registry
+| `docker:remove` | Remove images from local docker host
+| `docker:logs` | Show container logs
+|====
+
+Clone the sample code from https://github.com/arun-gupta/docker-java-sample/.
+
+Create the Docker image:
+
+[source, text]
+----
+mvn package -Pdocker
+----
+
+This will show an output like:
+
+[source, text]
+----
+[INFO] DOCKER> [hello-java] : Built image sha256:09ab7
+----
+
+The list of images can be checked:
+
+[source, text]
+----
+docker images | grep hello-java
+hello-java          latest              09ab715ec59d        44 seconds ago      642.4 MB
+----
+
+Run the Docker container:
+
+[source, text]
+----
+mvn install -Pdocker
+----
+
+This is the same output when running the container using `docker run` command.
+
+Only one change was required in the project to enable Docker packaging and running. A Maven profile is added in `pom.xml`:
+
+[source, text]
+----
+<profiles>
+    <profile>
+        <id>docker</id>
+        <build>
+            <plugins>
+                <plugin>
+                    <groupId>io.fabric8</groupId>
+                    <artifactId>docker-maven-plugin</artifactId>
+                    <version>0.14.2</version>
+                    <configuration>
+                        <images>
+                            <image>
+                                <name>hello-java</name>
+                                <build>
+                                    <from>java</from>
+                                    <assembly>
+                                        <descriptorRef>artifact</descriptorRef>
+                                    </assembly>
+                                    <cmd>java -cp maven/helloworld-1.0-SNAPSHOT.jar org.examples.java.App</cmd>
+                                </build>
+                            </image>
+                        </images>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>docker:build</id>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>build</goal>
+                            </goals>
+                        </execution>
+                        <execution>
+                            <id>docker:start</id>
+                            <phase>install</phase>
+                            <goals>
+                                <goal>start</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </build>
+    </profile>
+</profiles>
+----
+
+=== Dockerfile Command Design Patterns
+
+==== Difference between CMD and ENTRYPOINT
+
+*TL;DR* `CMD` will work for most of the cases.
+
+Default entry point for a container is `/bin/sh`, the default shell.
+
+Running a container as `docker run -it ubuntu` uses that command and starts the default shell. The output is shown as:
+
+```console
+> docker run -it ubuntu
+root@88976ddee107:/#
+```
+
+`ENTRYPOINT` allows to override the entry point to some other command, and even customize it. For example, a container can be started as:
+
+```console
+> docker run -it --entrypoint=/bin/cat ubuntu /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+. . .
+```
+
+This command overrides the entry point to the container to `/bin/cat`. The argument(s) passed to the CLI are used by the entry point.
+
+==== Difference between ADD and COPY
+
+*TL;DR* `COPY` will work for most of the cases.
+
+`ADD` has all capabilities of `COPY` and has the following additional features:
+
+. Allows tar file auto-extraction in the image, for example, `ADD app.tar.gz /opt/var/myapp`.
+. Allows files to be downloaded from a remote URL. However, the downloaded files will become part of the image. This causes the image size to bloat. So its recommended to use `curl` or `wget` to download the archive explicitly, extract, and remove the archive.
+
+==== Import and export images
+
+Docker images can be saved using `save` command to a .tar file:
+
+  docker save helloworld > helloworld.tar
+
+These tar files can then be imported using `load` command:
+
+  docker load -i helloworld.tar
+
