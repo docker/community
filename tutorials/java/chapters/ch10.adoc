@@ -87,20 +87,6 @@ docker-compose up -d
 ----
 ====
 
-And this shows the output as:
-
-[[Docker_Compose_Service_Start_Output]]
-.Docker Compose Service Start Output
-====
-[source, text]
-----
-docker-compose --x-networking up -d
-Creating network "attendees" with driver "None"
-Creating attendees_mywildfly_1
-Creating db
-----
-====
-
 An alternate compose file name can be specified using `-f` option.
 
 An alternate directory where the compose file exists can be specified using `-p` option.
