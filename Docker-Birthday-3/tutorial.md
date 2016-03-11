@@ -1,12 +1,9 @@
 <a id="top"></a>
-<img src="https://raw.githubusercontent.com/manomarks/docker-curriculum/master/images/logo.png" alt="docker logo">
+<img src="https://raw.githubusercontent.com/docker/community/master/Docker-Birthday-3/tutorial-images/logo.png" alt="docker logo">
 
 *Learn to build and deploy your distributed applications easily to the cloud with Docker*
 
-Written and developed by [Prakhar Srivastav](http://prakhar.me).
-
 <a href="#top" class="top" id="getting-started">Top</a>
-
 ## Getting Started: FAQs
 
 ### What is Docker?
@@ -29,7 +26,7 @@ Containers take a different approach: by leveraging the low-level mechanics of t
 This tutorial aims to be the one-stop shop for getting your hands dirty with Docker. Apart from demystifying the Docker landscape, it'll give you hands-on experience with building and deploying your own webapps. You'll quickly build a multi-container voting app using multiple languages. Even if you have no prior experience with deployments, this tutorial should be all you need to get started.
 
 ## Using this Document
-This document contains a series of several sections, each of which explains a particular aspect of Docker. In each section, you will be typing commands (or writing code). All the code used in the tutorial is available in the [Github repo](http://github.com/manomarks/docker-curriculum).
+This document contains a series of several sections, each of which explains a particular aspect of Docker. In each section, you will be typing commands (or writing code). All the code used in the tutorial is available in the [Github repo](https://github.com/docker/community/tree/master/Docker-Birthday-3).
 
 <a href="#top" class="top" id="table-of-contents">Top</a>
 ## Table of Contents
@@ -66,7 +63,7 @@ This document contains a series of several sections, each of which explains a pa
 <a href="#table-of-contents" class="top" id="preface">Top</a>
 ## Preface
 
-> Note: This tutorial uses version **1.10.1** of Docker. If you find any part of the tutorial incompatible with a future version, please raise an [issue](https://github.com/manomarks/docker-curriculum/issues). Thanks!
+> Note: This tutorial uses version **1.10.1** of Docker. If you find any part of the tutorial incompatible with a future version, please raise an [issue](https://github.com/docker/community/issues). Thanks!
 
 <a id="prerequisites"></a>
 ### Prerequisites
@@ -536,7 +533,7 @@ Once you are familiar with Docker compose install it using the [instructions](ht
 <a id="pullimage"></a>
 ### 3.1 Pull voting-app images
 
-Pull the voting-app repository already available at [Github Repo](https://github.com/ManoMarks/example-voting-app.git).
+Pull the voting-app repository already available at [Github Repo](https://github.com/docker/docker-birthday-3.git/example-voting-app).
 
 ```
 git pull https://github.com/ManoMarks/example-voting-app.git
