@@ -242,7 +242,18 @@ Run the Docker container:
 mvn install -Pdocker
 ----
 
-This is the same output when running the container using `docker run` command.
+This will show an output like:
+
+[source, text]
+----
+[INFO] DOCKER> [hello-java] : Start container 11550a8dc086
+[INFO] DOCKER> [hello-java] : Waited on log out 'Hello' 503 ms
+[INFO] 
+[INFO] --- docker-maven-plugin:0.14.2:logs (docker:start) @ helloworld ---
+11550a> Hello World!
+----
+
+This is similar output when running the container using `docker run` command.
 
 Only one change was required in the project to enable Docker packaging and running. A Maven profile is added in `pom.xml`:
 
@@ -268,6 +279,11 @@ Only one change was required in the project to enable Docker packaging and runni
                                     </assembly>
                                     <cmd>java -cp maven/helloworld-1.0-SNAPSHOT.jar org.examples.java.App</cmd>
                                 </build>
+                                <run>
+                                    <wait>
+                                        <log>Hello</log>
+                                    </wait>
+                                </run>
                             </image>
                         </images>
                     </configuration>
@@ -284,6 +300,7 @@ Only one change was required in the project to enable Docker packaging and runni
                             <phase>install</phase>
                             <goals>
                                 <goal>start</goal>
+                                <goal>logs</goal>
                             </goals>
                         </execution>
                     </executions>
