@@ -20,6 +20,8 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 
 - [Docker Swarm Youtube Playlist] (https://www.youtube.com/playlist?list=PLkA60AVN3hh8lmRdhPKzsNJvZxJ8dpj4t) by [Alex Beslic] (https://twitter.com/abronan)
 
+- [Docker 101 and Swarm](https://docker.wistia.com/medias/z4m8gxf594) featuring Nigel Poulton and David Davis
+
 - [Docker orchestration at production scale] (https://www.youtube.com/watch?v=ZNmzoGzmnlc) by [Andrea Luzzardi] (https://twitter.com/aluzzardi)
  & [Victor Vieux] (https://twitter.com/vieux)
 
@@ -29,13 +31,13 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 
 - [Docker Swarm and Kubernetes] (https://www.youtube.com/watch?v=8jepaoATuN0&feature=youtu.be&_tmc=oC-fMVZxskFghRKSlk9pTVFD01VR86mu9Oh8jvazNhc) by [Sam Alba] (https://twitter.com/sam_alba) and [Andrea Luzzardi] (https://twitter.com/aluzzardi)
 
-- [Advanced Orchestration Workshop](https://www.youtube.com/watch?v=qbIvUvwa6As) featuring [Jerome Petazonni](https://twitter.com/jpetazzo)
-
 # Blog posts
 
 - [Scale test Docker Swarm to 30,000 containers on 1,000 nodes at DockerCon EU 2015] (https://blog.docker.com/2015/11/scale-testing-docker-swarm-30000-containers/) by [Andrea Luzzardi] (https://twitter.com/aluzzardi)
 
 - [Using Docker Swarm in Production] (https://www.linux-toys.com/?p=411) by [Phillip Tribble] (https://twitter.com/rusher81572)
+
+- [Evaluating Container Platforms at Scale](https://medium.com/on-docker/evaluating-container-platforms-at-scale-5e7b44d93f2c#.2yd9i4xjm) by [Jeff Nickoloff](htps://twitter.com/allingeek)
 
 - [An Example of Docker Multi-Host Networking With Hadoop] (http://javaarchramble.blogspot.com/2016/02/an-example-of-docker-multi-host_18.html?view=classic) by [Joshua Davis] (https://twitter.com/joshuad2)
 
@@ -53,10 +55,10 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 
 - [Setting up a local VM cluster managed by Swarm with NFS/CIFS volumes mounted from host](http://docker-saigon.github.io/post/Swarm-Week-2016-Part1/)
 
- - [ScoutaPark runs app in production Docker Swarm on Carina](https://getcarina.com/blog/ScoutaPark-Runs-On-Carina/)
+- [How to setup Raspberry Pi Swarm cluster](http://blog.hypriot.com/post/how-to-setup-rpi-docker-swarm/) by Hypriot
 
- - [Get Minecraft as a Service with Docker Swarm on Carina](https://getcarina.com/blog/deploying-and-building-minecraft-as-a-service/)
+- [Build a real time game with Docker Swarm on Carina](https://getcarina.com/blog/build-real-time-game-carina/) by Keith Bartholomew 
 
- - [Using Docker Swarm on Carina to Mimic IRCCloud](http://jjasghar.github.io/blog/2015/11/15/using-carina-to-mimic-irccloud/)
- 
- - [Cloud9 with Docker Swarm on Carina](http://continuousfailure.com/post/carina_cloud9/) 
+- [Multi-host Cassandra Cluster with Docker Swarm](https://clusterhq.com/2016/03/09/fun-with-swarm-part1/) by Ryan Wallner
+- [Rescheduling Redis with Docker Swarm](https://clusterhq.com/2016/03/10/fun-with-swarm-part2/) by Ryan Wallner
+- [Deploying NodeJS and MongoDB with Docker Swarm](https://clusterhq.com/2016/03/11/fun-with-swarm-part3/) by Ryan Wallner
