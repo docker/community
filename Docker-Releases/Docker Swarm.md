@@ -20,6 +20,8 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 
 - [Docker Swarm YouTube Playlist] (https://www.youtube.com/playlist?list=PLkA60AVN3hh8lmRdhPKzsNJvZxJ8dpj4t) by [Alex Beslic] (https://twitter.com/abronan)
 
+- [Docker 101 and Swarm](https://docker.wistia.com/medias/z4m8gxf594) featuring [Nigel Poulton](https://twitter.com/nigelpoulton) and [David Davis](https://twitter.com/davidmdavis)
+
 - [Docker orchestration at production scale] (https://www.youtube.com/watch?v=ZNmzoGzmnlc) by [Andrea Luzzardi] (https://twitter.com/aluzzardi)
  & [Victor Vieux] (https://twitter.com/vieux)
 
@@ -112,6 +114,14 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 - [Docker Clustering Tools Compared: Kubernetes vs Docker Swarm](http://technologyconversations.com/2015/11/04/docker-clustering-tools-compared-kubernetes-vs-docker-swarm/) by [Viktor Farcic](https://twitter.com/vfarcic)
 
 - [ScoutaPark Runs Production on Docker Swarm with Carina](https://getcarina.com/blog/ScoutaPark-Runs-On-Carina/) by [Dan Sheppard](https://twitter.com/Danerisms)
+
+- [Build a real time game with Docker Swarm on Carina](https://getcarina.com/blog/build-real-time-game-carina/) by [Keith Bartholomew](https://twitter.com/ktbartholomew)
+
+- [Multi-host Cassandra Cluster with Docker Swarm](https://clusterhq.com/2016/03/09/fun-with-swarm-part1/) by [Ryan Wallner](https://twitter.com/ryanwallner)
+
+- [Rescheduling Redis with Docker Swarm](https://clusterhq.com/2016/03/10/fun-with-swarm-part2/) by [Ryan Wallner](https://twitter.com/ryanwallner)
+
+- [Deploying NodeJS and MongoDB with Docker Swarm](https://clusterhq.com/2016/03/11/fun-with-swarm-part3/) by [Ryan Wallner](https://twitter.com/ryanwallner)
 
 - [Getting Started with Docker Swarm](http://collabnix.com/archives/967) by [Ajeet Singha Raina](https://twitter.com/ajeetsraina)
 
