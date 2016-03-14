@@ -50,3 +50,11 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 - [One year+ feedback of using Docker and Swarm in DEV and QA environments] (https://medium.com/@frntn/one-year-feedback-of-using-docker-and-swarm-in-dev-and-qa-environments-deaf2ec6dc61#.j4rr4lkwv) by [Matthieu Fronton] (https://twitter.com/frntn)
 
 - [Setting up a local VM cluster managed by Swarm with NFS/CIFS volumes mounted from host](http://docker-saigon.github.io/post/Swarm-Week-2016-Part1/)
+
+ - [ScoutaPark runs app in production Docker Swarm on Carina](https://getcarina.com/blog/ScoutaPark-Runs-On-Carina/)
+
+ - [Get Minecraft as a Service with Docker Swarm on Carina](https://getcarina.com/blog/deploying-and-building-minecraft-as-a-service/)
+
+ - [Using Docker Swarm on Carina to Mimic IRCCloud](http://jjasghar.github.io/blog/2015/11/15/using-carina-to-mimic-irccloud/)
+ 
+ - [Cloud9 with Docker Swarm on Carina](http://continuousfailure.com/post/carina_cloud9/) 
