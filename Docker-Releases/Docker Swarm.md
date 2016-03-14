@@ -31,11 +31,6 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 
 - [Advanced Orchestration Workshop](https://www.youtube.com/watch?v=qbIvUvwa6As) featuring [Jerome Petazonni](https://twitter.com/jpetazzo)
 
-- [Docker Swarm lightning talk](http://www.slideshare.net/MikeGoelzer/docker-swarm-meetup-15min-lightning) by [Mike Goelzer](https://twitter.com/mikegoelzer)
-[](http://www.slideshare.net/gionn2/clustering-with-docker-swarm-dockerops-2016-cento-fe-italy)
-
-- [Clustering with Docker Swarm](http://www.slideshare.net/gionn2/clustering-with-docker-swarm-dockerops-2016-cento-fe-italy) by [Giovanni Toraldo](https://twitter.com/gionn)
-
 - [Docker Swarm and Kubernetes](https://www.youtube.com/watch?v=kcCgtTIsdMQ&_tmc=oC-fMVZxskFghRKSlk9pTVFD01VR86mu9Oh8jvazNhc) by [David Gageot](https://twitter.com/dgageot)
 
 - [Docker as a Service: Swarm clustering and Cross-container Networking](http://www.slideshare.net/venkatanageshdevarapalli/docker-clustering-meetup/1) by [Venkata Nagesh Devarapalli](https://www.linkedin.com/in/dvnagesh) 
