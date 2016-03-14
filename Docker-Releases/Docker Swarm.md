@@ -29,6 +29,8 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 
 - [Docker Swarm and Kubernetes] (https://www.youtube.com/watch?v=8jepaoATuN0&feature=youtu.be&_tmc=oC-fMVZxskFghRKSlk9pTVFD01VR86mu9Oh8jvazNhc) by [Sam Alba] (https://twitter.com/sam_alba) and [Andrea Luzzardi] (https://twitter.com/aluzzardi)
 
+- [Advanced Orchestration Workshop](https://www.youtube.com/watch?v=qbIvUvwa6As) featuring [Jerome Petazonni](https://twitter.com/jpetazzo)
+
 # Blog posts
 
 - [Scale test Docker Swarm to 30,000 containers on 1,000 nodes at DockerCon EU 2015] (https://blog.docker.com/2015/11/scale-testing-docker-swarm-30000-containers/) by [Andrea Luzzardi] (https://twitter.com/aluzzardi)
