@@ -31,6 +31,11 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 
 - [Advanced Orchestration Workshop](https://www.youtube.com/watch?v=qbIvUvwa6As) featuring [Jerome Petazonni](https://twitter.com/jpetazzo)
 
+- [Docker Swarm lightning talk](http://www.slideshare.net/MikeGoelzer/docker-swarm-meetup-15min-lightning) by [Mike Goelzer](https://twitter.com/mikegoelzer)
+[](http://www.slideshare.net/gionn2/clustering-with-docker-swarm-dockerops-2016-cento-fe-italy)
+
+- [Clustering with Docker Swarm](http://www.slideshare.net/gionn2/clustering-with-docker-swarm-dockerops-2016-cento-fe-italy) by [Giovanni Toraldo](https://twitter.com/gionn)
+
 - [Docker Swarm and Kubernetes](https://www.youtube.com/watch?v=kcCgtTIsdMQ&_tmc=oC-fMVZxskFghRKSlk9pTVFD01VR86mu9Oh8jvazNhc) by [David Gageot](https://twitter.com/dgageot)
 
 - [Docker as a Service: Swarm clustering and Cross-container Networking](http://www.slideshare.net/venkatanageshdevarapalli/docker-clustering-meetup/1) by [Venkata Nagesh Devarapalli](https://www.linkedin.com/in/dvnagesh) 
@@ -60,13 +65,13 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 
 - [Setting up a local VM cluster managed by Swarm with NFS/CIFS volumes mounted from host](http://docker-saigon.github.io/post/Swarm-Week-2016-Part1/)
 
- - [ScoutaPark runs app in production Docker Swarm on Carina](https://getcarina.com/blog/ScoutaPark-Runs-On-Carina/)
+- [ScoutaPark runs app in production Docker Swarm on Carina](https://getcarina.com/blog/ScoutaPark-Runs-On-Carina/)
 
- - [Get Minecraft as a Service with Docker Swarm on Carina](https://getcarina.com/blog/deploying-and-building-minecraft-as-a-service/)
+- [Get Minecraft as a Service with Docker Swarm on Carina](https://getcarina.com/blog/deploying-and-building-minecraft-as-a-service/)
 
- - [Using Docker Swarm on Carina to Mimic IRCCloud](http://jjasghar.github.io/blog/2015/11/15/using-carina-to-mimic-irccloud/)
+- [Using Docker Swarm on Carina to Mimic IRCCloud](http://jjasghar.github.io/blog/2015/11/15/using-carina-to-mimic-irccloud/)
  
- - [Cloud9 with Docker Swarm on Carina](http://continuousfailure.com/post/carina_cloud9/) [Video Tutorials to Join Your First Docker Swarm Cluster](https://blog.docker.com/2016/03/swarmweek-join-your-first-swarm/) by [Betty Junod](https://twitter.com/BettyJunod)
+- [Cloud9 with Docker Swarm on Carina](http://continuousfailure.com/post/carina_cloud9/) [Video Tutorials to Join Your First Docker Swarm Cluster](https://blog.docker.com/2016/03/swarmweek-join-your-first-swarm/) by [Betty Junod](https://twitter.com/BettyJunod)
 
 - [Evaluating Container Platforms at Scale](https://medium.com/on-docker/evaluating-container-platforms-at-scale-5e7b44d93f2c#.erfayaex0) by [Jeff Nickoloff](https://twitter.com/allingeek)
 
