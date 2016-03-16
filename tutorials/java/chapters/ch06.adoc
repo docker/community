@@ -22,7 +22,7 @@ image::docker-swarm-components.png[]
 
 There are a lots of other concepts but these are the main ones.
 
-This section will deploy an application that will provide a CRUD/REST interface on a data bucket in Couchbase. This is achieved by using a Java EE application deployed on WildFly to access the database.
+This section will deploy an application that will provide a CRUD/REST interface on a data bucket in http://developer.couchbase.com/server[Couchbase]. This is achieved by using a Java EE application deployed on http://wildfly.org[WildFly] to access the database.
 
 === Create Discovery Service
 
@@ -418,7 +418,7 @@ The Couchbase server is running on `swarm-node-01` node and WildFly is running o
 
 Clone https://github.com/arun-gupta/couchbase-javaee.git. This workspace contains a simple Java EE application that is deployed on WildFly and provides a REST API over a sample bucket in Couchbase.
 
-Couchbase server can be configured using http://developer.couchbase.com/documentation/server/4.0/rest-api/rest-endpoints-all.html[Couchbase REST API]. The application contains a Maven profile that allows to configure the Couchbase server and loads the `travel-sample` bucket. This can be invoked as: (Note that you may need to replace `swarm-node-02` with the node in your cluster that is running Couchbase)
+Couchbase server can be configured using http://developer.couchbase.com/documentation/server/current/rest-api/rest-endpoints-all.html[Couchbase REST API]. The application contains a Maven profile that allows to configure the Couchbase server and loads the `travel-sample` bucket. This can be invoked as: (Note that you may need to replace `swarm-node-02` with the node in your cluster that is running Couchbase)
 
 [[Configure_Couchbase_Server]]
 .Configure Couchbase Server
