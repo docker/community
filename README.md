@@ -5,7 +5,7 @@ Welcome to the Docker Community repo! This repo aims to centralize content (HOW-
 The main objective is to help members of the Docker community who share similar interests to learn from & collaborate with each other during Docker Meetups. 
 
 #### [Docker Blog] (https://blog.docker.com/)
-The Docker Blog is a great resource to find content! We post the latest Docker news including new releases and events like DockerCon there. For our curated collection of content from the community, check out this page: http://www.scoop.it/t/docker-by-docker
+The Docker Blog is a great resource to find content! We post the latest Docker news including new releases and events like DockerCon there. For our curated collection of content from the community, check out this page: [https://blog.docker.com/docker-weekly-archives/](blog.docker.com/docker-weekly-archives)
 
 ####[Docker Weekly](https://www.docker.com/newsletter-subscription)
 Get the latest Docker news straight to your inbox! This weekly newsletter highlights content from the community along with the latest Docker news.
