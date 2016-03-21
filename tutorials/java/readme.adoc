@@ -25,7 +25,7 @@ link:chapters/ch06.adoc[Run Multiple Containers on Multiple Hosts using Docker S
 
 link:chapters/ch07.adoc[Docker Tooling in Eclipse]
 
-link:chapters/ch07.adoc[Run a Docker Container using Docker Cloud]
+link:chapters/ch08.adoc[Run a Docker Container using Docker Cloud]
 
 link:chapters/appa.adoc[Common Docker Commands]
 
