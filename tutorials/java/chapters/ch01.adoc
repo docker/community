@@ -22,6 +22,12 @@ Follow the instructions to install Docker:
 
 Complete set of operating systems are listed at http://docs.docker.com/engine/installation/[Install Docker Engine].
 
+==== Additional components for Linux
+
+. Docker Compose: https://github.com/docker/compose/releases
+. Docker Machine: https://github.com/docker/machine/releases/latest
+. VirtualBox: https://www.virtualbox.org/wiki/Downloads
+
 === Create Docker Host Mapping
 
 To make it easier to start/stop the containers, an entry is added into the host mapping table of your operating system. Find out the IP address of your machine:
@@ -40,3 +46,51 @@ Edit `/etc/hosts` (Mac OS or Linux) or `C:\Windows\System32\drivers\etc\hosts` (
 ----
 <IP ADDRESS>  dockerhost
 ----
+
+=== Pre-requisites
+
+This tutorial uses a few Docker images and software. Let's download them before we start the tutorial.
+
+==== Pull Docker images
+
+Download the Docker images.
+
+IMPORTANT: For Mac and Windows, this commands need to be issued from the Docker shell or Command Prompt where `eval $(docker-machine env default)` command was issued.
+
+Create a new file, name it `docker-compose-pull-images.yml`, and add the following content:
+
+[source, text]
+----
+ubuntu:
+  image: ubuntu
+busybox:
+  image: busybox
+java:
+  image: java
+tomee:
+  image: tomee
+wildfly:
+  image: jboss/wildfly
+mysql:
+  image: mysql
+javaee7-hol:
+  image: arungupta/javaee7-hol
+swarm:
+  image: swarm
+wildfly-couchbase-javaee7:
+  image: arungupta/wildfly-couchbase-javaee7
+couchbase:
+  image: arungupta/couchbase
+----
+
+Give the command to pull all the images:
+
+```console
+docker-compose -f docker-compose-pull-images.yml pull
+```
+
+==== Software
+
+. Download http://eclipse.org/[Eclipse IDE for Java EE Developers Mars 2] and install.
+. Download https://maven.apache.org/download.cgi[Maven] and install.
+. Install Docker CLI following the https://docs.docker.com/docker-cloud/tutorials/installing-cli/[instructions].
