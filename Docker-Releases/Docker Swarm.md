@@ -57,7 +57,7 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 
 - [Running an Elasticsearch cluster on Docker 1.9 with Swarm and Compose] (https://medium.com/@yoanis_gil/running-an-elasticsearch-cluster-on-docker-1-9-with-swarm-and-compose-efabe110c675#.r5e84gy3v) by [Yoanis Gil Delgado] (https://twitter.com/yoanis_gil)
 
-- [Docker Swarm: Collecting Metrics, Events & Logs](http://blog.sematext.com/2016/01/12/docker-swarm-collecting-metrics-events-logs/) by [ies](https://twitter.com/seti321)
+- [Docker Swarm: Collecting Metrics, Events & Logs](http://blog.sematext.com/2016/01/12/docker-swarm-collecting-metrics-events-logs/) by [Stefan Thies](https://twitter.com/seti321)
 
 - [Getting Started with Docker Swarm] (http://collabnix.com/archives/967) by [Ajeet Singha Raina] (https://twitter.com/ajeetsraina)
 
@@ -69,9 +69,9 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 
 - [ScoutaPark runs app in production Docker Swarm on Carina](https://getcarina.com/blog/ScoutaPark-Runs-On-Carina/)
 
-- [Get Minecraft as a Service with Docker Swarm on Carina](https://getcarina.com/blog/deploying-and-building-minecraft-as-a-service/)
+- [Get Minecraft as a Service with Docker Swarm on Carina](https://getcarina.com/blog/deploying-and-building-minecraft-as-a-service/) by [Geoff Bourne](https://twitter.com/itzg)
 
-- [Using Docker Swarm on Carina to Mimic IRCCloud](http://jjasghar.github.io/blog/2015/11/15/using-carina-to-mimic-irccloud/)
+- [Using Docker Swarm on Carina to Mimic IRCCloud](http://jjasghar.github.io/blog/2015/11/15/using-carina-to-mimic-irccloud/) by [Dan Sheppard](https://twitter.com/scoutapark)
  
 - [Cloud9 with Docker Swarm on Carina](http://continuousfailure.com/post/carina_cloud9/) [Video Tutorials to Join Your First Docker Swarm Cluster](https://blog.docker.com/2016/03/swarmweek-join-your-first-swarm/) by [Betty Junod](https://twitter.com/BettyJunod)
 
@@ -89,7 +89,7 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 
 - [Docker Swarm 1.0 with Multi-host Networking: Manual Setup](http://goelzer.com/blog/2015/12/29/docker-swarmoverlay-networks-manual-method/) by [Mike Goelzer](https://twitter.com/mikegoelzer)
 
-- [One year+ feedback of using Docker and Swarm in DEV and QA environments](https://medium.com/@frntn/one-year-feedback-of-using-docker-and-swarm-in-dev-and-qa-environments-deaf2ec6dc61#.j4rr4lkwv) by[Matthieu Fronton](https://twitter.com/frntn)
+- [One year+ feedback of using Docker and Swarm in DEV and QA environments](https://medium.com/@frntn/one-year-feedback-of-using-docker-and-swarm-in-dev-and-qa-environments-deaf2ec6dc61#.j4rr4lkwv) by [Matthieu Fronton](https://twitter.com/frntn)
 
 - [Deploying Containers with Docker Swarm and Docker Networking](http://technologyconversations.com/2015/11/25/deploying-containers-with-docker-swarm-and-docker-networking/) by [Viktor Farcic](https://twitter.com/vfarcic)
 
@@ -137,7 +137,7 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 
 - [ScaleSwarm: Auto-scaling a swarm cluster](https://www.youtube.com/watch?v=fE0qVTGC6MA) with [Ankush Agarwal](https://twitter.com/ankushio) and [Harshit Mittal](https://twitter.com/hmittal83)
 
-- [Setting up a Flocker-powered Swarm Cluster in less than 30 minutes on AWS](https://clusterhq.com/2016/02/08/flocker-swarm-in-30-minutes-aws/)by [Stephen Nguyen](https://twitter.com/Stephenitis)
+- [Setting up a Flocker-powered Swarm Cluster in less than 30 minutes on AWS](https://clusterhq.com/2016/02/08/flocker-swarm-in-30-minutes-aws/) by [Stephen Nguyen](https://twitter.com/Stephenitis)
 
 - [Toward a Production-Ready Docker Swarm Cluster with Consul](https://medium.com/on-docker/toward-a-production-ready-docker-swarm-cluster-with-consul-9ecd36533bb8#.lcy8rfgx1) by [Jacob Blain Christen](https://twitter.com/dweomer)
 
