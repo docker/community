@@ -73,7 +73,9 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 
 - [Using Docker Swarm on Carina to Mimic IRCCloud](http://jjasghar.github.io/blog/2015/11/15/using-carina-to-mimic-irccloud/) by [Dan Sheppard](https://twitter.com/scoutapark)
  
-- [Cloud9 with Docker Swarm on Carina](http://continuousfailure.com/post/carina_cloud9/) [Video Tutorials to Join Your First Docker Swarm Cluster](https://blog.docker.com/2016/03/swarmweek-join-your-first-swarm/) by [Betty Junod](https://twitter.com/BettyJunod)
+- [Cloud9 with Docker Swarm on Carina](http://continuousfailure.com/post/carina_cloud9/)
+
+- [Video Tutorials to Join Your First Docker Swarm Cluster](https://blog.docker.com/2016/03/swarmweek-join-your-first-swarm/) by [Betty Junod](https://twitter.com/BettyJunod)
 
 - [Evaluating Container Platforms at Scale](https://medium.com/on-docker/evaluating-container-platforms-at-scale-5e7b44d93f2c#.erfayaex0) by [Jeff Nickoloff](https://twitter.com/allingeek)
 
@@ -84,8 +86,6 @@ Now is a great time to ask all of your questions about Docker Swarm. Feel free t
 - [SA Homes Loans Trusts Docker Datacenter with Embedded Swarm To Enable Microservices and Portability](https://blog.docker.com/2016/03/sa-homes-loans-docker-datacenter-swarm-microservices-portability/) by [Mark Dand](https://twitter.com/markdand)
 
 - [How to setup a Docker Swarm cluster with Raspberry Pi's](http://blog.hypriot.com/post/how-to-setup-rpi-docker-swarm/) by [Dieter Reuter](https://twitter.com/Quintus23M) and [Stefan Scherer](https://twitter.com/stefscherer)
-
-- [Run a local Windows Docker Swarm](https://stefanscherer.github.io/build-your-local-windows-docker-swarm/) by [Stefan Scherer](https://twitter.com/stefscherer)
 
 - [Docker Swarm 1.0 with Multi-host Networking: Manual Setup](http://goelzer.com/blog/2015/12/29/docker-swarmoverlay-networks-manual-method/) by [Mike Goelzer](https://twitter.com/mikegoelzer)
 
