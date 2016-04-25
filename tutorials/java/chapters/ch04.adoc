@@ -174,7 +174,7 @@ image::tomee-first-run-default-page.png[]
 
 ### Run Container with Specified Port
 
-Lets stop the previously running container as:
+Stop the previously running container as:
 
 [source, text]
 ----
@@ -191,6 +191,13 @@ docker run -d -p 8080:8080 tomee
 The format is `-p hostPort:containerPort`. This option maps container ports to host ports and allows other containers on our host to access them.
 
 Now we're ready to test http://dockerhost:8080 again. This works with the exposed port, as expected.
+
+Let's stop the container as:
+
+[source, text]
+----
+docker stop `docker ps | grep tomee | awk '{print $1}'`
+----
 
 ### Deploy a WAR file to Application Server
 
