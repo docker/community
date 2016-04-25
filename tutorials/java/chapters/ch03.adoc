@@ -28,7 +28,6 @@ _Dockerfile_ is usually called _Dockerfile_. The complete list of commands that 
 
 === Create your first Docker image
 
-
 Create a new directory.
 
 Create a new text file, name it _Dockerfile_, and use the following contents:
@@ -81,6 +80,8 @@ Run the container:
 to see the output:
 
   hello world
+
+If you do not see the expected output, check your Dockerfile, build the image again, and now run it!
 
 Change the base image from `ubuntu` to `busybox` in `Dockerfile`. Build the image again:
 
