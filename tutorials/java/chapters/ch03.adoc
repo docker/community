@@ -277,7 +277,7 @@ Only one change was required in the project to enable Docker packaging and runni
                                     <assembly>
                                         <descriptorRef>artifact</descriptorRef>
                                     </assembly>
-                                    <cmd>java -cp maven/helloworld-1.0-SNAPSHOT.jar org.examples.java.App</cmd>
+                                    <cmd>java -cp maven/${project.name}-${project.version}.jar org.examples.java.App</cmd>
                                 </build>
                                 <run>
                                     <wait>
