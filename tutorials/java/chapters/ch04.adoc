@@ -285,14 +285,14 @@ Stop a specific container:
 docker stop <CONTAINER ID>
 ----
 
-Stop all the running containers
+Stop all running containers:
 
 [source, text]
 ----
 docker stop $(docker ps -q)
 ----
 
-Stop only the exited containers
+Stop only the exited containers:
 
 [source, text]
 ----
