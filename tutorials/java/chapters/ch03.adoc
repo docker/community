@@ -218,6 +218,7 @@ Create the Docker image:
 
 [source, text]
 ----
+cd docker-java-sample
 mvn package -Pdocker
 ----
 
