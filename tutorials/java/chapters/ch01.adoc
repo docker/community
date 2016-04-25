@@ -92,7 +92,7 @@ Give the command to pull all the images:
 docker-compose -f docker-compose-pull-images.yml pull
 ```
 
-You may need to add `sudo` before the command for Linux.
+NOTE: For Linux, `docker-compose` and `docker` commands need `sudo` access. So prefix all commands with `sudo`.
 
 ==== Software
 
