@@ -28,7 +28,7 @@ An application using Docker containers will typically consist of multiple contai
 | `migrate-to-labels  Recreate containers to add labels
 |====
 
-Docker Compose applications can use "`classic`" container linking that is confined to a single host. Alternatively, it can use multi-host networking introduced in Docker 1.9.
+Docker Compose applications can use networking introduced in Docker 1.9. Read more details about it at https://docs.docker.com/engine/userguide/networking/.
 
 === Multi-container application
 
