@@ -173,6 +173,19 @@ docker-machine create -d virtualbox --swarm --swarm-discovery="consul://$(docker
 ----
 ====
 
+This concludes the creation of Docker Swarm cluster. If you want to recreate the entire cluster again:
+
+- Stop the existing machines:
+
+    docker-machine stop swarm-node-02 swarm-node-01 swarm-master consul-machine`
+
+- Remove the existing machines
+
+    docker-machine rm swarm-node-02 swarm-node-01 swarm-master consul-machine`
+
+- Create the cluster using https://gist.github.com/arun-gupta/c42cacfa3225727f5c71ff4a5dc547dc
+
+
 ==== Get Information about Swarm Cluster
 
 Connect to the Swarm cluster by using the command:
