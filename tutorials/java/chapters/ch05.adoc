@@ -61,6 +61,8 @@ services:
       - COUCHBASE_URI=db
     ports:
       - 8080:8080
+    depends_on:
+      - mycouchbase
 ----
 ====
 
@@ -73,6 +75,7 @@ In this Compose file:
 . Environment variable for WildFly container is defined in `environment` attribute
 . Couchbase container is linked with WildFly container using `COUCHBASE_URI`. This is used in the application code as shown at https://github.com/arun-gupta/couchbase-javaee/blob/master/src/main/java/org/couchbase/sample/javaee/Database.java#L44.
 . Port forwarding is achieved using `ports` attribute
+. `depends_on` attribute allows to express dependency between services. In this case, Couchbase will be started before WildFly. Application-level health are still user's responsibility.
 
 === Start Services
 
