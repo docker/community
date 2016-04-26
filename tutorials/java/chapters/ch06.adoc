@@ -144,7 +144,9 @@ Find some information about this machine as `docker-machine inspect --format='{{
 }
 ----
 
-Note that the disk size is defined by `DiskSize` attribute and its value is 5GB.
+The disk size is defined by `DiskSize` attribute and its value is 5GB.
+
+NOTE: `jq` can be installed as `brew install jq`.
 
 ==== Create Swarm Worker Nodes
 
