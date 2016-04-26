@@ -346,7 +346,12 @@ Docker creates three networks for each host:
 
 A total of nine networks are created for this three-node Swarm cluster.
 
-Now let's use Compose file to start WildFly and Couchbase:
+Create a new directory and `cd` to it:
+
+    mkdir compose-swarm
+    cd compose-swarm
+
+Create a new Compose definition using the Compose file shown below. This will start WildFly and Couchbase:
 
 [[WildFly_and_Couchbase_Compose_Definition]]
 .WildFly and Couchbase Compose Definition
