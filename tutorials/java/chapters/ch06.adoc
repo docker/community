@@ -100,7 +100,7 @@ Create a Swarm Master using the Consul discovery service:
 ====
 [source, text]
 ----
-docker-machine create -d virtualbox --virtualbox-disk-size "5000" --swarm --swarm-master --swarm-discovery="consul://$(docker-machine ip consul-machine):8500" --engine-opt="cluster-store=consul://$(docker-machine ip consul-machine):8500" --engine-opt="cluster-advertise=eth1:2376" swarm-master
+docker-machine create -d virtualbox --swarm --swarm-master --swarm-discovery="consul://$(docker-machine ip consul-machine):8500" --engine-opt="cluster-store=consul://$(docker-machine ip consul-machine):8500" --engine-opt="cluster-advertise=eth1:2376" swarm-master
 ====
 
 Few options to look here:
@@ -110,7 +110,6 @@ Few options to look here:
 . `--swarm-discovery` defines address of the discovery service
 . `--cluster-advertise` advertise the machine on the network
 . `--cluster-store` designate a distributed k/v storage backend for the cluster
-. `--virtualbox-disk-size` sets the disk size for the created Machine to 5GB. This is required so that WildFly and Couchbase image can be downloaded on any of the nodes.
 
 Find some information about this machine as `docker-machine inspect --format='{{json .Driver}}'  swarm-master | jq`:
 
@@ -157,7 +156,7 @@ Create the first Swarm node to join this cluster:
 ====
 [source, text]
 ----
-docker-machine create -d virtualbox --virtualbox-disk-size "5000" --swarm --swarm-discovery="consul://$(docker-machine ip consul-machine):8500" --engine-opt="cluster-store=consul://$(docker-machine ip consul-machine):8500" --engine-opt="cluster-advertise=eth1:2376" swarm-node-01
+docker-machine create -d virtualbox --swarm --swarm-discovery="consul://$(docker-machine ip consul-machine):8500" --engine-opt="cluster-store=consul://$(docker-machine ip consul-machine):8500" --engine-opt="cluster-advertise=eth1:2376" swarm-node-01
 ----
 ====
 
@@ -170,7 +169,7 @@ Create a second Swarm node to join this cluster:
 ====
 [source, text]
 ----
-docker-machine create -d virtualbox --virtualbox-disk-size "5000" --swarm --swarm-discovery="consul://$(docker-machine ip consul-machine):8500" --engine-opt="cluster-store=consul://$(docker-machine ip consul-machine):8500" --engine-opt="cluster-advertise=eth1:2376" swarm-node-02
+docker-machine create -d virtualbox --swarm --swarm-discovery="consul://$(docker-machine ip consul-machine):8500" --engine-opt="cluster-store=consul://$(docker-machine ip consul-machine):8500" --engine-opt="cluster-advertise=eth1:2376" swarm-node-02
 ----
 ====
 
