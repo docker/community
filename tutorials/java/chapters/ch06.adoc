@@ -500,14 +500,19 @@ INFO: JBoss Remoting version 4.0.9.Final
 
 === Access Application
 
-Now that the WildFly and Couchbase servers have been configured, lets access the application. You need to specify the IP address of the Machine where WildFly is running (swarm-node-01 in this example but update as needed for your cluster):
+Now that the WildFly and Couchbase servers have been configured, let's access the application. You need to specify the IP address of the Machine where WildFly is running (`swarm-node-01` in this example but update as needed for your cluster).
+
+The endpoint can be accessed in this case as:
+
+    curl http://$(docker-machine ip swarm-node-01):8080/airlines/resources/airline
+
+The output is shown as:
 
 [[Java_EE_Application_Output]]
 .Java EE Application Output
 ====
 [source, text]
 ----
-curl http://$(docker-machine ip swarm-node-01):8080/couchbase-javaee/resources/airline
 [{"travel-sample":{"id":10123,"iata":"TQ","icao":"TXW","name":"Texas Wings","callsign":"TXW","type":"airline","country":"United States"}}, {"travel-sample":{"id":10642,"iata":null,"icao":"JRB","name":"Jc royal.britannica","callsign":null,"type":"airline","country":"United Kingdom"}}, {"travel-sample":{"id":112,"iata":"5W","icao":"AEU","name":"Astraeus","callsign":"FLYSTAR","type":"airline","country":"United Kingdom"}}, {"travel-sample":{"id":1355,"iata":"BA","icao":"BAW","name":"British Airways","callsign":"SPEEDBIRD","type":"airline","country":"United Kingdom"}}, {"travel-sample":{"id":10765,"iata":"K5","icao":"SQH","name":"SeaPort Airlines","callsign":"SASQUATCH","type":"airline","country":"United States"}}, {"travel-sample":{"id":13633,"iata":"WQ","icao":"PQW","name":"PanAm World Airways","callsign":null,"type":"airline","country":"United States"}}, {"travel-sample":{"id":139,"iata":"SB","icao":"ACI","name":"Air Caledonie International","callsign":"AIRCALIN","type":"airline","country":"France"}}, {"travel-sample":{"id":13391,"iata":"-+","icao":"--+","name":"U.S. Air","callsign":null,"type":"airline","country":"United States"}}, {"travel-sample":{"id":1191,"iata":"UU","icao":"REU","name":"Air Austral","callsign":"REUNION","type":"airline","country":"France"}}, {"travel-sample":{"id":1316,"iata":"FL","icao":"TRS","name":"AirTran Airways","callsign":"CITRUS","type":"airline","country":"United States"}}]
 ----
 ====
