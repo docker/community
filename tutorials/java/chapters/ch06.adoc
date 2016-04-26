@@ -276,7 +276,14 @@ ac9808732975        swarm:latest        "/swarm manage --tlsv"   16 minutes ago 
 ----
 ====
 
-You can also query the Consul discovery service to find the list of nodes in the cluster using `docker run swarm list consul://$(docker-machine ip consul-machine):8500`:
+You can also query the Consul discovery service to find the list of nodes in the cluster using:
+
+[source, text]
+----
+docker run swarm list consul://$(docker-machine ip consul-machine):8500
+----
+
+This will show the output as:
 
 [[Docker_Swarm_Node_List]]
 .Docker Swarm Node List
