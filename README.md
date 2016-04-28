@@ -8,9 +8,9 @@ The main objective is to help members of the Docker community who share similar 
 This repo contains official Docker tutorials authored both by Docker, Inc and by members of the community. It's a growing repo which we intend to continue to grow, with help from the community.
 
 Index:
-- Docker for Beginners
-- Docker for ASP.NET and Windows containers
-- Docker for Java Developers
+* [Docker for Beginners] (https://github.com/docker/labs/tree/master/beginner)
+* Docker for [ASP.NET and Windows containers](windows/readme.md)
+* [Docker for Java Developers](java/readme.adoc)
 
 #### [Docker Blog] (https://blog.docker.com/)
 The Docker Blog is a great resource to find content! We post the latest Docker news including new releases and events like DockerCon there. For our curated collection of content from the community, check out this page: [https://blog.docker.com/docker-weekly-archives/](blog.docker.com/docker-weekly-archives)
