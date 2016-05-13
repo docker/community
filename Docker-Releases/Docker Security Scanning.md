@@ -10,7 +10,7 @@
 # Videos
 
 - [Hump Day Demo: Docker Security Scanning] (https://docker.wistia.com/medias/32v44sv52b) by [Chris Hines] (https://www.linkedin.com/in/christopher-c-hines-5356883b), [Mario Ponticello] (https://www.linkedin.com/in/marioponticello) and [Toli Kuznets] (https://www.linkedin.com/in/tolikuznets)
-- [Docker Trusted Registry and Docker Content Trust] (https://www.youtube.com/watch?v=5LGmkh_F1ZA) 
+- [Docker Trusted Registry and Docker Content Trust] (https://www.youtube.com/watch?v=5LGmkh_F1ZA) by Docker Captain [Elton Stoneman] (https://twitter.com/EltonStoneman)
 
 
 # Blog posts
