@@ -22,5 +22,9 @@
 - [A Look Back at One Year of Docker Security] (https://blog.docker.com/2016/04/docker-security/) by [Diogo Mónica] (https://twitter.com/diogomonica)
 
 
+# Resources
+
+- [FAQ: Docker Security Scanning] (https://success.docker.com/Cloud/FAQ%3A_Docker_Security_Scanning) by [Allen Lai] (https://twitter.com/allenylai)
+
 
 
