@@ -4,7 +4,7 @@
 # Slides
 
 - [Securing the Software Supply Chain with Docker Security] (https://docs.google.com/presentation/d/1dCsJzGhA2WMV8pLiGOrH_uFKIeKPP2EV-Q3BdWcjtnk/edit?ts=5730f87e#slide=id.g12e9aa3e0a_2_71)
-*feel free to use and modify these slides!*
+*Feel free to use and modify these slides!*
 
 
 # Videos
