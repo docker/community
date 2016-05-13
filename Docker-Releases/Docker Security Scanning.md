@@ -24,7 +24,7 @@
 
 # Resources
 
-- [FAQ: Docker Security Scanning] (https://success.docker.com/Cloud/FAQ%3A_Docker_Security_Scanning) by [Allen Lai] (https://twitter.com/allenylai)
+- [Docker Knowledge Hub FAQ: Docker Security Scanning] (https://success.docker.com/Cloud/FAQ%3A_Docker_Security_Scanning) by [Allen Lai] (https://twitter.com/allenylai)
 
 
 
