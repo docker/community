@@ -19,6 +19,8 @@
 
 - [Alpine Linux and Docker Nautilus Protect Crate Images] (https://crate.io/a/alpine-linux-and-docker-nautilus-protect-crate/) by [Nils Magnus] (https://twitter.com/craternils)
 
+- [A Look Back at One Year of Docker Security] (https://blog.docker.com/2016/04/docker-security/) by [Diogo Mónica] (https://twitter.com/diogomonica)
+
 
 
 
