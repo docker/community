@@ -7,3 +7,4 @@
 
 - [Docker For Windows Beta] (http://docker-saigon.github.io/post/Docker-Beta/)
 - [First touch with Docker for Mac] (http://blog.hypriot.com/post/first-touch-down-with-docker-for-mac/)
+- [Introduction to Docker for Mac/Windows](https://speakerdeck.com/akalipetis/docker-for-mac-windows) by [Antonis Kalipetis](https://twitter.com/akalipetis)
