@@ -7,6 +7,10 @@ We’re raffling off tickets to DockerCon 2016 in exchange for user stories. Wri
 - Have a Swarm question?
 Now is a great time to ask all of your questions about Docker Swarm. Feel free to post your questions on twitter with the hashtag [#swarmweek] (https://twitter.com/search?f=tweets&vertical=default&q=%23swarmweek&src=typd) . We’ll answer them on this blog and also share those answers during the Q&A with the Docker Swarm team on Monday.
 
+# Demos
+
+- [Swarm for beginners : Creating a simple test cluster on AWS using Docker Swarm] (https://github.com/tomwillfixit/swarm-test-cluster) by [Thomas Shaw](https://twitter.com/tomwillfixit/)
+
 # Slides
 
 ### Slidedeck overview: https://docs.google.com/presentation/d/1dT14lfcVvenKdU1iTEDXVaJXxejWmXKCjZLvVmjfXLo/edit?usp=sharing
