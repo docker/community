@@ -36,9 +36,9 @@ Follow us on [Twitter] (https://twitter.com/docker), join the Docker community o
 
 # Become an active member of the Docker Community
 
-[Sign up here] (https://community.docker.com/users/sign_up) to get involved as an active member of the Docker community!
+[Sign up here] (https://community.docker.com/network-groups) to get involved as an active member of the Docker community!
 
-We regularly post updates on the [Mobilize platform](https://community.docker.com/) including information on Docker programs like Docker Birthday #3, invites to Q&A sessions with Docker folks and special discounts to Docker events. We also have groups for Docker community members who are interested in blogging, speaking and organizing meetups!
+We regularly post updates on the [Mobilize platform](https://community.docker.com/network-groups) including information on Docker programs like Docker Birthday #3, invites to Q&A sessions with Docker folks and special discounts to Docker events. We also have groups for Docker community members who are interested in blogging, speaking and organizing meetups!
 
 # Docker Meetup Guide
 
