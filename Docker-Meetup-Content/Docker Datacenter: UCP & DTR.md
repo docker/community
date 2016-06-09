@@ -1,6 +1,6 @@
 ## Slides
 
-- [Slides: Datacenter Overview + Demo] (https://docs.google.com/presentation/d/1OnPgogIxPaY17gMbiPLxKhEEMFD0DuCiDJz9ju1q8w8/edit#slide=id.p4)
+- [Datacenter Overview + Demo] (https://docs.google.com/presentation/d/1OnPgogIxPaY17gMbiPLxKhEEMFD0DuCiDJz9ju1q8w8/edit#slide=id.p4)
 - [How Splunk uses Docker Datacenter] (https://docs.google.com/presentation/d/1znHKVOIWsZmwdSXYeQOvAetiAwbMV7brBszt3NdJXO0/edit#slide=id.p4)
 - [How Healthdirect Uses Docker Datacenter] (https://docs.google.com/presentation/d/1PBWz6j8akYfQHcKSX1amvkCPm_elXF1HnO16UQQDcf4/edit)
 
