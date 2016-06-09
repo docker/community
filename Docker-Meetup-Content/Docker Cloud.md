@@ -6,6 +6,8 @@
 
 ##Videos
 - [Docker Cloud Meetup at Docker HQ] (https://www.youtube.com/watch?list=PLkA60AVN3hh9-7WqDqBqDRtVVIXydSM-_&v=FBzNqhhOJBs)
+- [Docker Cloud: Deploy your first application] (https://www.youtube.com/watch?v=dmW0Xi4D3WU)
+- [Docker Cloud Overview] (https://www.youtube.com/watch?v=VW1RIWMQOg0)
 
 ## Articles
 
