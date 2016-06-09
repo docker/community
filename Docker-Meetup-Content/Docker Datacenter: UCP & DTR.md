@@ -1,12 +1,14 @@
 ## Slides
 
-- [Slides: Overview + Demo] (https://docs.google.com/presentation/d/1OnPgogIxPaY17gMbiPLxKhEEMFD0DuCiDJz9ju1q8w8/edit#slide=id.p4)
+- [Slides: Datacenter Overview + Demo] (https://docs.google.com/presentation/d/1OnPgogIxPaY17gMbiPLxKhEEMFD0DuCiDJz9ju1q8w8/edit#slide=id.p4)
 - [How Splunk uses Docker Datacenter] (https://docs.google.com/presentation/d/1znHKVOIWsZmwdSXYeQOvAetiAwbMV7brBszt3NdJXO0/edit#slide=id.p4)
 - [How Healthdirect Uses Docker Datacenter] (https://docs.google.com/presentation/d/1PBWz6j8akYfQHcKSX1amvkCPm_elXF1HnO16UQQDcf4/edit)
 
 
 ## Videos
 - [Docker Datacenter: High Availability] (https://www.youtube.com/watch?v=3wckuHhfKcQ)
+- [Docker Universal Control Plane (UCP) Overview] (https://www.youtube.com/watch?v=-wiGtqxWs4I)
+- [Docker Trusted Registry (DTR) Overview] (https://www.youtube.com/watch?v=h_AIFY8J8-c)
 
 ## Articles
 
