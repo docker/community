@@ -6,6 +6,8 @@
 
 ## Articles
 
+- [High Availability Architecture and Apps with Docker Datacenter (DDC)] (https://blog.docker.com/search/Docker+Datacenter)
 - [Healthdirect charts path with Docker Datacenter] (http://www.itnews.com.au/news/healthdirect-charts-path-to-docker-containers-419649)
 - [New Docker Datacenter Admin Suite Should Bring Order To Containerization] (http://techcrunch.com/2016/02/23/new-docker-data-center-admin-suite-should-bring-order-to-containerization/)
 - [Datasheet: Delivering Containers as a service (CaaS) with Docker Datacenter](https://www.docker.com/sites/default/files/DR_Datasheet_Caas%20Datacenter_042716_V2-2_3.pdf)
+- [Exciting Docker Datacenter updates: Deploy Compose apps in UI, full stack HA and more] (https://blog.docker.com/2016/05/docker-datacenter-updates/)
