@@ -4,6 +4,10 @@
 - [How Splunk uses Docker Datacenter] (https://docs.google.com/presentation/d/1znHKVOIWsZmwdSXYeQOvAetiAwbMV7brBszt3NdJXO0/edit#slide=id.p4)
 - [How Healthdirect Uses Docker Datacenter] (https://docs.google.com/presentation/d/1PBWz6j8akYfQHcKSX1amvkCPm_elXF1HnO16UQQDcf4/edit)
 
+
+## Videos
+- [Docker Datacenter: High Availability] (https://www.youtube.com/watch?v=3wckuHhfKcQ)
+
 ## Articles
 
 - [High Availability Architecture and Apps with Docker Datacenter (DDC)] (https://blog.docker.com/search/Docker+Datacenter)
