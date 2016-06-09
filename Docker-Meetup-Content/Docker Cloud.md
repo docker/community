@@ -5,7 +5,7 @@
 - [How Fairfly Uses Docker Cloud: Overview + Demo] (https://docs.google.com/presentation/d/1JXu4B5n5WdVXRLh995nvwNRb3N0K1i4fBa5mu4M8ZfU/edit#slide=id.g12843f461e_2_87)
 
 ##Videos
--[Docker Cloud Meetup at Docker HQ] (https://www.youtube.com/watch?list=PLkA60AVN3hh9-7WqDqBqDRtVVIXydSM-_&v=FBzNqhhOJBs)
+- [Docker Cloud Meetup at Docker HQ] (https://www.youtube.com/watch?list=PLkA60AVN3hh9-7WqDqBqDRtVVIXydSM-_&v=FBzNqhhOJBs)
 
 ## Articles
 
