@@ -11,6 +11,8 @@
 
 ## Articles
 
+- [Docker Cloud Docs] (https://docs.docker.com/docker-cloud/)
+- [Docker Cloud Release Notes] (https://docs.docker.com/docker-cloud/release-notes/)
 - [4 no-bull takeaways about Docker Cloud] (http://www.infoworld.com/article/3040475/application-virtualization/4-no-bull-takeaways-about-docker-cloud.html)
 - [Docker Security Scanning now available to Docker cloud users] (http://www.zdnet.com/article/docker-security-scanning-now-available-to-docker-cloud-users/)
 - [Docker Cloud to the Rescue] (https://blog.docker.com/2016/04/docker-cloud-3blades/)
