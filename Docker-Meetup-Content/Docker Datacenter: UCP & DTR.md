@@ -12,6 +12,10 @@
 
 ## Articles
 
+- [Docker Universal Control Plane Overview] (https://docs.docker.com/ucp/overview/)
+- [DTR Architecture] (https://docs.docker.com/docker-trusted-registry/architecture/)
+- [Docker Trusted Registry Overview] (https://docs.docker.com/docker-trusted-registry/overview/)
+- [UCP Architecture] (https://docs.docker.com/ucp/architecture/)
 - [High Availability Architecture and Apps with Docker Datacenter (DDC)] (https://blog.docker.com/search/Docker+Datacenter)
 - [Healthdirect charts path with Docker Datacenter] (http://www.itnews.com.au/news/healthdirect-charts-path-to-docker-containers-419649)
 - [New Docker Datacenter Admin Suite Should Bring Order To Containerization] (http://techcrunch.com/2016/02/23/new-docker-data-center-admin-suite-should-bring-order-to-containerization/)
