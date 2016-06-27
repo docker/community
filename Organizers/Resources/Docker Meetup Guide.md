@@ -27,7 +27,7 @@ Next, make yourself familiar with the three most relevant tools:
 
 As a red thread through the organizing process, you can use the following phases to structure your planning:
 
-<img src="./Project_Phases.png" width="480">
+![](Project_Phases.png)
 
 Start with a scoping phase that shapes the general purpose of your meetup series. In this phase, you answer questions like: Do I want to organize simple, open discussions about Docker or I want to invite speakers. All the remaining phases belong to a single meetup, i.e. for each meetup you start with planning and finish up with the closing phase. Following this red thread will make it easy for you to always have an overview what's important now and next.
 
@@ -49,7 +49,7 @@ Start with a scoping phase that shapes the general purpose of your meetup series
 We recommend to create a single planning document, i.e. a Markdown file for each Meetup. Using Github for that eases file versioning and eases editing since Github is a familiar platform.
 This planning document should gather all relevant information for the particular Meetup, divided in categories and tasks. See the following slide as example (it's in german, but you'll get the general idea):
 
-<img src="Planning_Categories_Tasks.png" width="480">
+<img src="Planning_Categories_Tasks.png" width="600">
 
 Each category contains a set of associated tasks. Thereby, each tasks ideally has
 - a checkbox to track the progress
@@ -148,7 +148,7 @@ Next, see the following tips for each category:
 
   Here is a [good example of a good meetup description] (http://www.meetup.com/Docker-meetups/events/226172627/) you may want to use as a starting template. Also see the following one as an example:
 
-  <img src="Timetable_Agenda.png" width="480">
+  <img src="Timetable_Agenda.png" width="600">
 
 
   - **Catering:**
