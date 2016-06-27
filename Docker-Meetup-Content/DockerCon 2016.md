@@ -36,8 +36,8 @@
 
 ## Slides
 
-- [Day 2 General Session Slides: Morning] (https://docs.google.com/a/docker.com/presentation/d/1XS6D6IML_gW7xpHykCm94OGclVhA_qKiM2DR62Xs_20/edit?usp=sharing)
-- [Day 2 General Session Slides: Afternoon] (https://docs.google.com/a/docker.com/presentation/d/16LUwv-YIzOnE3nfLwimJeZosQ6D6qCegLVP3v9wP6Lo/edit?usp=sharing)
+- [Day 2 General Session Slides: Morning] (https://docs.google.com/presentation/d/1Tc_FXJ3rKkbmg4LppAdNONxFlnP0vfnBpZpWDtcyJKU/edit?usp=sharing)
+- [Day 2 General Session Slides: Afternoon] (https://docs.google.com/presentation/d/1KcXyf_vUD7SHc_NB-MZXo7QBzA9jghw2AztSiYQ_iwQ/edit?usp=sharing)
 
 ## Articles
 
