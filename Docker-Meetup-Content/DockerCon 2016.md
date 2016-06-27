@@ -13,7 +13,7 @@
 
 ## Slides
 
-- [Day 1 General Session Slides] (https://docs.google.com/a/docker.com/presentation/d/1JdDFjm0LeOOU23rpv0wFqLudCxe50My44qcNaDpmTKE/edit?usp=sharing)
+- [Day 1 General Session Slides] (https://docs.google.com/presentation/d/1pVoVhHiQFVKKBrQTmXXimQMb4IMg2f5JN1hENurseo4/edit?usp=sharing)
 
 ## Articles
 
