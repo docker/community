@@ -4,12 +4,12 @@
 
 ## Videos
 
-- [Introduction by Ben Golub and Solomon Hykes] (https://www.youtube.com/watch?v=vE1iDPx6-Ok)
-- [Docker for developers by Aanand Prasad] (https://www.youtube.com/watch?v=vE1iDPx6-Ok)
-- [Guest speaker #1: Matt Aimonetti, CTO and Co-founder of Splice] (https://www.youtube.com/watch?v=vE1iDPx6-Ok)
-- [Docker 1.12 introduction and live demo] (https://www.youtube.com/watch?v=vE1iDPx6-Ok)
-- [Docker 1.12 at Zenly by Steeve Morin and Jean-Baptiste Dalido] (https://www.youtube.com/watch?v=vE1iDPx6-Ok)
-- [Docker for AWS and Azure demo by Aanand Prasad and Madhu] (https://www.youtube.com/watch?v=vE1iDPx6-Ok)
+- [Introduction by Ben Golub and Solomon Hykes] (https://youtu.be/vE1iDPx6-Ok?t=1s)
+- [Docker for developers by Aanand Prasad] (https://youtu.be/vE1iDPx6-Ok?t=34m45s)
+- [Guest speaker #1: Matt Aimonetti, CTO and Co-founder of Splice] (https://youtu.be/vE1iDPx6-Ok?t=46m10s)
+- [Docker 1.12 introduction and live demo] (https://youtu.be/vE1iDPx6-Ok?t=53m50s)
+- [Docker 1.12 at Zenly by Steeve Morin and Jean-Baptiste Dalido] (https://youtu.be/vE1iDPx6-Ok?t=1h25m25s)
+- [Docker for AWS and Azure demo by Aanand Prasad and Madhu] (https://youtu.be/vE1iDPx6-Ok?t=1h29m30s)
 
 ## Slides
 
@@ -28,10 +28,10 @@
 
 ## Videos
 
-- [Docker in production for the Enterprise by Ben Golub] (https://www.youtube.com/watch?v=KC9tJ7b3dww)
-- [Docker Datacenter in production demo by Vivek Saraswat and Lily Guo] (https://www.youtube.com/watch?v=KC9tJ7b3dww)
-- [Guest speaker #1: Docker and Microsoft demo by Mark Russinovich, CTO Microsoft Azure] (https://www.youtube.com/watch?time_continue=2820&v=KC9tJ7b3dww)
-- [Guest speaker #2: Docker at ADP by Keith Fulton, CTO] (https://www.youtube.com/watch?time_continue=3960&v=KC9tJ7b3dww)
+- [Docker in production for the Enterprise by Ben Golub] (https://youtu.be/KC9tJ7b3dww?t=1s)
+- [Docker Datacenter in production demo by Vivek Saraswat and Lily Guo] (https://youtu.be/KC9tJ7b3dww?t=21m50s)
+- [Guest speaker #1: Docker and Microsoft demo by Mark Russinovich, CTO Microsoft Azure] (https://youtu.be/KC9tJ7b3dww?t=47m)
+- [Guest speaker #2: Docker at ADP by Keith Fulton, CTO] (https://youtu.be/KC9tJ7b3dww?t=1h6m)
 
 
 ## Slides
