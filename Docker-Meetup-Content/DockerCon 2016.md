@@ -45,7 +45,6 @@
 - [Docker Datacenter in AWS and Azure in a few clicks] (https://blog.docker.com/2016/06/docker-datacenter-aws-azure-cloud/)
 - [Docker Datacenter user samples] (https://blog.docker.com/2016/06/docker-datacenter-enterprise/)
 
-# Tracks
 
 ##Tracks: Docker, Docker, Docker
 
