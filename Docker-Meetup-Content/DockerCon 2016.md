@@ -13,7 +13,7 @@
 
 ## Slides
 
-- [Day 1 General Session Slides] (http://www.slideshare.net/Docker/dockercon-16-general-session-day-1?ref=https://blog.docker.com/2016/06/dockercon-general-session-day-1-and-day-2-videos/)
+- [Day 1 General Session Slides] (https://docs.google.com/a/docker.com/presentation/d/1JdDFjm0LeOOU23rpv0wFqLudCxe50My44qcNaDpmTKE/edit?usp=sharing)
 
 ## Articles
 
