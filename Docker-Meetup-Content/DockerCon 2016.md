@@ -50,7 +50,7 @@
 
 ## Slides
 
-- [What's New in Docker] (http://www.slideshare.net/Docker/whats-new-in-docker-112-by-mike-goelzer-and-andrea-luzzardi)
+- [What's New in Docker 1.12] (http://www.slideshare.net/Docker/whats-new-in-docker-112-by-mike-goelzer-and-andrea-luzzardi)
 - [Docker for Developers - part 1] (http://www.slideshare.net/Docker/docker-for-developers-part-1-by-david-gageot)
 - [Docker for Developers - part 2] (http://www.slideshare.net/Docker/docker-for-developers-part-2-by-borja-burgos-and-fernando-mayo)
 - [Docker for the Enterprise] (https://docs.google.com/a/docker.com/presentation/d/1q3r4HpBLt0nt2qFNY05GrsD-BatMQ1fwifbJKYtXIYM/edit?usp=sharing)
