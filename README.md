@@ -15,12 +15,12 @@ Index:
 #### [Docker Blog] (https://blog.docker.com/)
 The Docker Blog is a great resource to find content! We post the latest Docker news including new releases and events like DockerCon there.
 
-For our curated collection of content from the community, check out this page: [https://blog.docker.com/community-content/](blog.docker.com/community-content)
+For our curated collection of content from the community, check out this page: [https://blog.docker.com/community-content/](https://blog.docker.com/community-content)
 
 ####[Docker Weekly](https://www.docker.com/newsletter-subscription)
 Get the latest Docker news straight to your inbox! This weekly newsletter highlights content from the community along with the latest Docker news.
 
-Read the Docker Weekly archives to catch up on all of the latest Docker news and hacks : [https://blog.docker.com/docker-weekly-archives/](blog.docker.com/docker-weekly-archives)
+Read the Docker Weekly archives to catch up on all of the latest Docker news and hacks : [https://blog.docker.com/docker-weekly-archives/](https://blog.docker.com/docker-weekly-archives)
 
 #### [Docker Docs] (https://docs.docker.com/)
 Get all the info on the different Docker projects with our docs.
