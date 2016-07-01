@@ -83,6 +83,26 @@ Next, see the following tips for each category:
 
   For more advice on how to promote your meetup, check out the official meetup.com promotion page.
 
+  - **Sponsorship**
+  The main benefit of sponsoring a Docker Meetup is visibility. As a sponsor, you can gain visibility in the following ways:
+
+    - Giving a regular talk at the meetup or a short introduction talk (2-5 Min.) at the beginning, as long it is not a sales pitch!
+    - Listing as a sponsor on the meetup.com page left column
+    - Listing in the meetup event page event details
+    - Thanks in pre- and/or post-event emails
+    - Verbal thank you in opening or closing remarks 
+    - Recognition in the following Docker promotional channels
+    - Docker social media networks
+    - Docker Weekly newsletter
+    - Docker Monthly Events blog
+
+  There are three sponsorship options available:
+
+    -Venue Host sponsorship
+    -Food/ Beverage sponsorship
+    -Venue + Food/ Beverage sponsorship
+
+  In an effort to keep our meetup events neutral, we mostly welcome ad hoc sponsorships. If you are interested in a recurring sponsorship, please contact Docker at meetups@docker.com
 
   - **Venue**:
   Organizing a Venue might take some time. Make sure this is one of the tasks you allocate resources to early.
