@@ -4,6 +4,7 @@
 # Slides
 
 ### Securing the Software Supply Chain with Docker Security: https://docs.google.com/presentation/d/1dCsJzGhA2WMV8pLiGOrH_uFKIeKPP2EV-Q3BdWcjtnk/edit?usp=sharing
+### [Deep diving into Docker Security](https://speakerdeck.com/akalipetis/docker-security-internals)
 *feel free to use and modify these slides!*
 
 
