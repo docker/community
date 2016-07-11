@@ -63,3 +63,23 @@
 ##Tracks: Wildcard
 
 ## Videos
+
+- [Containers and VMs and Cloud: Oh My by Mike Coleman, Docker] (https://youtu.be/aeeaQZT9rBQ)
+- [The Dockerfile Explosion and the Need for Higher Level Tools by Gareth Rushgrove, Puppet] (https://youtu.be/IyuyA8rSBAo)
+- [Immutable Awesomeness by Josh Corman, Sonatype and John Willis, Docker] (https://youtu.be/-Y_ZhvEaZX8)
+- [Efficient Parallel Testing with Docker by Docker Captain Laura Frank, Codeship] (https://youtu.be/N3pPjYxLvkY)
+- [Deploying Personalized Learning Labs using Docker Swarm by Nate Aune, Appsembler and Brian Dant, Appsembler] (https://youtu.be/SMwC39zxXY8)
+- [Making Friendly Microservices by Michele Titolo, Capital One] (https://youtu.be/zRg7pIS3TjM)
+- [Dockerizing CS50: From Cluster to Cloud to Appliance to Container by David J. Malan, Harvard and Dan Armendariz, Harvard] (https://youtu.be/KUPb4n8YB3g)
+- [It Takes an Ecosystem to Build a Production Application by Narayan Annamalai, Microsoft and Ross Gardler, Microsoft] (https://youtu.be/IRDcRlwq-Hw)
+
+## Slides
+
+- [Containers and VMs and Cloud: Oh My by Mike Coleman, Docker] (http://www.slideshare.net/Docker/containers-and-vms-and-clouds-oh-my-by-mike-coleman)
+- [The Dockerfile Explosion and the Need for Higher Level Tools by Gareth Rushgrove, Puppet] (http://www.slideshare.net/Docker/the-dockerfile-explosion-and-the-need-for-higher-level-tools-by-gareth-rushgrove)
+- [Immutable Awesomeness by Josh Corman, Sonatype and John Willis, Docker] (http://www.slideshare.net/Docker/immutable-awesomeness-by-john-willis-and-josh-corman)
+- [Efficient Parallel Testing with Docker by Docker Captain Laura Frank, Codeship] (http://www.slideshare.net/Docker/efficient-parallel-testing-with-docker-by-laura-frank)
+- [Deploying Personalized Learning Labs using Docker Swarm by Nate Aune, Appsembler and Brian Dant, Appsembler] (http://www.slideshare.net/Docker/deploying-personalized-learning-labs-using-docker-swarm-by-nate-aune-and-brian-dant)
+- [Making Friendly Microservices by Michele Titolo, Capital One] (http://www.slideshare.net/Docker/making-friendly-microservices-by-michele-titlol)
+- [Dockerizing CS50: From Cluster to Cloud to Appliance to Container by David J. Malan, Harvard and Dan Armendariz, Harvard] (http://www.slideshare.net/Docker/dockerizing-cs50-from-cluster-to-cloud-to-appliance-to-container-by-david-malan-and-david-armendariz)
+- [It Takes an Ecosystem to Build a Production Application by Narayan Annamalai, Microsoft and Ross Gardler, Microsoft] (http://www.slideshare.net/Docker/it-takes-an-ecosystem-to-build-a-production-application-by-ross-gardler)
