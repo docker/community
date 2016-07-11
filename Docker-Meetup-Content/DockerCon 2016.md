@@ -48,6 +48,14 @@
 
 ##Tracks: Docker, Docker, Docker
 
+## Videos
+
+- [Docker for Enterprise by Banjot Channa] (https://youtu.be/NSxi8oix748)
+- [Docker for Ops: Operationalize your Docker Built Apps in Production by Evan Hazlett and Vivek Saraswat] (https://youtu.be/H8VULs3JTsU)
+- [Docker for Ops: Docker Storage and Volumes Deep Dive and considerations by Brian Goff] (https://youtu.be/X_q2l8hotAc)
+- [Docker for Ops: Docker Networking Deep Dive, Considerations and Troubleshooting by Madhu Venugopal and Jana Radhakrishnan] (https://youtu.be/Gwdo3fo6pZg)
+- [What's New in Docker 1.12] (https://youtu.be/FgXJKw37po8)
+
 ## Slides
 
 - [What's New in Docker 1.12] (http://www.slideshare.net/Docker/whats-new-in-docker-112-by-mike-goelzer-and-andrea-luzzardi)
