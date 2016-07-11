@@ -85,3 +85,31 @@
 - [It Takes an Ecosystem to Build a Production Application by Narayan Annamalai, Microsoft and Ross Gardler, Microsoft] (http://www.slideshare.net/Docker/it-takes-an-ecosystem-to-build-a-production-application-by-ross-gardler)
 
 ##Tracks: Black Belt Track
+
+## Videos
+
+- [The Golden Ticket: Docker and High Security Microservices by Aaron Grattafiori] (https://youtu.be/346WmxQ5xtk)
+- [Cloning Running Servers with Docker and CRIU by Ross Boucher, Playground Theory] (https://youtu.be/1lCiWaLHwxo)
+- [Docker for Mac and Windows: The Insider’s Guide by Justin Cormack, Docker] (https://youtu.be/7da-B3rY9V4)
+- [Containerd: Building a Container Supervisor by Michael Crosby, Docker] (https://youtu.be/VWuHWfEB6ro)
+- [Windows Server and Docker – The Internals Behind Bringing Docker and Containers to Windows by Taylor Brown, Microsoft and John Starks, Microsoft] (https://youtu.be/85nCF5S8Qok)
+- [Getting Deep on Orchestration: APIs, Actors, and Abstractions in a Distributed System by Docker Captain Jeff Nickoloff, All in Geek Consulting] (https://youtu.be/Ozem3R12--w)
+- [runC: The little engine that could run Docker containers by Docker Captain Phil Estes, IBM] (https://youtu.be/ZAhzoz2zJj8)
+- [Unikernels and Docker: From Revolution to Evolution by Mindy Preston, Docker] (https://youtu.be/0AZVCGTxkTU)
+- [Sharding Containers: Make Go Apps Computer-Friendly Again by Andrey Sibiryov, Uber] (https://youtu.be/5lGVCPQeqiM)
+
+## Slides
+
+- [The Golden Ticket: Docker and High Security Microservices by Aaron Grattafiori] (http://www.slideshare.net/Docker/the-golden-ticket-docker-and-high-security-microservices-by-aaron-grattafiori)
+- [Cloning Running Servers with Docker and CRIU by Ross Boucher, Playground Theory] (http://www.slideshare.net/Docker/cloning-running-servers-with-docker-and-criu-by-ross-boucher)
+- [Docker for Mac and Windows: The Insider’s Guide by Justin Cormack, Docker] (http://www.slideshare.net/Docker/docker-for-mac-and-windows-the-insiders-guide-by-justin-cormack)
+- [Containerd: Building a Container Supervisor by Michael Crosby, Docker] (http://www.slideshare.net/Docker/containerd-building-a-container-supervisor-by-michael-crosby)
+- [Windows Server and Docker – The Internals Behind Bringing Docker and Containers to Windows by Taylor Brown, Microsoft and John Starks, Microsoft] (http://www.slideshare.net/Docker/windows-server-and-docker-the-internals-behind-bringing-docker-and-containers-to-windows-by-taylor-brown-and-john-starks)
+- [Getting Deep on Orchestration: APIs, Actors, and Abstractions in a Distributed System by Docker Captain Jeff Nickoloff, All in Geek Consulting] (http://www.slideshare.net/Docker/getting-deep-on-orchestration-apis-actors-and-abstractions-in-a-distributed-system-by-jeff-nickoloff)
+- [runC: The little engine that could run Docker containers by Docker Captain Phil Estes, IBM] (http://www.slideshare.net/Docker/runc-the-little-engine-that-could-run-docker-containers-by-phil-estes)
+- [Unikernels and Docker: From Revolution to Evolution by Mindy Preston, Docker] (http://www.slideshare.net/Docker/unikernels-and-docker-from-revolution-to-evolution-unikernels-and-docker-from-revolution-to-evolution)
+- [Sharding Containers: Make Go Apps Computer-Friendly Again by Andrey Sibiryov, Uber] (http://www.slideshare.net/Docker/sharding-containers-make-go-apps-computerfriendly-again-by-andrey-sibiryov)
+
+
+
+
