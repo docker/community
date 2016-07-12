@@ -118,6 +118,28 @@
 - [Unikernels and Docker: From Revolution to Evolution by Mindy Preston, Docker] (http://www.slideshare.net/Docker/unikernels-and-docker-from-revolution-to-evolution-unikernels-and-docker-from-revolution-to-evolution)
 - [Sharding Containers: Make Go Apps Computer-Friendly Again by Andrey Sibiryov, Uber] (http://www.slideshare.net/Docker/sharding-containers-make-go-apps-computerfriendly-again-by-andrey-sibiryov)
 
+##Tracks: Black Belt Track
 
+## Videos
 
+- [Learning the Alphabet: A/B, CD and [E-Z] in the Docker Datacenter by Brett Timperman, Kroger Technology] (https://youtu.be/sHS6jhXCwWM)
+- [Using the SDACK Architecture on Security Event Inspection by Evans Ye, Trend Micro and Yu-Lun Chen, Trend Micro] (https://youtu.be/j54VzJEwnck)
+- [Thinking Inside the Container: A Continuous Delivery Story by Maxfield Stewart, Riot Games] (https://youtu.be/YViFZBoKqjg)
+- [Use Docker to Deliver Cognitive Services Running Cross Platform and Multi Cloud Environments by Susan Diamond, IBM] (https://youtu.be/JNhacSo-0T0)
+- [Docker in Production, Look No Hands! by Docker Captain Scott Coulton, HealthDirect] (https://youtu.be/ePp54ofRqRs)
+- [Build Fast, Deploy Fast: Innovating in the Enterprise by Andy Lim and Imran Raja, GE] (https://youtu.be/vM0dUfnF-L4)
+- [Overseeing Ship’s Surveys and Surveyors Globally Using IoT and Docker by Jay Blanchard, Fugro Chance, Inc and Aater Suleman, Flux 7] (https://youtu.be/S7B-pEDoSeE)
+- [Securing the Container Pipeline at Salesforce by Cem Gürkök, Salesforce] (https://youtu.be/rxU1oz0HD0I)
+- [Fully Orchestrating Applications, Microservices and Enterprise Services with Docker at Société Générale by Cedric Coroir, Société Générale and Alex Drahon, Docker] (https://youtu.be/fd9yiUS6Sbw)
 
+## Slides
+
+[Learning the Alphabet: A/B, CD and [E-Z] in the Docker Datacenter by Brett Timperman, Kroger Technology] (http://www.slideshare.net/Docker/learning-the-alphabet-ab-cd-and-ez-in-the-docker-datacenter-by-brett-timperman)
+- [Using the SDACK Architecture on Security Event Inspection by Evans Ye, Trend Micro and Yu-Lun Chen, Trend Micro] (http://www.slideshare.net/Docker/using-the-sdack-architecture-on-security-event-inspection-by-yulun-chen-and-evans-ye)
+- [Thinking Inside the Container: A Continuous Delivery Story by Maxfield Stewart, Riot Games] (http://www.slideshare.net/Docker/thinking-inside-the-container-a-continuous-delivery-story-by-maxfield-stewart)
+- [Use Docker to Deliver Cognitive Services Running Cross Platform and Multi Cloud Environments by Susan Diamond, IBM] (http://www.slideshare.net/Docker/use-docker-to-deliver-cognitive-services-running-cross-platform-and-multi-cloud-environments-by-susan-diamond-63917364)
+- [Docker in Production, Look No Hands! by Docker Captain Scott Coulton, HealthDirect] (http://www.slideshare.net/Docker/docker-in-production-look-no-hands-by-scott-coulton)
+- [Build Fast, Deploy Fast: Innovating in the Enterprise by Andy Lim and Imran Raja, GE] (http://www.slideshare.net/Docker/build-fast-deploy-fast-innovating-in-the-enterprise-by-imran-raja-and-andy-lim)
+- [Overseeing Ship’s Surveys and Surveyors Globally Using IoT and Docker by Jay Blanchard, Fugro Chance, Inc and Aater Suleman, Flux 7] (http://www.slideshare.net/Docker/overseeing-ships-surveys-and-surveyors-globally-using-iot-and-docker-by-jay-blanchard-and-aater-suleman)
+- [Securing the Container Pipeline at Salesforce by Cem Gürkök, Salesforce] (http://www.slideshare.net/Docker/securing-the-container-pipeline-at-salesforce-by-cem-gurkok-63493231)
+- [Fully Orchestrating Applications, Microservices and Enterprise Services with Docker at Société Générale by Cedric Coroir, Société Générale and Alex Drahon, Docker] (http://www.slideshare.net/Docker/fully-orchestrating-applications-microservices-and-enterprise-services-with-docker-at-societe-generale-by-cedric-coroir-and-alex-drahon)
