@@ -49,3 +49,6 @@ We are always looking for new office space to host Docker Meetups or new compani
 
 # Who should I contact if I or one my colleague wants to give a talk at a meetup?
 Please fill out [this form](https://docker.mobilize.io/entities/2371/registrations) to get started and have our team reach out or contact the local organizers directly via meetup.com
+
+# Where can I find slide template for my talks?
+Check out the files section of the organizer group in [Mobilize]
