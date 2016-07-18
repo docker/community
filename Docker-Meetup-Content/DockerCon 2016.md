@@ -48,6 +48,14 @@
 
 ##Tracks: Docker, Docker, Docker
 
+## Videos
+
+- [Docker for Enterprise by Banjot Channa] (https://youtu.be/NSxi8oix748)
+- [Docker for Ops: Operationalize your Docker Built Apps in Production by Evan Hazlett and Vivek Saraswat] (https://youtu.be/H8VULs3JTsU)
+- [Docker for Ops: Docker Storage and Volumes Deep Dive and considerations by Brian Goff] (https://youtu.be/X_q2l8hotAc)
+- [Docker for Ops: Docker Networking Deep Dive, Considerations and Troubleshooting by Madhu Venugopal and Jana Radhakrishnan] (https://youtu.be/Gwdo3fo6pZg)
+- [What's New in Docker 1.12] (https://youtu.be/FgXJKw37po8)
+
 ## Slides
 
 - [What's New in Docker 1.12] (http://www.slideshare.net/Docker/whats-new-in-docker-112-by-mike-goelzer-and-andrea-luzzardi)
@@ -62,3 +70,76 @@
 
 ##Tracks: Wildcard
 
+## Videos
+
+- [Containers and VMs and Cloud: Oh My by Mike Coleman, Docker] (https://youtu.be/aeeaQZT9rBQ)
+- [The Dockerfile Explosion and the Need for Higher Level Tools by Gareth Rushgrove, Puppet] (https://youtu.be/IyuyA8rSBAo)
+- [Immutable Awesomeness by Josh Corman, Sonatype and John Willis, Docker] (https://youtu.be/-Y_ZhvEaZX8)
+- [Efficient Parallel Testing with Docker by Docker Captain Laura Frank, Codeship] (https://youtu.be/N3pPjYxLvkY)
+- [Deploying Personalized Learning Labs using Docker Swarm by Nate Aune, Appsembler and Brian Dant, Appsembler] (https://youtu.be/SMwC39zxXY8)
+- [Making Friendly Microservices by Michele Titolo, Capital One] (https://youtu.be/zRg7pIS3TjM)
+- [Dockerizing CS50: From Cluster to Cloud to Appliance to Container by David J. Malan, Harvard and Dan Armendariz, Harvard] (https://youtu.be/KUPb4n8YB3g)
+- [It Takes an Ecosystem to Build a Production Application by Narayan Annamalai, Microsoft and Ross Gardler, Microsoft] (https://youtu.be/IRDcRlwq-Hw)
+
+## Slides
+
+- [Containers and VMs and Cloud: Oh My by Mike Coleman, Docker] (http://www.slideshare.net/Docker/containers-and-vms-and-clouds-oh-my-by-mike-coleman)
+- [The Dockerfile Explosion and the Need for Higher Level Tools by Gareth Rushgrove, Puppet] (http://www.slideshare.net/Docker/the-dockerfile-explosion-and-the-need-for-higher-level-tools-by-gareth-rushgrove)
+- [Immutable Awesomeness by Josh Corman, Sonatype and John Willis, Docker] (http://www.slideshare.net/Docker/immutable-awesomeness-by-john-willis-and-josh-corman)
+- [Efficient Parallel Testing with Docker by Docker Captain Laura Frank, Codeship] (http://www.slideshare.net/Docker/efficient-parallel-testing-with-docker-by-laura-frank)
+- [Deploying Personalized Learning Labs using Docker Swarm by Nate Aune, Appsembler and Brian Dant, Appsembler] (http://www.slideshare.net/Docker/deploying-personalized-learning-labs-using-docker-swarm-by-nate-aune-and-brian-dant)
+- [Making Friendly Microservices by Michele Titolo, Capital One] (http://www.slideshare.net/Docker/making-friendly-microservices-by-michele-titlol)
+- [Dockerizing CS50: From Cluster to Cloud to Appliance to Container by David J. Malan, Harvard and Dan Armendariz, Harvard] (http://www.slideshare.net/Docker/dockerizing-cs50-from-cluster-to-cloud-to-appliance-to-container-by-david-malan-and-david-armendariz)
+- [It Takes an Ecosystem to Build a Production Application by Narayan Annamalai, Microsoft and Ross Gardler, Microsoft] (http://www.slideshare.net/Docker/it-takes-an-ecosystem-to-build-a-production-application-by-ross-gardler)
+
+##Tracks: Black Belt 
+
+## Videos
+
+- [The Golden Ticket: Docker and High Security Microservices by Aaron Grattafiori] (https://youtu.be/346WmxQ5xtk)
+- [Cloning Running Servers with Docker and CRIU by Ross Boucher, Playground Theory] (https://youtu.be/1lCiWaLHwxo)
+- [Docker for Mac and Windows: The Insider’s Guide by Justin Cormack, Docker] (https://youtu.be/7da-B3rY9V4)
+- [Containerd: Building a Container Supervisor by Michael Crosby, Docker] (https://youtu.be/VWuHWfEB6ro)
+- [Windows Server and Docker – The Internals Behind Bringing Docker and Containers to Windows by Taylor Brown, Microsoft and John Starks, Microsoft] (https://youtu.be/85nCF5S8Qok)
+- [Getting Deep on Orchestration: APIs, Actors, and Abstractions in a Distributed System by Docker Captain Jeff Nickoloff, All in Geek Consulting] (https://youtu.be/Ozem3R12--w)
+- [runC: The little engine that could run Docker containers by Docker Captain Phil Estes, IBM] (https://youtu.be/ZAhzoz2zJj8)
+- [Unikernels and Docker: From Revolution to Evolution by Mindy Preston, Docker] (https://youtu.be/0AZVCGTxkTU)
+- [Sharding Containers: Make Go Apps Computer-Friendly Again by Andrey Sibiryov, Uber] (https://youtu.be/5lGVCPQeqiM)
+
+## Slides
+
+- [The Golden Ticket: Docker and High Security Microservices by Aaron Grattafiori] (http://www.slideshare.net/Docker/the-golden-ticket-docker-and-high-security-microservices-by-aaron-grattafiori)
+- [Cloning Running Servers with Docker and CRIU by Ross Boucher, Playground Theory] (http://www.slideshare.net/Docker/cloning-running-servers-with-docker-and-criu-by-ross-boucher)
+- [Docker for Mac and Windows: The Insider’s Guide by Justin Cormack, Docker] (http://www.slideshare.net/Docker/docker-for-mac-and-windows-the-insiders-guide-by-justin-cormack)
+- [Containerd: Building a Container Supervisor by Michael Crosby, Docker] (http://www.slideshare.net/Docker/containerd-building-a-container-supervisor-by-michael-crosby)
+- [Windows Server and Docker – The Internals Behind Bringing Docker and Containers to Windows by Taylor Brown, Microsoft and John Starks, Microsoft] (http://www.slideshare.net/Docker/windows-server-and-docker-the-internals-behind-bringing-docker-and-containers-to-windows-by-taylor-brown-and-john-starks)
+- [Getting Deep on Orchestration: APIs, Actors, and Abstractions in a Distributed System by Docker Captain Jeff Nickoloff, All in Geek Consulting] (http://www.slideshare.net/Docker/getting-deep-on-orchestration-apis-actors-and-abstractions-in-a-distributed-system-by-jeff-nickoloff)
+- [runC: The little engine that could run Docker containers by Docker Captain Phil Estes, IBM] (http://www.slideshare.net/Docker/runc-the-little-engine-that-could-run-docker-containers-by-phil-estes)
+- [Unikernels and Docker: From Revolution to Evolution by Mindy Preston, Docker] (http://www.slideshare.net/Docker/unikernels-and-docker-from-revolution-to-evolution-unikernels-and-docker-from-revolution-to-evolution)
+- [Sharding Containers: Make Go Apps Computer-Friendly Again by Andrey Sibiryov, Uber] (http://www.slideshare.net/Docker/sharding-containers-make-go-apps-computerfriendly-again-by-andrey-sibiryov)
+
+##Tracks: Use Case 
+
+## Videos
+
+- [Learning the Alphabet: A/B, CD and [E-Z] in the Docker Datacenter by Brett Timperman, Kroger Technology] (https://youtu.be/sHS6jhXCwWM)
+- [Using the SDACK Architecture on Security Event Inspection by Evans Ye, Trend Micro and Yu-Lun Chen, Trend Micro] (https://youtu.be/j54VzJEwnck)
+- [Thinking Inside the Container: A Continuous Delivery Story by Maxfield Stewart, Riot Games] (https://youtu.be/YViFZBoKqjg)
+- [Use Docker to Deliver Cognitive Services Running Cross Platform and Multi Cloud Environments by Susan Diamond, IBM] (https://youtu.be/JNhacSo-0T0)
+- [Docker in Production, Look No Hands! by Docker Captain Scott Coulton, HealthDirect] (https://youtu.be/ePp54ofRqRs)
+- [Build Fast, Deploy Fast: Innovating in the Enterprise by Andy Lim and Imran Raja, GE] (https://youtu.be/vM0dUfnF-L4)
+- [Overseeing Ship’s Surveys and Surveyors Globally Using IoT and Docker by Jay Blanchard, Fugro Chance, Inc and Aater Suleman, Flux 7] (https://youtu.be/S7B-pEDoSeE)
+- [Securing the Container Pipeline at Salesforce by Cem Gürkök, Salesforce] (https://youtu.be/rxU1oz0HD0I)
+- [Fully Orchestrating Applications, Microservices and Enterprise Services with Docker at Société Générale by Cedric Coroir, Société Générale and Alex Drahon, Docker] (https://youtu.be/fd9yiUS6Sbw)
+
+## Slides
+
+[Learning the Alphabet: A/B, CD and [E-Z] in the Docker Datacenter by Brett Timperman, Kroger Technology] (http://www.slideshare.net/Docker/learning-the-alphabet-ab-cd-and-ez-in-the-docker-datacenter-by-brett-timperman)
+- [Using the SDACK Architecture on Security Event Inspection by Evans Ye, Trend Micro and Yu-Lun Chen, Trend Micro] (http://www.slideshare.net/Docker/using-the-sdack-architecture-on-security-event-inspection-by-yulun-chen-and-evans-ye)
+- [Thinking Inside the Container: A Continuous Delivery Story by Maxfield Stewart, Riot Games] (http://www.slideshare.net/Docker/thinking-inside-the-container-a-continuous-delivery-story-by-maxfield-stewart)
+- [Use Docker to Deliver Cognitive Services Running Cross Platform and Multi Cloud Environments by Susan Diamond, IBM] (http://www.slideshare.net/Docker/use-docker-to-deliver-cognitive-services-running-cross-platform-and-multi-cloud-environments-by-susan-diamond-63917364)
+- [Docker in Production, Look No Hands! by Docker Captain Scott Coulton, HealthDirect] (http://www.slideshare.net/Docker/docker-in-production-look-no-hands-by-scott-coulton)
+- [Build Fast, Deploy Fast: Innovating in the Enterprise by Andy Lim and Imran Raja, GE] (http://www.slideshare.net/Docker/build-fast-deploy-fast-innovating-in-the-enterprise-by-imran-raja-and-andy-lim)
+- [Overseeing Ship’s Surveys and Surveyors Globally Using IoT and Docker by Jay Blanchard, Fugro Chance, Inc and Aater Suleman, Flux 7] (http://www.slideshare.net/Docker/overseeing-ships-surveys-and-surveyors-globally-using-iot-and-docker-by-jay-blanchard-and-aater-suleman)
+- [Securing the Container Pipeline at Salesforce by Cem Gürkök, Salesforce] (http://www.slideshare.net/Docker/securing-the-container-pipeline-at-salesforce-by-cem-gurkok-63493231)
+- [Fully Orchestrating Applications, Microservices and Enterprise Services with Docker at Société Générale by Cedric Coroir, Société Générale and Alex Drahon, Docker] (http://www.slideshare.net/Docker/fully-orchestrating-applications-microservices-and-enterprise-services-with-docker-at-societe-generale-by-cedric-coroir-and-alex-drahon)
