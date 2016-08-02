@@ -1,5 +1,5 @@
 ## Slides
-- [What's New in Docker 1.12 by Mike Goelzer and Andrea Luzzardi] (http://www.slideshare.net/Docker/whats-new-in-docker-112-by-mike-goelzer-and-andrea-luzzardi)
+- [What's New in Docker 1.12] (http://www.slideshare.net/Docker/whats-new-in-docker-112-by-mike-goelzer-and-andrea-luzzardi)
 
 ## Videos
 - [Docker Online Meetup #40: Docker 1.12] (https://www.youtube.com/watch?v=joFYGbqjLBc)
