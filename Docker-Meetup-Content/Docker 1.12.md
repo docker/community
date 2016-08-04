@@ -19,3 +19,4 @@
 - [Working Example: HelloWorld using docker 1.12] (https://github.com/tomwillfixit/helloworld)
 - [Working Example: Adding a healthcheck to container image using Docker 1.12] (https://github.com/tomwillfixit/healthcheck)
 - [Lab: Updated Docker for Java lab with 1.12] (https://github.com/docker/labs/tree/master/java)
+- [Lab: Docker Swarm Mode Tutorials] (https://github.com/docker/labs/tree/master/swarm-mode)
