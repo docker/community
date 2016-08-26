@@ -31,6 +31,7 @@ As meetup organizers, you understand that Docker is a technology stack and [Cont
 - Select content that is educational, accurate, and free from sales pitches. 
 - Do not accept talks which slander or publish libel against Docker or other people and companies.
 - Be rigorous in assessing the content submitted by potential speakers. If you need help validating results and analyses, reach out for assistance. 
+- When selecting events to promote, be sure the event features Docker-native solutions in a capacity and highlight that information in the body of the message.
 - If you experience difficulties with Docker products or programs, give us the opportunity to address your feedback in advance. 
 - Make sure you're subscribed to the Docker Organizers mailing list to stay informated about the latest Docker News and community activities
 
