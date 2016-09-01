@@ -12,6 +12,10 @@ The Docker Blog is a great resource to find content! We post the latest Docker n
 
 For our curated collection of content from the community, check out this page: [https://blog.docker.com/curated](https://blog.docker.com/curated)
 
+#### [Docker Forum](https://forums.docker.com/)
+
+This is a public forum for users to discuss questions and explore current design patterns and best practices about Docker and related projects in the Docker Ecosystem. To participate, just log in with your Docker Hub account. 
+
 ####[Docker Weekly](https://www.docker.com/newsletter-subscription)
 Get the latest Docker news straight to your inbox! This weekly newsletter highlights content from the community along with the latest Docker news.
 
