@@ -10,8 +10,7 @@
 ## Articles
 - [Introducing Docker For Windows Server 2016] (https://blog.docker.com/2016/09/dockerforws2016/)
 -[Image2Docker: A New Tool For Prototyping Windows VM Conversions] (https://blog.docker.com/2016/09/image2docker-prototyping-windows-vm-conversions/)
-- [
-Docker Announces Commercial Partnership With Microsoft To Double Container Market By Extending Docker Engine To Windows Server] (https://blog.docker.com/2016/09/docker-microsoft-partnership/)
+- [Docker Announces Commercial Partnership With Microsoft By Extending Docker Engine To Windows Server] (https://blog.docker.com/2016/09/docker-microsoft-partnership/)
 - [Microsoft and Docker offer supported Docker Engine to Windows Server 2016 customers] (https://blogs.technet.microsoft.com/hybridcloud/2016/09/26/microsoft-and-docker-offer-supported-docker-engine-to-windows-server-2016-customers/)
 - [A big step towards multi-platform Docker images] (https://integratedcode.us/2016/04/22/a-step-towards-multi-platform-docker-images/) by Docker Captain [Phil Estes](https://twitter.com/estesp)
 
