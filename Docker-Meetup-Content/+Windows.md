@@ -1,4 +1,4 @@
-# Docker + Microsoft
+# Docker + Windows containers
 
 ## Slides
 - [Slide overview: Docker, Windows and Multi-arch] (https://docs.google.com/presentation/d/1goh8DsA2BRh805KCpzvCUpgvLFa0ABBWg5DTg5Xzfjc/edit?usp=sharing)
