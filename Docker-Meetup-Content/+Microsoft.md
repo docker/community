@@ -9,6 +9,8 @@
 ## Videos
 - [Windows Server & Docker - The Internals Behind Bringing Docker & Containers to Windows - Black Belt] (https://www.youtube.com/watch?v=85nCF5S8Qok)
 - [Powering the Transition to DevOps with Docker on Windows and Azure](https://channel9.msdn.com/events/TechDaysOnline/UK-TechDays-Online-September-2016/Powering-the-Transition-toDevOpswith-Docker-on-Windows-and-Azure) 
+- [Docker Tooling for Visual Studio and ASP.NET Core](https://channel9.msdn.com/Events/Build/2016/Docker-Tooling-for-Visual-Studio-and-ASPNET-Core)
+- 
 
 ## Official Articles
 - [Introducing Docker For Windows Server 2016] (https://blog.docker.com/2016/09/dockerforws2016/)
@@ -29,6 +31,7 @@
 - [1, 2, 3, GO! Run IIS in Docker on Windows Server 2016] (https://blog.sixeyed.com/1-2-3-iis-running-in-nano-server-in-docker-on-windows-server-2016)
 - [Getting Started with Windows Containers](https://blogs.msdn.microsoft.com/jcorioland/2016/10/13/getting-started-with-windows-containers/)
 - [Exploring ASP.NET Core with Docker in both Linux and Windows Containers] (http://www.hanselman.com/blog/ExploringASPNETCoreWithDockerInBothLinuxAndWindowsContainers.aspx)
+- [Visual Studio Tools for Docker] (https://visualstudiogallery.msdn.microsoft.com/0f5b2caa-ea00-41c8-b8a2-058c7da0b3e4)
 
 
 
