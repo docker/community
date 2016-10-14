@@ -10,7 +10,7 @@
 - [Windows Server & Docker - The Internals Behind Bringing Docker & Containers to Windows - Black Belt] (https://www.youtube.com/watch?v=85nCF5S8Qok)
 - [Powering the Transition to DevOps with Docker on Windows and Azure](https://channel9.msdn.com/events/TechDaysOnline/UK-TechDays-Online-September-2016/Powering-the-Transition-toDevOpswith-Docker-on-Windows-and-Azure) 
 - [Docker Tooling for Visual Studio and ASP.NET Core](https://channel9.msdn.com/Events/Build/2016/Docker-Tooling-for-Visual-Studio-and-ASPNET-Core)
-- 
+
 
 ## Official Articles
 - [Introducing Docker For Windows Server 2016] (https://blog.docker.com/2016/09/dockerforws2016/)
