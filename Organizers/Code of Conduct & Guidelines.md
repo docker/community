@@ -2,7 +2,7 @@
  
 Docker meetups bring together people who are interested in, use, develop, and support the Docker ecosystem. Whether you are just starting out, or have been organizing meetups for the past few years, we really appreciate your commitment and are very grateful for your contributions to the Docker Community. 
  
-By holding the organizer or co-organizer leadership position, you are participating in this program and shall agree to abide by the following Code of Conduct. This is to ensure that Docker meetup organizers are a respected and professional group demonstrating a positive impact in the Docker ecosystem. 
+By holding the organizer or co-organizer leadership position, you are participating in this program and shall agree to abide by the following [Code of Conduct](https://github.com/docker/code-of-conduct). This is to ensure that Docker meetup organizers are a respected and professional group demonstrating a positive impact in the Docker ecosystem. 
  
 The Code of Conduct is not a comprehensive list of do’s and don’ts, but rather a living set of guidelines to follow that we will continue to refine as the program matures. Our goal is to raise awareness of the potential for actions that could negatively impact members of the community, not restrict the diversity of ideas and expression.
  
