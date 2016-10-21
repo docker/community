@@ -42,4 +42,4 @@ Docker reserves the right to remove any member from the Organizer program for vi
 
 - [Docker Meetup Guide](https://github.com/docker/community/blob/master/Organizers/Resources/Docker%20Meetup%20Guide.md)
 - [Docker Meetup FAQ] (https://github.com/docker/community/blob/master/Organizers/Resources/Docker%20meetup%20FAQ.md)
-- [Meetup Sponsorship Guidelines] (https://github.com/docker/community/blob/master/Organizers/Resources/Meetup%20Sponsorship.md)
+- [Meetup Sponsorship Guidelines] (https://github.com/docker/community/blob/master/Organizers/Resources/sponsorship%20guidelines.md)
