@@ -14,7 +14,7 @@ All Docker community members should strive to follow our community guidelines. A
 
 # Understand Docker beyond containers. 
 
-As meetup organizers, you understand that Docker is a technology stack and [Container as a Service (Caas) Platform] (https://blog.docker.com/2016/02/containers-as-a-service-caas/) . Ideally, you have a good understanding of all the pieces (Engine, Swarm, Machine, Compose, etc.) and how they fit together. You may feature Docker ecosystem tools at the local meetups your organize but you are still enthusiastic about Docker as a whole technology and platform.
+As meetup organizers, you understand that Docker is an evolving platform stack. Ideally, you have a good understanding of all the pieces (Engine, Swarm, Machine, Compose, etc.) and how they fit together. You may feature Docker ecosystem tools at the local meetups your organize but you are still enthusiastic about Docker as a whole technology and platform.
 
 #Be a force for good in the community
 	
