@@ -5,7 +5,10 @@
 
 # Tutorial
 
-- [Get Started with Swarm Mode] (https://docs.docker.com/engine/swarm/swarm-tutorial/)
+- [Get Started with Swarm Mode](https://docs.docker.com/engine/swarm/swarm-tutorial/)
+- [Docker Swarm Mode full tutorial](https://github.com/docker/labs/beginner-tutorial/README.md)
+- [Service deployment on a swarm in the Cloud](https://github.com/docker/labs/cloud-quick-start/README.md)
+
 
 # Slides
 
@@ -19,6 +22,12 @@
 
 - [Docker Captains Share Tips & Tricks for Using Docker 1.12 ](https://www.youtube.com/watch?v=2ihqKMDRkxM)
 
+- [Docker 1.12 Swarm Mode Deep Dive Part 1: Topology] (https://www.youtube.com/watch?v=dooPhkXT9yI&list=PLkA60AVN3hh-jd4zGpRWHG8LIQUpBXBsM&index=1)
+
+- [Docker 1.12 Swarm Mode Deep Dive Part 2: Orchestration] (https://www.youtube.com/watch?v=_F6PSP-qhdA&list=PLkA60AVN3hh-jd4zGpRWHG8LIQUpBXBsM&index=2)
+
+- [Introduction to Docker 1.12] (https://www.youtube.com/watch?v=joFYGbqjLBc&list=PLkA60AVN3hh-2UPoaft7u7ofKW2mLoAWB&index=24)
+
 
 # Blog posts
 
@@ -31,3 +40,11 @@
 - [Docker 1.12 Swarm Mode & Persistent Storage using NFS](http://collabnix.com/archives/2001)
 
 - [How To Automate The Deploy Of Docker Services To A Docker 1.12 Swarm](https://blog.nimbleci.com/2016/10/05/how-to-automate-the-deploy-of-docker-services/)
+
+- [Docker 1.12.1 Swarm Mode & Persistent Storage with DellEMC RexRay](http://collabnix.com/archives/1814)
+
+- [Scale ASP.NET Core apps with Docker Swarm Mode](http://tutorials.pluralsight.com/microsoft-net/scale-asp-net-core-apps-with-docker-swarm-mode#pjGkrjwDTc32bZrY.99)
+
+## Networking in Swarm Mode
+
+- [Demystifying Docker overlay networking](http://blog.nigelpoulton.com/demystifying-docker-overlay-networking/)
