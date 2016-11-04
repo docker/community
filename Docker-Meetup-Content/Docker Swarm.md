@@ -6,9 +6,11 @@
 # Tutorial
 
 - [Get Started with Swarm Mode](https://docs.docker.com/engine/swarm/swarm-tutorial/)
-- [Docker Swarm Mode full tutorial](https://github.com/docker/labs/beginner-tutorial/README.md)
-- [Service deployment on a swarm in the Cloud](https://github.com/docker/labs/cloud-quick-start/README.md)
-
+- [Docker Swarm Mode full tutorial](https://github.com/docker/labs/blob/master/swarm-mode/beginner-tutorial/README.md)
+- [Service deployment on a swarm in the Cloud](https://github.com/docker/labs/blob/master/swarm-mode/cloud-quick-start/README.md)
+- [Docker Orchestration - Getting Started With Swarm Mode](https://www.katacoda.com/courses/docker-orchestration/getting-started-with-swarm-mode)
+- [Docker Swarm Mode Lab] (https://www.youtube.com/playlist?list=PLKWiGyDcaq_ZT_dYqneTxsc5OglDrj_ap)
+- 
 
 # Slides
 
@@ -28,6 +30,8 @@
 
 - [Introduction to Docker 1.12] (https://www.youtube.com/watch?v=joFYGbqjLBc&list=PLkA60AVN3hh-2UPoaft7u7ofKW2mLoAWB&index=24)
 
+- [Docker Swarm Mode Walkthrough] (https://www.youtube.com/watch?v=KC4Ad1DS8xU)
+
 
 # Blog posts
 
@@ -44,6 +48,8 @@
 - [Docker 1.12.1 Swarm Mode & Persistent Storage with DellEMC RexRay](http://collabnix.com/archives/1814)
 
 - [Scale ASP.NET Core apps with Docker Swarm Mode](http://tutorials.pluralsight.com/microsoft-net/scale-asp-net-core-apps-with-docker-swarm-mode#pjGkrjwDTc32bZrY.99)
+
+- [Docker 1.12 Swarm Mode - round robin inside and out] (http://blog.scottlogic.com/2016/08/30/docker-1-12-swarm-mode-round-robin.html)
 
 ## Networking in Swarm Mode
 
