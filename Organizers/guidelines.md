@@ -10,7 +10,7 @@ You are responsible for keeping abreast of changes to this document. If you need
 
 # Embody the Docker Community Code of Conduct
 
-All Docker community members should strive to follow our community[Code of Conduct](https://github.com/docker/code-of-conduct). As a Docker organizer, it is especially important to lead by showing model behavior at all times, both in person and online.  
+All Docker community members should strive to follow our community [Code of Conduct](https://github.com/docker/code-of-conduct). As a Docker organizer, it is especially important to lead by showing model behavior at all times, both in person and online.  
 
 # Understand Docker beyond containers. 
 
