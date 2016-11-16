@@ -10,8 +10,8 @@
 #
 [Org]
 	[Org."Community aka boom"]
-		people = [
-			"vcoisne",
+	people = [
+      "vcoisne",
       "icecrime",
       "karenbajza",
       "ManoMarks",
@@ -25,7 +25,7 @@
 
 	# ADD YOURSELF HERE IN ALPHABETICAL ORDER
 
-	[people.vcoisne]
+  [people.vcoisne]
 	Name = "Victor Coisne"
 	Email = "victor.coisne@docker.com"
 	GitHub = "vcoisne"
