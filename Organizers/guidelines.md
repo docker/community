@@ -2,15 +2,15 @@
  
 Docker meetups bring together people who are interested in, use, develop, and support the Docker ecosystem. Whether you are just starting out, or have been organizing meetups for the past few years, we really appreciate your commitment and are very grateful for your contributions to the Docker Community. 
  
-By holding the organizer or co-organizer leadership position, you are participating in this program and shall agree to abide by the following [Code of Conduct](https://github.com/docker/code-of-conduct). This is to ensure that Docker meetup organizers are a respected and professional group demonstrating a positive impact in the Docker ecosystem. 
+By holding the organizer or co-organizer leadership position, you are participating in this program and shall agree to abide by the following program guidelines. This is to ensure that Docker meetup organizers are a respected and professional group demonstrating a positive impact in the Docker ecosystem. 
  
-The Code of Conduct is not a comprehensive list of do’s and don’ts, but rather a living set of guidelines to follow that we will continue to refine as the program matures. Our goal is to raise awareness of the potential for actions that could negatively impact members of the community, not restrict the diversity of ideas and expression.
+The document is not a comprehensive list of do’s and don’ts, but rather a living set of guidelines to follow that we will continue to refine as the program matures. Our goal is to raise awareness of the potential for actions that could negatively impact members of the community, not restrict the diversity of ideas and expression.
  
 You are responsible for keeping abreast of changes to this document. If you need further clarification or are unable to fulfill any of the following guidelines, please let us know at your earliest convenience. 
 
 # Embody the Docker Community Code of Conduct
 
-All Docker community members should strive to follow our community guidelines. As a Docker organizer, it is especially important to lead by showing model behavior at all times, both in person and online.  
+All Docker community members should strive to follow our community[Code of Conduct](https://github.com/docker/code-of-conduct). As a Docker organizer, it is especially important to lead by showing model behavior at all times, both in person and online.  
 
 # Understand Docker beyond containers. 
 
@@ -35,8 +35,9 @@ As meetup organizers, you understand that Docker is an evolving platform stack. 
 - If you experience difficulties with Docker products or programs, give us the opportunity to address your feedback in advance. 
 - Make sure you're subscribed to the Docker Organizers mailing list to stay informated about the latest Docker News and community activities
 
-#Enforcing this Code of Conduct
-Docker reserves the right to remove any member from the Organizer program for violating this Code of Conduct. In the event of a violation, the Docker community team will review the situation and determine the consequences on a case by case basis. When an organizer is removed from the program, we retire the remaining benefits and his or her access to Docker Organizer resources.
+#Enforcing these Community Guidelines
+
+Docker reserves the right to remove any member from the Organizer program for violating these guidelines. In the event of a violation, the Docker community team will review the situation and determine the consequences on a case by case basis. When an organizer is removed from the program, we retire the remaining benefits and his or her access to Docker Organizer resources.
 
 #Additional Resources
 
