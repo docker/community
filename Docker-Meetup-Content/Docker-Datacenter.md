@@ -6,9 +6,12 @@
 
 - [DDC Technical Overview] (https://docs.google.com/presentation/d/1ZVSmAn8C-sJopWUntLZCeRe4JBjqRr6NdwWKll2mXQM/edit?usp=sharing)
 
+
 ### Video
 
 - [DockerCon Demo of DDC] (https://youtu.be/KC9tJ7b3dww?t=16m24s)
+
+- [What's New in Docker Datacenter with Engine 1.12 ] (https://www.youtube.com/watch?v=9MjSzMO3euQ)
 
 
 ### Blog posts
@@ -16,6 +19,8 @@
 - [Docker Datacenter Adds Enterprise Orchestration, Security Policy And Refreshed UI](https://blog.docker.com/2016/11/docker-datacenter-adds-enterprise-orchestration-security-policy-refreshed-ui/)
 
 - [Introducing Image Signing Policy In Docker Datacenter](https://blog.docker.com/2016/11/image-signing-policy-docker-datacenter/)
+
+- [Get To Know The Docker Datacenter Networking Updates](https://blog.docker.com/2016/11/get-to-know-docker-datacenter-networking/)
 
 
 ### Docs
