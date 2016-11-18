@@ -22,6 +22,8 @@
 
 - [Get To Know The Docker Datacenter Networking Updates](https://blog.docker.com/2016/11/get-to-know-docker-datacenter-networking/)
 
+-[Three Considerations For Planning Your Docker Datacenter Deployment](https://blog.docker.com/2016/11/three-considerations-docker-datacenter-deployment/)
+
 
 ### Docs
 
