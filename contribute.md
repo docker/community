@@ -1,4 +1,4 @@
-## Contributing to Tutorials ##
+## Contributing ##
 
 Thank you so much for your interest in contributing to the [Docker](https://docker.com) community repo. Docker has open source in its DNA, and has always worked closely with the community.
 
