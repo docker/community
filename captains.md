@@ -1,3 +1,5 @@
+<img align="right"  width="35%" height="35%" src="https://www.docker.com//sites/default/files/captain%2Btitle-final.png">
+
 Docker Captain is a distinction that Docker awards select members of the community that are both experts in their field and are passionate about sharing their Docker knowledge with others. Captains are Docker ambassadors (not Docker employees) and their genuine love of all things Docker has a huge impact on the Docker community, for example: 
 - Blogging
 - writing books
@@ -6,8 +8,6 @@ Docker Captain is a distinction that Docker awards select members of the communi
 - Creating tutorials and courses 
 - Offering support in forums
 - Organizing and contributing to local events / meetups 
-
-<img width="35%" height="35%" src="https://www.docker.com//sites/default/files/captain%2Btitle-final.png">
 
 Captains make Docker’s mission of democratizing technology possible. Whether you are new to Docker or have been a part of the community for a while, please don’t hesitate to reach out to Docker Captains with your challenges, questions, speaking requests and more.
 
