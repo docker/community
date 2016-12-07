@@ -7,6 +7,8 @@ Docker Captain is a distinction that Docker awards select members of the communi
 - Offering support in forums
 - Organizing and contributing to local events / meetups 
 
+<img align="right"  width="35%" height="35%" src="https://www.docker.com//sites/default/files/captain%2Btitle-final.png">
+
 Captains make Docker’s mission of democratizing technology possible. Whether you are new to Docker or have been a part of the community for a while, please don’t hesitate to reach out to Docker Captains with your challenges, questions, speaking requests and more.
 
 Individuals are awarded the distinction of Docker Captain because of their technical expertise and their exemplary contributions to and outstanding engagement with the Docker community. Captains must remain active stewards in the Docker community in order to continue in the program. Benefits of being a Docker Captain include early access to Docker products, updates and announcements; direct support from Docker technical and marketing staff; exclusive Captains events, and more. 
