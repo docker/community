@@ -38,7 +38,7 @@ Find a date for the first meetup that does not compete with other groups
 Look for potential speakers living in your city
  
 # Am I allowed to use the Docker logo ?
-You are allowed to use the Docker logo on the meetup group page as long as you respect our [code of conduct]. Check out our media kit to choose which versions of the Docker logo you’d like to use.
+You are allowed to use the Docker logo on the meetup group page as long as you respect our [code of conduct](https://github.com/docker/code-of-conduct). Check out our media kit to choose which versions of the Docker logo you’d like to use.
 
 # What happens if I no longer have time to run a Docker meetup group?
 We really appreciate all the contributions Docker Meetup organizers make to the Docker community. Although we hope to collaborate with you in the long term, we totally understand it if you have to step down as an organizer, just reach out and let us know whether or not you’ve found a substitute.
