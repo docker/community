@@ -3,7 +3,9 @@
 Many students from universities and colleges all over the world reach out to us daily because they want to learn Docker or help others learn Docker. So we decided to support Campus Ambassadors at different colleges / universities to bring together students who are interested in, use, develop, and support the Docker ecosystem. Whether you just want to see what the Campus Ambassador program entails or you already have experience organizing events and are eager to bring Docker to your campus, these guidelines should help you decide whether you should apply to the program. Applicants should already have an intermediate prior knowledge of Docker and the ambition to become advanced users.
 
 If you decide to apply for a Campus Ambassador leadership position, you will be participating in this program and shall agree to abide by the following program guidelines. This is to ensure that Docker Campus Ambassadors are a respected and professional group of students demonstrating a positive impact in the Docker ecosystem.
+
 This document is not a comprehensive list of dos and don’ts, but rather a living set of guidelines to follow that we will continue to refine as the program matures. Our goal is to raise awareness of the potential for actions that could negatively impact members of the community, not restrict the diversity of ideas and expression.
+
 You are responsible for keeping abreast of changes to this document. If you need further clarification or are unable to fulfill any of the following guidelines, please let us know at your earliest convenience.
 
 # Embody the Docker Community Code of Conduct
@@ -39,6 +41,7 @@ In being a Campus Ambassador, you understand that Docker is an evolving platform
 Docker reserves the right to remove any member from the Campus Ambassadors program for violating these guidelines. In the event of a violation, the Docker community team will review the situation and determine the consequences on a case by case basis. When a Campus Ambassador is removed from the program, we retire the remaining benefits and his or her access to Docker Campus Ambassadors resources.
 
 # Next Steps
-If you are comfortable with the above information and confident that you can abide by these guidelines please apply to be an official Docker Campus Ambassador here and we will be in touch shortly.
+
+If you are comfortable with the above information and confident that you can abide by these guidelines please [apply to be an official Docker Campus Ambassador here](https://community.docker.com/registrations/groups/9355 "Application") and we will be in touch shortly.
 
 
