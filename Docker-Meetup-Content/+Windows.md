@@ -19,6 +19,7 @@
 - [Image2Docker: A New Tool For Prototyping Windows VM Conversions] (https://blog.docker.com/2016/09/image2docker-prototyping-windows-vm-conversions/)
 - [Docker Announces Commercial Partnership With Microsoft By Extending Docker Engine To Windows Server] (https://blog.docker.com/2016/09/docker-microsoft-partnership/)
 - [Microsoft and Docker offer supported Docker Engine to Windows Server 2016 customers] (https://blogs.technet.microsoft.com/hybridcloud/2016/09/26/microsoft-and-docker-offer-supported-docker-engine-to-windows-server-2016-customers/)
+- [Docker For Windows Server And Image2Docker](https://blog.docker.com/2017/01/docker-windows-server-image2docker)
 
 
 
