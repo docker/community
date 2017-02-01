@@ -16,4 +16,4 @@
 # Slides 
 
 - [Docker 1.13 slides](https://docs.google.com/presentation/d/1yrG94vTwWv4UCmDV7fXEDHNhjbWppvRUYqrbHBJCHTA/edit?usp=sharing)
-- [What's new in docker 1.13.0] (http://www.slideshare.net/Docker/online-meetup-whats-new-in-docker-1130)
+- [Docker Online Meetup: What's new in docker 1.13.0] (http://www.slideshare.net/Docker/online-meetup-whats-new-in-docker-1130)
