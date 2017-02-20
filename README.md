@@ -13,7 +13,7 @@ By joining this program you'll have the opportunity to become a more informed an
 - Priority access to beta programs
 - Opportunities to get involved as a user / customer reference, mentor, speaker, blogger, meetup organizer and more!
 
-Eveyone is welcome to join the Docker Community as long as long as they comply with our [Code of Conduct] (https://github.com/docker/code-of-conduct/blob/master/code-of-conduct.md).
+Everyone is welcome to join the Docker Community as long as long as they comply with our [Code of Conduct] (https://github.com/docker/code-of-conduct/blob/master/code-of-conduct.md).
 
 Don't hesitate to [contact us](mailto:meetups@docker.com) if you have questions or want to get involved as a meetup organizers, speakers, sponsors, etc.
 

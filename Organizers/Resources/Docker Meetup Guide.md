@@ -32,7 +32,7 @@ As a red thread through the organizing process, you can use the following phases
 Start with a scoping phase that shapes the general purpose of your meetup series. In this phase, you answer questions like: Do I want to organize simple, open discussions about Docker or I want to invite speakers. All the remaining phases belong to a single meetup, i.e. for each meetup you start with planning and finish up with the closing phase. Following this red thread will make it easy for you to always have an overview what's important now and next.
 
 ## Scope
-  - **Define your scope and goal:** All subsequent planning steps are aligned to the scope and goal you define. Deine, what kind of meetup you wanna run:
+  - **Define your scope and goal:** All subsequent planning steps are aligned to the scope and goal you define. Define, what kind of meetup you wanna run:
   Usually, Docker Meetup events are 2-3 hours long, start between 4pm and 7pm and feature 1 to 3 main talks lasting 20-30 minutes each. The agenda is up to each meetup Community, so feel free to mix or exchange this with e.g.
    - Simple social gatherings to discuss Docker projects
    - 10-minute lightning talks
@@ -197,7 +197,7 @@ Check the presentation equipment.
 
 ...
 
-## Lauch: Meet up!
+## Launch: Meet up!
 Plan to be finished 15 Min. before the meetup officially starts. You'll need this buffer anyway :-)
 Let the moderator start starting the show, e.g. by asking the crowd where they come from etc.
 Manage the speakers' time by two simple methods:
