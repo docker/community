@@ -5,7 +5,7 @@
 - [What’s New in Docker Engine 1.13 Swarm Mode?](http://collabnix.com/archives/2381) by [Ajeet Singh Raina](https://twitter.com/ajeetsraina)
 - [Using Docker Stack And Compose YAML Files To Deploy Swarm Services](https://technologyconversations.com/2017/01/23/using-docker-stack-and-compose-yaml-files-to-deploy-swarm-services) by [Viktor Farcic](https://twitter.com/vfarcic)
 - [Deploy Docker Compose Services to Swarm](http://blog.arungupta.me/deploy-docker-compose-services-swarm) by [Arun Gupta](https://twitter.com/arungupta)
-- [What’s New in Docker 1.13](http://blog.arungupta.me/docker-1-13-management-commands) by [Laura Frank](https://twitter.com/rhein_wein)
+- [What’s New in Docker 1.13](https://blog.codeship.com/whats-new-docker-1-13/) by [Laura Frank](https://twitter.com/rhein_wein)
 - [Docker 1.13 Management Commands](http://blog.arungupta.me/docker-1-13-management-commands/) by [Arun Gupta](https://twitter.com/arungupta)
 
 # Video
