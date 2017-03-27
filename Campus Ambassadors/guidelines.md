@@ -10,7 +10,7 @@ You are responsible for keeping abreast of changes to this document. If you need
 
 # Embody the Docker Community Code of Conduct
 
-All Docker community members should strive to follow our community [Code of Conduct](https://github.com/docker/code-of-conduct).. As a Docker Campus Ambassador, it is especially important to lead by showing model behavior at all times, both in person and online.
+All Docker community members should strive to follow our community [Code of Conduct](https://github.com/docker/code-of-conduct). As a Docker Campus Ambassador, it is especially important to lead by showing model behavior at all times, both in person and online.
 
 # Understand Docker beyond containers.
 
@@ -26,7 +26,7 @@ In being a Campus Ambassador, you understand that Docker is an evolving platform
 
 # Curate balanced and accurate content
 
-- The Docker Community team will provide you with much of the content you need, including slide decks, training labs, information about new product releases tec but you are also welcome to accept talks from other members of the community.
+- The Docker Community team will provide you with much of the content you need, including slide decks, training labs, information about new product releases, etc but you are also welcome to accept talks from other members of the community.
 - When selecting content for you events and/or using program resources to produce content, prioritize featuring Docker-native solutions over others.
 - Be respectful when mentioning other vendors, technologies, and communities in the ecosystem.
 - Select content that is educational, accurate, and free from sales pitches.
@@ -34,14 +34,12 @@ In being a Campus Ambassador, you understand that Docker is an evolving platform
 - Be rigorous in assessing the content submitted by potential speakers. If you need help validating results and analyses, reach out to us for assistance.
 - When selecting events to promote, be sure the event features Docker-native solutions in a capacity and highlight that information in the body of the message.
 - If you experience difficulties with Docker products or programs, give us the opportunity to address your feedback in advance.
-- Make sure you're subscribed to the Docker Campus Ambassadors mailing list on Mobilize to stay informed about the latest Docker News and community activities
+- Make sure you're subscribed to the Docker Campus Ambassadors mailing list on Mobilize to stay informed about the latest Docker News and community activities.
 
 # Enforcing these Community Guidelines
- 
+
 Docker reserves the right to remove any member from the Campus Ambassadors program for violating these guidelines. In the event of a violation, the Docker community team will review the situation and determine the consequences on a case by case basis. When a Campus Ambassador is removed from the program, we retire the remaining benefits and his or her access to Docker Campus Ambassadors resources.
 
 # Next Steps
 
-If you are comfortable with the above information and confident that you can abide by these guidelines please [apply to be an official Docker Campus Ambassador here](https://community.docker.com/registrations/groups/9355 "Application") and we will be in touch shortly.
-
-
+If you are comfortable with the above information and confident that you can abide by these guidelines please [apply to be an official Docker Campus Ambassador here](https://community.docker.com/registrations/groups/9355) and we will be in touch shortly.
