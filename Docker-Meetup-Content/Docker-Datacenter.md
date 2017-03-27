@@ -2,16 +2,16 @@
 
 ### Slides
 
-- [What's New in DDC] (https://docs.google.com/presentation/d/1OzTKr4BWO6PrRIFJ3Mp7GVnYHY6ivUxrnbbHcKP48rE/edit?usp=sharing)
+- [What's New in DDC](https://docs.google.com/presentation/d/1OzTKr4BWO6PrRIFJ3Mp7GVnYHY6ivUxrnbbHcKP48rE/edit?usp=sharing)
 
-- [DDC Technical Overview] (https://docs.google.com/presentation/d/1ZVSmAn8C-sJopWUntLZCeRe4JBjqRr6NdwWKll2mXQM/edit?usp=sharing)
+- [DDC Technical Overview](https://docs.google.com/presentation/d/1ZVSmAn8C-sJopWUntLZCeRe4JBjqRr6NdwWKll2mXQM/edit?usp=sharing)
 
 
 ### Video
 
-- [DockerCon Demo of DDC] (https://youtu.be/KC9tJ7b3dww?t=16m24s)
+- [DockerCon Demo of DDC](https://youtu.be/KC9tJ7b3dww?t=16m24s)
 
-- [What's New in Docker Datacenter with Engine 1.12 ] (https://www.youtube.com/watch?v=9MjSzMO3euQ)
+- [What's New in Docker Datacenter with Engine 1.12 ](https://www.youtube.com/watch?v=9MjSzMO3euQ)
 
 
 ### Blog posts
@@ -35,4 +35,4 @@
 
 - [Datasheet](http://www.docker.com/sites/default/files/Docker_Datacenter_Brochure_11.13.16.pdf)
 
-- [What's New in DDC Hand out] (https://drive.google.com/file/d/0B-DZLVOtmtcESnhKcy03ZmEtb0dGeTFHYW0yUnJNMVU0ZEI0/view?usp=sharing)
+- [What's New in DDC Hand out](https://drive.google.com/file/d/0B-DZLVOtmtcESnhKcy03ZmEtb0dGeTFHYW0yUnJNMVU0ZEI0/view?usp=sharing)
