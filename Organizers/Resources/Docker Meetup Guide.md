@@ -2,7 +2,7 @@
 
 Docker Meetups are social events organized by community members who are interested in talking and learning about the Docker projects.
 
-Anyone who is interested in meeting with others to discuss about Docker is welcome to organize meetups. We simply ask our organizers to comply with our [Code of Conduct](https://github.com/docker/code-of-conduct) and ensure everyone in the community feels welcome!
+Anyone who is interested in meeting with others to discuss about Docker is welcome to organize meetups. The first step is to read and understand our [Code of Conduct](https://github.com/docker/code-of-conduct) and then to [apply to the program here](https://community.docker.com/registrations/groups/1865) to be formally onboarded by a member of the Docker Community Team. 
 
 This guide helps you to successfully organize Docker Meetups. It provides tips, checklists, and concepts to do your planning effectively.
 
@@ -10,18 +10,19 @@ This guide helps you to successfully organize Docker Meetups. It provides tips, 
 # Preparation
 At first, make sure you answer the following questions:
 
-  - **Bootstrap or contribute:** Anyone can start a Docker Meetup group as long as there is not an existing Docker user group in your city. Check out the [Docker community page](https://www.docker.com/community/meetup-groups) to make sure a group does not already exist in your region.
+  - **Bootstrap or contribute:** Anyone can start a Docker Meetup group as long as there is not an existing Docker user group in your city. Check out the [Docker community page](https://www.docker.com/community/meetup-groups) to make sure a group does not already exist in your city. If one does exist and you would like to help out please email meetup@docker.com and we will make an introduction to the local organizer. 
   - **Team up – but maintain a single coordinator**
   In case you opt for bootstrapping the meetup, try go get others involved. Spread the tasks across several shoulders, but make sure there is a single person responsible who manages all important information.
   - **Check: Commitment**: Ask yourself: In case the first meetup works out well, will you take enough time to organize a second and a third one? It's not worth it for just a single one. Organizing meetups is very rewarding in several aspects but building and maintaining a community requires a commitment.
 
 
 # Structure Your Meetup Project
-If you decided to start, email us at `meetup@docker.com` to tell us in which city you wish to launch a Docker group. Let us know where you plan to host your first Docker Meetup and/or if we can help you find a venue. Let us know if you have any sponsors or speakers in mind so we can share resources.
+If you decided to start, [apply to the program here](https://community.docker.com/registrations/groups/1865) and a member of the Community Team will be in touch to help you launch your Docker group. The Community Team can help with things like finding venues, sponsors and speakers and can provide swag for your event.
+
 Once the group is launched, we recommend scheduling the first meetup with enough lead time for successful promotion.
 
 Next, make yourself familiar with the three most relevant tools:
-  - Mobilize.com: It provides updates from Docker and the Community
+  - [The Docker Community Directory](https://community.docker.com): This is where you applied to the organizers program, but it also acts as a Docker Community Directory and its built-in messaging system is the main method of communication from the Docker Team. Subscribing to the organizers mailing list is imperative as all Docker and community information is sent to organizers this way. 
   - Github.com: Create TODO lists, agendas, and meeting notes
   - Meetup.com: Publish events and track attendees
 
@@ -219,8 +220,8 @@ If applicable, write a blog post about the meetup with pictures and its highligh
 
 # Online Resources available to Meetup organizers
 
-#### [Mobilize](https://docker.mobilize.io)
-Mobilize is a simple communication & directory tool for us to share events, activities, and programs with groups of active community members. All our members can easily reach one another. You can open discussions among selected members, send direct messages, share ideas and experiences, get help finding sponsors and speakers and help other members succeed and run great meetup events. When the community supports each other, everyone wins!
+#### [The Docker Community Directory](tps://community.docker.com)
+The Docker Community Directory is a simple communication & directory tool for us to share events, activities, and programs with groups of active community members. All our members can easily reach one another. You can open discussions among selected members, send direct messages, share ideas and experiences, get help finding sponsors and speakers and help other members succeed and run great meetup events. When the community supports each other, everyone wins!
 The Docker Community page.
 
 #### [Docker Blog](https://blog.docker.com/)
