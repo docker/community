@@ -15,17 +15,17 @@ The containerd summit (track) is sponsored by the Cloud Native Computing Foundat
 
 ## Agenda
 
-Ligne 1 8am - 9am - Registration & Breakfast Ligne 1
-Ligne 2 9am - 9:15am - Open Source at Docker, contribution & collaboration with the Linux Foundation and CNCF Ligne 2
-- 9:15am - 10am - Introduction and demo of the Docker Internals projects and how they work together
-- 10am - 10:30am - containerd deep dive 
-- 10:30am - 11am - Break
-11am - 12:30pm: Quick deep dive / demo on each projects by maintainers
-12:30pm - 1:30pm - Lunch
-1:30pm - 3pm - hands-on tracks part 1
-3pm - 3:30pm - Break
-3:30pm - 5pm - hands-on tracks part 2
-5pm - 7pm - Happy Hour 
+- **8am - 9am** - Registration & Breakfast
+- **9am - 9:15am** - Open Source at Docker, contribution & collaboration with the Linux Foundation and CNCF 
+- **9:15am - 10am** - Introduction and demo of the Docker Internals projects and how they work together
+- **10am - 10:30am** - containerd deep dive 
+- **10:30am - 11am** - Break
+- **11am - 12:30pm** - Quick deep dive / demo on each projects by maintainers
+- **12:30pm - 1:30pm** - Lunch
+- **1:30pm - 3pm** - hands-on tracks part 1
+- **3pm - 3:30pm** - Break
+- **3:30pm - 5pm** - hands-on tracks part 2
+- **5pm - 7pm** - Happy Hour 
 
 ## Discussion Points
 
