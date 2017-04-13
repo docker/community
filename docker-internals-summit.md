@@ -29,11 +29,12 @@ The containerd summit (track) is sponsored by the Cloud Native Computing Foundat
 
 ## Discussion Points
 
-As you can see the summit will start with static talks in the morning and end with two collaborative hands-on breakout/BoF sessions in the afternoon. Given the size of the group, we created this document for everyone to suggest discussion points for the breakout sessions.
+As you can see the summit will start with static talks in the morning and end with two collaborative hands-on breakout/BoF sessions in the afternoon. Given the size of the group, the goal is for everyone to suggest discussion points for the breakout sessions ahead of the actual summit. 
 
-If you would like to add a discussion point for one of the project below, please submit a PR adding it to the list below. A simple one line sentence is enough or expand if needed.
+If you would like to add a discussion point for runC or containerd - please [submit directly in the /containerd repo](https://github.com/containerd/containerd/blob/master/docs/dockercon-summit.md)
 
-### runC / containerd - please [submit directly in the /containerd repo](https://github.com/containerd/containerd/blob/master/docs/dockercon-summit.md)
+If you would like to add a discussion point for one of the projects below, please submit a PR adding it to the list below. A simple one line sentence is enough or expand if needed.
+
 ### SwarmKit / Libnetwork / Security
 ### Infrakit / HyperKit  
 ### Notary 
