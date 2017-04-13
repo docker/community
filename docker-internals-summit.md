@@ -35,9 +35,8 @@ If you would like to add a discussion point for runC or containerd - please [sub
 
 If you would like to add a discussion point for one of the projects below, please submit a PR adding it to the list below. A simple one line sentence is enough or expand if needed.
 
-### SwarmKit / Libnetwork / Security
-### Infrakit / HyperKit  
-### Notary 
-### Docker Registry 
-### Infinit / Datakit
-### Unikernels / MirageOS 
+### [SwarmKit](https://github.com/docker/swarmkit) / [libnetwork](https://github.com/docker/libnetwork)
+### [Infrakit](https://github.com/docker/infrakit) / [HyperKit](https://github.com/docker/hyperkit) 
+### [Notary](https://github.com/docker/notary) 
+### [Infinit](https://github.com/infinit/infinit) / [DataKit](https://github.com/docker/datakit)
+### [MirageOS](https://github.com/mirage/mirage)and Unikernels
