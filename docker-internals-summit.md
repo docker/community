@@ -20,7 +20,7 @@ The containerd summit (track) is sponsored by the Cloud Native Computing Foundat
 - **9:15am - 10am** - Moby Project and LinuxKit deep dive
 - **10am - 10:30am** - containerd deep dive 
 - **10:30am - 11am** - Break
-- **11am - 12:30pm** - Quick deep dive / demo on each components of the Moby project by maintainers
+- **11am - 12:30pm** - Quick update / demo on each components of the Moby project by maintainers
 - **12:30pm - 1:30pm** - Lunch
 - **1:30pm - 3pm** - Birds of a Feather part 1
 - **3pm - 3:30pm** - Break
