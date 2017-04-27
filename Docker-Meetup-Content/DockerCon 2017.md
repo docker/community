@@ -42,7 +42,7 @@
 - [Day 2 General Session Slides](https://www.slideshare.net/Docker/dockercon-2017-general-session-day-2-ben-golub-75362594)
 
 
-##Articles:
+## Articles
 
 - [Docker Blog: DockerCon Day 2 Highlights](https://blog.docker.com/2017/04/dockercon-2017-day-2-highlights/)
 - [Modernize Traditional Apps Program](https://blog.docker.com/2017/04/modernizing-traditional-apps-with-docker/)
