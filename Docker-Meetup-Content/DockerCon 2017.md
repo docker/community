@@ -1,7 +1,8 @@
 # DockerCon Highlights Recap
 - [Online Meeup Recap Slides](https://docs.google.com/presentation/d/1oyoNFIet2k3tmTIxfQf_XRJCh-iTiua81n10ObhgI_4/edit?usp=sharing)
 - [Online Meetup Recap Video](https://www.youtube.com/watch?v=M2aL6IkcgPc)
-- [Mentor Summit Recap talk by Jérôme Petazzoni](https://www.youtube.com/watch?v=lISz_N_QkM0)
+- [Mentor Summit Recap video by Jérôme Petazzoni](https://www.youtube.com/watch?v=lISz_N_QkM0)
+- [DockerCon Recap blog by Laura Frank](https://blog.codeship.com/dockercon-2017-recap/)
 
 
 # Day 1: General Session
