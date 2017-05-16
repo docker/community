@@ -2,17 +2,14 @@
 
 ## Why sponsor?
 
-The main benefit of sponsoring a Docker Meetup is visibility. As a sponsor, you can gain visibility in the following ways:
-- Listing as a sponsor on the meetup.com page left column
-- Listing in the meetup event page event details
-- Thanks in pre- and/or post-event emails
+Build brand awareness in your local community by sponsoring a Docker Meetup. Benefits of a sponsorship may include but aren't limited to:
+- Listing as a sponsor on the meetup.com page (left column)
+- Listing in the event details meetup page
+- Recognition in pre- and/or post-event emails
 - Verbal thank you in opening or closing remarks
-- Recognition in the following Docker promotional channels
-- Docker social media networks
-- Docker Weekly newsletter
-- Docker Monthly Events blog
+- Digital promotion of event
 
-There are three sponsorship options available:
+Three sponsorship options available:
 - Venue Host sponsorship
 - Food/ Beverage sponsorship
 - Venue + Food/ Beverage sponsorship
@@ -22,10 +19,10 @@ Thank you to all our wonderful sponsors!
 ## General Sponsorship FAQ
 
 #### Can we present a talk at the event we sponsor?
-Yes as long as the talk is not a sales pitch. Another option is a 2-5 minute intro at the beginning of the event.
+Yes, as long as the talk is not a sales pitch. Another option is a 2-5 minute intro at the beginning of the event.
 
 #### Do you offer annual sponsorship packages?
-In an effort to keep our meetup events neutral, we mostly welcome ad hoc sponsorships. If you are interested in a recurring sponsorship, please contact Docker at meetups@docker.com
+In an effort to keep our meetup events neutral, we mostly welcome ad hoc sponsorships. If you are interested in a recurring or global sponsorship, please contact Docker at meetups@docker.com
 
 #### What is the agenda for a typical meetup?
 A typical meetup involves a few speaker presentations and some time for Q&A. Speaker presentations usually vary from one to three presenters who typically speak from 30 minutes to one hour. Events usually start in the evening around 6-7PM. Your local organizer contact will be able to give you the full details for their city.
@@ -45,7 +42,7 @@ While we often secure a separate sponsor for food and beverages, many venues are
 ## Food/ Beverage Sponsor FAQ			
 
 #### Do we need to provide vegetarian/gluten-free/vegan meal options?
-We ask for a vegetarian option to be served but we do not require vegan or gluten-­free options.
+We ask for a vegetarian option to be served but we do not require vegan or gluten-free options.
 
-#### What is a typical meal that is served look like? 
+#### What does a typical meal look like? 
 A typical meal is pizza and a selection of soft drinks and beer. Talk to your local organizer for average prices.
