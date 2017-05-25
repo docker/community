@@ -10,7 +10,6 @@
 - [Service deployment on a swarm in the Cloud](https://github.com/docker/labs/blob/master/swarm-mode/cloud-quick-start/README.md)
 - [Docker Orchestration - Getting Started With Swarm Mode](https://www.katacoda.com/courses/docker-orchestration/getting-started-with-swarm-mode)
 - [Docker Swarm Mode Lab](https://www.youtube.com/playlist?list=PLKWiGyDcaq_ZT_dYqneTxsc5OglDrj_ap)
--
 
 # Slides
 
