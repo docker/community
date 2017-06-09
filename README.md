@@ -47,3 +47,6 @@ Check out our YouTube page for videos of recorded talks from DockerCon, webinars
 
 #### Social Media
 Follow us on [Twitter](https://twitter.com/docker), join the Docker community on [Google+](https://plus.google.com/u/0/communities/108146856671494713993), like Docker on [Facebook](https://www.facebook.com/docker.run) and join the Docker Users Group on [LinkedIn](https://www.linkedin.com/company/docker)
+
+#### Curated tutorial content
+A curated list of tutorials and resources produced by the community [tutorials](./curated-content.md)
