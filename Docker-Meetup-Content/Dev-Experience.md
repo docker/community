@@ -14,11 +14,11 @@
      - [Training: webapps](http://training.play-with-docker.com/webapps/)
    - Compost/Stack
      - docker-stack deploy
-       - [Training: swarm stack intro](http://training.play-with-docker.com/swarm-stack-intro/)
+       - [Training: swarm stack intro](http://training.play-with-docker.com/swarm-stack-intro)
 
 ### Try in IDE
 - Compose/Stack
-    - [Docker Docs: Getting Started wtih Docker Compose] (https://docs.docker.com/compose/gettingstarted/)
+    - [Docker Docs: Getting Started wtih Docker Compose](https://docs.docker.com/compose/gettingstarted/) 
 - Debug
     - [Labs: jodejs debigging images](https://github.com/docker/labs/tree/master/developer-tools/nodejs-debugging/images)
 
