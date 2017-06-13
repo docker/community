@@ -10,7 +10,7 @@ In redeeming the Docker Student Developer Kit, students will also have access to
 ## The Docker Campus Ambassador Program
 For those students who are already using Docker and want to initiate and foster a Docker community on their college campus, we have created the Docker Campus Ambassador program. This program is for students of any discipline, who already have an intermediate to advanced knowledge of Docker and want to run events (workshops, talks, show and tells etc.) to help their peers learn Docker. Students who are accepted into this program will receive exclusive training from Docker to learn both technical and professional skills, privileged access to the latest Docker editions, admission to all Beta programs, discounted and free tickets to community events like DockerCon and of course… lots of swag!  Students who apply to this program should be leaders on campus and have a knack for organizing and catalyzing groups of people. If this is you, please read the guidelines and apply to the Campus Ambassadors program here.
 
-<img width="100%" height="100%" src="hhttps://blog.docker.com/wp-content/uploads/campus.png">
+<img width="100%" height="100%" src="https://blog.docker.com/wp-content/uploads/campus.png">
 
  
 
