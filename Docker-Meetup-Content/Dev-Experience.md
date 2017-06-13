@@ -20,7 +20,7 @@
 - Compose/Stack
     - [Docker Docs: Getting Started wtih Docker Compose](https://docs.docker.com/compose/gettingstarted/) 
 - Debug
-    - [Labs: jodejs debigging images](https://github.com/docker/labs/tree/master/developer-tools/nodejs-debugging/images)
+    - [Labs: nodejs debigging images](https://github.com/docker/labs/tree/master/developer-tools/nodejs-debugging/images)
 
 ### Move to Docker Cloud
 - [Overview Video: Docker Cloud](https://www.youtube.com/watch?v=VW1RIWMQOg0&list=PLkA60AVN3hh8Jtg6IduMZCeCuzRYZH5Wz)
