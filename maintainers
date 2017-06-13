@@ -24,23 +24,18 @@
 # in the people section.
 
 	# ADD YOURSELF HERE IN ALPHABETICAL ORDER
-
-  [people.vcoisne]
-	Name = "Victor Coisne"
-	Email = "victor.coisne@docker.com"
-	GitHub = "vcoisne"
-  
-  [people.icecrime]
-	Name = "Arnaud Porterie"
-	Email = "arnaud@docker.com"
-	GitHub = "icecrime"
-  
-  [people.manomarks]
-	Name = "Mano Marks"
-	Email = "mano@docker.com"
-	GitHub = "ManoMarks"
   
   [people.karenbajza]
 	Name = "Karen Bajza"
 	Email = "karen@docker.com"
 	GitHub = "karenbajza"
+	
+  [people.manomarks]
+	Name = "Mano Marks"
+	Email = "mano@docker.com"
+	GitHub = "ManoMarks"
+  
+  [people.vcoisne]
+	Name = "Victor Coisne"
+	Email = "victor.coisne@docker.com"
+	GitHub = "vcoisne"
