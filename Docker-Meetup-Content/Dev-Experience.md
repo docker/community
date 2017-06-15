@@ -32,7 +32,6 @@
   - Autobuilds
     - [Video: Automated Builds with Docker Cloud](https://www.youtube.com/watch?v=sl2mfyjnkXk&list=PLkA60AVN3hh8Jtg6IduMZCeCuzRYZH5Wz&index=6)
   - Security Scanning
-    - DMC: Security
     - [Video: Docker Cloud Secuity Scanning](https://www.youtube.com/watch?v=mp2xuOHdJ4Y&index=4&list=PLkA60AVN3hh8Jtg6IduMZCeCuzRYZH5Wz)
     - [Article: Docker Security Scanning now available to Docker cloud users](http://www.zdnet.com/article/docker-security-scanning-now-available-to-docker-cloud-users/)
 
