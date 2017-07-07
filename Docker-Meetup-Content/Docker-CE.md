@@ -5,7 +5,7 @@
 - [Get Docker CE from Docker Store](https://store.docker.com/search?type=edition&offering=community)
 
 ## Slides
-- [Docker Onling Meetup: Docker CE + EE](https://www.slideshare.net/Docker/docker-online-meetup-announcing-docker-ce-ee)
+- [Docker Online Meetup: Docker CE + EE](https://www.slideshare.net/Docker/docker-online-meetup-announcing-docker-ce-ee)
 
 ## Videos
 - [Docker Online Meetup: Docker CE + EE](https://www.youtube.com/watch?v=XMR54Oa6thk)
