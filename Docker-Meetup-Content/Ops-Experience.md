@@ -34,7 +34,7 @@
       - [Training: linux registry part 1](http://training.play-with-docker.com/linux-registry-part1/)
       - [Training: linux registry part 2](http://training.play-with-docker.com/linux-registry-part2/)
 
-### Stage 3
+### Stage 3: Swarm
 - Swarm basics
   - [Training: swarm stack intro](http://training.play-with-docker.com/swarm-stack-intro/)
   - [Docker Docs: Getting started with swarm mode](https://docs.docker.com/engine/swarm/swarm-tutorial/)
