@@ -43,17 +43,17 @@
   - [Video: Under the Hood with Docker Swarm Mode](https://www.youtube.com/watch?v=Mw4ImA2IB10&list=PLkA60AVN3hh-HFXhOCZXyIi-du9FxliCN&t=75s&index=6)
     
 ### Stage 4: Production
- - UCP + [DTR Overview] (https://docs.docker.com/datacenter/dtr/2.1/guides/)
+ - UCP + [DTR Overview](https://docs.docker.com/datacenter/dtr/2.1/guides/)
    - Create app
-      - [Securing Applications with Docker EE Advanced] (https://github.com/docker/labs/tree/master/dockercon-us-2017/securing-apps-docker-enterprise)
+      - [Securing Applications with Docker EE Advanced](https://github.com/docker/labs/tree/master/dockercon-us-2017/securing-apps-docker-enterprise)
    - Deploy stack
-     - [Docker Docs: Docker stack deploy] (https://docs.docker.com/engine/reference/commandline/stack_deploy/)
+     - [Docker Docs: Docker stack deploy](https://docs.docker.com/engine/reference/commandline/stack_deploy/)
  - Security
-    - [Training: Security Capabilities] (http://training.play-with-docker.com/security-capabilities/)
-    - [Training: Security Seccomp] (http://training.play-with-docker.com/security-seccomp/)
-    - [Docs: Docker security] (https://docs.docker.com/engine/security/security/)
+    - [Training: Security Capabilities](http://training.play-with-docker.com/security-capabilities/)
+    - [Training: Security Seccomp](http://training.play-with-docker.com/security-seccomp/)
+    - [Docs: Docker security](https://docs.docker.com/engine/security/security/)
  - Networking
-   - [Training: Docker Networking] (http://training.play-with-docker.com/docker-networking-hol/)
-   - [Video: Docker Networking: From Application-Plane to Data-Plane] (https://www.youtube.com/watch?v=EAQ-vr0XcPc&list=PLkA60AVN3hh-HFXhOCZXyIi-du9FxliCN&index=9)
+   - [Training: Docker Networking](http://training.play-with-docker.com/docker-networking-hol/)
+   - [Video: Docker Networking: From Application-Plane to Data-Plane](https://www.youtube.com/watch?v=EAQ-vr0XcPc&list=PLkA60AVN3hh-HFXhOCZXyIi-du9FxliCN&index=9)
    
   
