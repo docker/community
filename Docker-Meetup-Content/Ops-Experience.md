@@ -13,6 +13,7 @@
      - [Lab: Getting Started with Windows Containers](https://github.com/docker/labs/tree/master/windows/windows-containers)
      - [Article: Build Your First Docker Windows Server Container](https://blog.docker.com/2016/09/build-your-first-docker-windows-server-container/)
    - EE versus CE
+      - [Docker Blog: Online Meetup about Docker CE and Docker EE](https://blog.docker.com/2017/03/docker-online-meetup-recap-docker-enterprise-edition-ee-community-edition-ce/)
    - Simple Web App (Windows and Linux)
      - [Training: webapps](http://training.play-with-docker.com/webapps/)
    - Example Voting App (Linux)
