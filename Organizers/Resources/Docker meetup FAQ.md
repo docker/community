@@ -1,5 +1,5 @@
 # Ready to start your own Docker Meetup Group?
-Docker Meetups are social events organized by community members who are interested in talking and learning about the Docker Open Source Projects. Anyone can start a Docker Meetup group as long as there isn’t already a Docker meetup group in your city. We simply ask our organizers to comply with our Code of Conduct and work with them to ensure everyone in the community is feeling welcome!
+Docker Meetups are social events organized by community members who are interested in talking and learning about Docker. Anyone can start a Docker Meetup group as long as there isn’t already a Docker meetup group in your city. We simply ask our organizers to comply with our Code of Conduct and work with them to ensure everyone in the community is feeling welcome!
 Interested in launching a Docker Meetup Group?
 Fill out [this form](https://docker.mobilize.io/entities/2371/registrations) to get started and have our team reach out and create the user group on meetup.com! Our community team would be happy to work with you on solving some of the challenges associated with organizing meetups in your area.
 
