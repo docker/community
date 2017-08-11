@@ -1,13 +1,13 @@
 # Docker Community
 
-Welcome to the Docker Community repo! This repo aims to centralize content (HOW-TOs, scripts, slides, etc) curated by the Docker Team for the Docker Community. The main objective is to help members of the Docker community who share similar interests to learn from & collaborate with each other during Docker Meetups.
+Welcome to the Docker Community repo! This repo aims to centralize content (HOW-TOs, scripts, slides, etc) curated by the Docker Team for the Docker Community. The main objective is to help members of the Docker community who share similar interests to learn from & collaborate with each other during events.
 
 # Become an active member of the Docker Community
 
 [Sign up here](https://community.docker.com/registrations/groups/4316) to get involved as an active member of the Docker community!
 
 By joining this program you'll have the opportunity to become a more informed and engaged member of the Docker community. More specifically, benefits include:
-- Access to the Docker Community directory and chat channels
+- Access to the Docker Community directory and Slack channels
 - Latest product updates, release notes and curated resources: tutorials, hands-on labs, code samples, White papers, etc.
 - Targeted invites and promo codes for Docker events or events sponsored by Docker.
 - Priority access to beta programs
@@ -15,12 +15,13 @@ By joining this program you'll have the opportunity to become a more informed an
 
 Everyone is welcome to join the Docker Community as long as long as they comply with our [Code of Conduct](https://github.com/docker/code-of-conduct/blob/master/code-of-conduct.md).
 
-Don't hesitate to [contact us](mailto:meetups@docker.com) if you have questions or want to get involved as meetup organizers, speakers, sponsors, etc.
+Don't hesitate to [contact us](mailto:community@docker.com) if you have questions or want to get involved as meetup organizers, speakers, sponsors, etc.
 
 # Resources
 
-#### [Official Docker Tutorials](https://github.com/docker/labs)
-This repo contains official Docker tutorials authored both by Docker, Inc and by members of the community. It's a growing repo which we intend to continue to grow, with help from the community.
+#### [Official Docker Playground](http://training.play-with-docker.com/)
+
+This material is pulled from https://github.com/docker/labs and contains Docker labs and tutorials authored both by Docker, and by members of the community. Play with Docker (PWD) is a Docker playground which allows you to try Docker and Swarm Mode in a matter of seconds. It gives you the experience of having a free Alpine Linux Virtual Machine in the cloud where you can build and run Docker containers and even create clusters with Docker features like Swarm Mode. Under the hood DIND or Docker-in-Docker is used to give the effect of multiple VMs/PCs.
 
 #### [Docker Blog](https://blog.docker.com/)
 The Docker Blog is a great resource to find content! We post the latest Docker news including new releases and events like DockerCon there.
