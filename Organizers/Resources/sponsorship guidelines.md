@@ -2,7 +2,7 @@
 
 ## Why sponsor?
 
-[Access the Docker Sponsorship Guide Here](https://events.docker.com/get-involved/sponsor-an-event/)
+[Access the Docker Sponsorship Guide Here!](https://events.docker.com/get-involved/sponsor-an-event/)
 
 Build brand awareness in your local community by sponsoring a Docker Meetup. Benefits of a sponsorship may include but aren't limited to:
 - Listing as a sponsor on the meetup.com page (left column)
