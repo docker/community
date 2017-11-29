@@ -1,8 +1,8 @@
-# Welcome to the Docker Organizer program!
+# Welcome to the Docker Communtiy Leader program!
 
 Docker meetups bring together people who are interested in, use, develop, and support the Docker ecosystem. Whether you are just starting out, or have been organizing meetups for the past few years, we really appreciate your commitment and are very grateful for your contributions to the Docker Community.
 
-By holding the organizer or co-organizer leadership position, you are participating in this program and shall agree to abide by the following program guidelines. This is to ensure that Docker meetup organizers are a respected and professional group demonstrating a positive impact in the Docker ecosystem.
+By holding the community leadership position, you are participating in this program and shall agree to abide by the following program guidelines. This is to ensure that Docker meetup organizers are a respected and professional group demonstrating a positive impact in the Docker ecosystem.
 
 The document is not a comprehensive list of do’s and don’ts, but rather a living set of guidelines to follow that we will continue to refine as the program matures. Our goal is to raise awareness of the potential for actions that could negatively impact members of the community, not restrict the diversity of ideas and expression.
 
@@ -14,7 +14,7 @@ All Docker community members should strive to follow our community [Code of Cond
 
 # Understand Docker beyond containers.
 
-As meetup organizers, you understand that Docker is an evolving platform stack. Ideally, you have a good understanding of all the pieces (Engine, Swarm, Machine, Compose, etc.) and how they fit together. You may feature Docker ecosystem tools at the local meetups your organize but you are still enthusiastic about Docker as a whole technology and platform.
+As community leaders and meetup organizers, you understand that Docker is an evolving platform stack. Ideally, you have a good understanding of all the products (EE, CE, Moby Project, etc.) and how they fit together. You may feature Docker ecosystem tools at the local meetups you organize, but you are still enthusiastic about Docker as a whole technology and platform.
 
 # Be a force for good in the community
 
@@ -22,7 +22,7 @@ As meetup organizers, you understand that Docker is an evolving platform stack. 
 - Strive to keep the group active with frequent meetups and presentations on relevant content (including the latest Docker releases and cool projects using Docker products). If you can no longer commit to being an organizer, struggle to find good speakers or sponsors, please give us a heads up so that we can help out.
 - Ensure that all participants can freely and openly share ideas in a safe and welcoming environment that encourages mutual respect and collaboration.
 - Keep up-to-date on the latest technological advances in Docker and the ecosystem.
-- Collaborate with the Docker Community team to support the organization of Docker-centric meetups and local editions of global meetup campaigns (Docker Birthday, Global Hack Day, etc) in your local community.
+- Collaborate with the Docker Community team to support the organization of Docker-centric meetups and local editions of global meetup campaigns (Docker Birthday, Global Hack Day, etc.) in your local community.
 
 # Curate balanced and accurate content
 
@@ -37,10 +37,10 @@ As meetup organizers, you understand that Docker is an evolving platform stack. 
 
 # Enforcing these Community Guidelines
 
-Docker reserves the right to remove any member from the Organizer program for violating these guidelines. In the event of a violation, the Docker community team will review the situation and determine the consequences on a case by case basis. When an organizer is removed from the program, we retire the remaining benefits and his or her access to Docker Organizer resources.
+Docker reserves the right to remove any member from the Community Leader program for violating these guidelines. In the event of a violation, the Docker community team will review the situation and determine the consequences on a case by case basis. When a community leader is removed from the program, we retire the remaining benefits and his or her access to Docker Community Leader resources.
 
 #Additional Resources
 
 - [Docker Meetup Guide](https://github.com/docker/community/blob/master/Organizers/Resources/Docker%20Meetup%20Guide.md)
 - [Docker Meetup FAQ](https://github.com/docker/community/blob/master/Organizers/Resources/Docker%20meetup%20FAQ.md)
-- [Meetup Sponsorship Guidelines](https://github.com/docker/community/blob/master/Organizers/Resources/sponsorship%20guidelines.md)
+- [Meetup Sponsorship Guidelines](https://events.docker.com/get-involved/sponsor-an-event/)
