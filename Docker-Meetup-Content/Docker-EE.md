@@ -8,6 +8,7 @@
 - [Docker Onling Meetup: Docker EE + CE](https://www.slideshare.net/Docker/docker-online-meetup-announcing-docker-ce-ee)
 
 ## Videos
+- [Docker and Kubernetes](https://www.youtube.com/watch?time_continue=2&v=jWupQjdjLN0)
 - [Docker Webinar: Docker EE Demo](https://www.youtube.com/watch?v=-8VAq9HF66I)
 - [Docker Online Meetup: Docker EE + CE](https://www.youtube.com/watch?v=XMR54Oa6thk)
 - [Docker Community and Enterprise Editions: How does this impact you?](https://www.youtube.com/watch?v=lT7tECVtgZs)
