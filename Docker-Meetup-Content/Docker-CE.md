@@ -12,6 +12,7 @@
 - [Docker Community and Enterprise Editions: How does this impact you?](https://www.youtube.com/watch?v=lT7tECVtgZs)
 
 ## Articles
+- [Beta Docker for Mac and Windows with Kubernetes](https://blog.docker.com/2017/10/docker-for-mac-and-windows-with-kubernetes-beta/)
 - [Docker Docs: Installing Docker CE](https://docs.docker.com/engine/installation/)
 - [Docker Blog: Announcing Docker EE and CE](https://blog.docker.com/2017/03/docker-enterprise-edition/)
 - [Docker Blog: Docker CE Online Meetup](https://blog.docker.com/2017/03/docker-online-meetup-recap-docker-enterprise-edition-ee-community-edition-ce/)
