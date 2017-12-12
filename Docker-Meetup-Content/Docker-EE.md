@@ -5,7 +5,7 @@
 - [Get Docker EE free 30 day trial from Docker Store](https://store.docker.com/search?offering=enterprise&type=edition)
 
 ## Slides
-- [Docker Onling Meetup: Docker EE + CE](https://www.slideshare.net/Docker/docker-online-meetup-announcing-docker-ce-ee)
+- [Docker Online Meetup: Docker EE + CE](https://www.slideshare.net/Docker/docker-online-meetup-announcing-docker-ce-ee)
 
 ## Videos
 - [Docker and Kubernetes](https://www.youtube.com/watch?time_continue=2&v=jWupQjdjLN0)
