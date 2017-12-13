@@ -1,4 +1,4 @@
-# Welcome to the Docker Communtiy Leader program!
+# Welcome to the Docker Communtiy Leader Program!
 
 Docker meetups bring together people who are interested in, use, develop, and support the Docker ecosystem. Whether you are just starting out, or have been organizing meetups for the past few years, we really appreciate your commitment and are very grateful for your contributions to the Docker Community.
 
