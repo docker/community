@@ -2,7 +2,7 @@
 
 Docker meetups bring together people who are interested in, use, develop, and support the Docker ecosystem. Whether you are just starting out, or have been organizing meetups for the past few years, we really appreciate your commitment and are very grateful for your contributions to the Docker Community.
 
-By holding the community leadership position, you are participating in this program and shall agree to abide by the following program guidelines. This is to ensure that Docker meetup organizers are a respected and professional group demonstrating a positive impact in the Docker ecosystem.
+By holding the community leadership position, you are participating in this program and shall agree to abide by the following program guidelines. This is to ensure that Docker communtiy leaders who organize chapter events are a respected and professional group demonstrating a positive impact in the Docker ecosystem.
 
 The document is not a comprehensive list of do’s and don’ts, but rather a living set of guidelines to follow that we will continue to refine as the program matures. Our goal is to raise awareness of the potential for actions that could negatively impact members of the community, not restrict the diversity of ideas and expression.
 
@@ -14,7 +14,7 @@ All Docker community members should strive to follow our community [Code of Cond
 
 # Understand Docker beyond containers.
 
-As community leaders and meetup organizers, you understand that Docker is an evolving platform stack. Ideally, you have a good understanding of all the products (EE, CE, Moby Project, etc.) and how they fit together. You may feature Docker ecosystem tools at the local meetups you organize, but you are still enthusiastic about Docker as a whole technology and platform.
+As a community leader, you understand that Docker is an evolving platform. Ideally, you have a good understanding of all the products including Docker EE. You may feature Docker ecosystem tools at the local meetups you organize, but you are still enthusiastic about Docker as a whole technology and platform.
 
 # Be a force for good in the community
 
@@ -32,8 +32,8 @@ As community leaders and meetup organizers, you understand that Docker is an evo
 - Do not accept talks which slander or publish libel against Docker or other people and companies.
 - Be rigorous in assessing the content submitted by potential speakers. If you need help validating results and analyses, reach out for assistance.
 - When selecting events to promote, be sure the event features Docker-native solutions in a capacity and highlight that information in the body of the message.
-- If you experience difficulties with Docker products or programs, give us the opportunity to address your feedback in advance.
-- Make sure you're subscribed to the Docker Organizers mailing list to stay informed about the latest Docker News and community activities
+- If you experience difficulties with Docker products, give us the opportunity to address your feedback in advance.
+- Make sure you're subscribed to the Docker Community Leaders mailing list + private slack channel to stay informed about the latest Docker news and community activities.
 
 # Enforcing these Community Guidelines
 
