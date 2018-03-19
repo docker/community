@@ -47,4 +47,4 @@ We really appreciate all the contributions Docker Community Leaders make to the 
 We are always looking for new office space to host Docker community events or new companies to sponsor food, drinks, swag or video recording. If your company is willing to sponsor a local Docker Chapter Group, please fill out [this form](https://docker.mobilize.io/entities/2371/registrations) or contact the local organizers directly via events.docker.com
 
 # Who should I contact if I or one my colleague wants to give a talk at a meetup?
-Please visit our [sponsorship page](https://events.docker.com/get-involved/sponsor-an-event/)to get started and have our team reach out or contact the local community leaders directly.
+Please visit our [sponsorship page](https://events.docker.com/get-involved/sponsor-an-event/) to get started and have our team reach out or contact the local community leaders directly.
