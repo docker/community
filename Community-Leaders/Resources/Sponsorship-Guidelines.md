@@ -1,12 +1,12 @@
-# Docker Meetup Sponsorship Guidelines
+# Docker Chapter Event Sponsorship Guidelines
 
 ## Why sponsor?
 
 [Access the Docker Sponsorship Guide Here!](https://events.docker.com/get-involved/sponsor-an-event/)
 
-Build brand awareness in your local community by sponsoring a Docker Meetup. Benefits of a sponsorship may include but aren't limited to:
-- Listing as a sponsor on the meetup.com page (left column)
-- Listing in the event details meetup page
+Build brand awareness in your local community by sponsoring a Docker chapter event. Benefits of a sponsorship may include but aren't limited to:
+- Listing as a sponsor on the events.docker.com event page
+- Listing in the event details page
 - Recognition in pre- and/or post-event emails
 - Verbal thank you in opening or closing remarks
 - Digital promotion of event
@@ -24,7 +24,7 @@ Thank you to all our wonderful sponsors!
 Yes, as long as the talk is not a sales pitch. Another option is a 2-5 minute intro at the beginning of the event.
 
 #### Do you offer annual sponsorship packages?
-In an effort to keep our meetup events neutral, we mostly welcome ad hoc sponsorships. If you are interested in a recurring or global sponsorship, please contact Docker at meetups@docker.com
+In an effort to keep our meetup events neutral, we mostly welcome ad hoc sponsorships. If you are interested in a recurring or global sponsorship, please contact Docker at community@docker.com
 
 #### What is the agenda for a typical meetup?
 A typical meetup involves a few speaker presentations and some time for Q&A. Speaker presentations usually vary from one to three presenters who typically speak from 30 minutes to one hour. Events usually start in the evening around 6-7PM. Your local organizer contact will be able to give you the full details for their city.
