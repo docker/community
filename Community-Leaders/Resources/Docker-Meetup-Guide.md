@@ -1,32 +1,33 @@
 # What is this guide about?
 
-Docker Meetups are social events organized by community members who are interested in talking and learning about the Docker projects.
+Docker Chapter events and meetups are social events organized by community members who are interested in talking and learning about Docker CE and EE.
 
-Anyone who is interested in meeting with others to discuss about Docker is welcome to organize meetups. The first step is to read and understand our [Code of Conduct](https://github.com/docker/code-of-conduct) and then to [apply to the program here](https://community.docker.com/registrations/groups/1865) to be formally onboarded by a member of the Docker Community Team. 
+Anyone who is interested in meeting with others to discuss about Docker is welcome to organize chapter events. The first step is to read and understand our [Code of Conduct](https://github.com/docker/code-of-conduct) and then to [apply to the program here](https://community.docker.com/registrations/groups/1865) to be formally onboarded by a member of the Docker Community Team. 
 
-This guide helps you to successfully organize Docker Meetups. It provides tips, checklists, and concepts to do your planning effectively.
+This guide helps you to successfully organize Docker Chapter Events. It provides tips, checklists, and concepts to do your planning effectively.
 
 
 # Preparation
 At first, make sure you answer the following questions:
 
-  - **Bootstrap or contribute:** Anyone can start a Docker Meetup group as long as there is not an existing Docker user group in your city. Check out the [Docker community page](https://www.docker.com/community/meetup-groups) to make sure a group does not already exist in your city. If one does exist and you would like to help out please email meetup@docker.com and we will make an introduction to the local organizer. 
-  - **Team up – but maintain a single coordinator**
-  In case you opt for bootstrapping the meetup, try go get others involved. Spread the tasks across several shoulders, but make sure there is a single person responsible who manages all important information.
-  - **Check: Commitment**: Ask yourself: In case the first meetup works out well, will you take enough time to organize a second and a third one? It's not worth it for just a single one. Organizing meetups is very rewarding in several aspects but building and maintaining a community requires a commitment.
+  - **Bootstrap or contribute:** Anyone can start a Docker Chapter as long as there is not an existing Docker user group in your city. Check out the [Docker community page](https://events.docker.com/chapters/) to make sure a group does not already exist in your city. If one does exist and you would like to help out please click the contact us button on the chapter page to email the local team.
+  - **Team up!**
+  Try go get others involved. Spread the tasks across several shoulders, but make sure there is not just a single person responsible who manages all the important information and tasks. Life happens, it's nice to know you have someone who can help out when you're busy from time to time. 
+  - **Check: Commitment**: Ask yourself: Are you willing to make a long term commitment to your community? Starting a chapter is a long term responsibility and goes far beyond your first event. Organizing events is very rewarding in several aspects but building and maintaining a community requires a commitment. We set a goal of 1 event per quarter. Can you commit to that? 
 
 
 # Structure Your Meetup Project
-If you decided to start, [apply to the program here](https://community.docker.com/registrations/groups/1865) and a member of the Community Team will be in touch to help you launch your Docker group. The Community Team can help with things like finding venues, sponsors and speakers and can provide swag for your event.
+If you decided to start, [apply to the program here](https://community.docker.com/registrations/groups/1865) and a member of the Community Team will be in touch. The Community Team can help with things like finding venues, sponsors and speakers and can provide swag for your event.
 
 Once the group is launched, we recommend scheduling the first meetup with enough lead time for successful promotion.
 
 Next, make yourself familiar with the three most relevant tools:
-  - [The Docker Community Directory](https://community.docker.com): This is where you applied to the organizers program, but it also acts as a Docker Community Directory and its built-in messaging system is the main method of communication from the Docker Team. Subscribing to the organizers mailing list is imperative as all Docker and community information is sent to organizers this way. 
-  - Github.com: Create TODO lists, agendas, and meeting notes
-  - Meetup.com: Publish events and track attendees
+  - [The Docker Community Directory](https://community.docker.com): This is where you applied to the community leaders program, but it also acts as a Docker Community Directory and its built-in messaging system is the main method of communication from the Docker Team. Subscribing to the community leaders mailing list is imperative as all Docker and community information is sent to organizers this way. 
+  - Github.com: Resources, slide decks, sponsorship resources
+  - Events.docker.com: Publish events and track attendees
+  - Community Leader Private Slack Channel: Great place to interact with other community leaders, make sure you have access
 
-As you go through the organizing process, you can use the following phases to structure your planning for a successful meeting:
+As you go through the organizing process, you can use the following phases to structure your planning for a successful event:
 
 ![](Images_for_meetup_guide/Project_Phases.png)
 
@@ -103,7 +104,7 @@ Next, see the following tips for each category:
     - Food/Beverage sponsorship
     - Venue + Food/Beverage sponsorship
 
-  In an effort to keep our meetup events neutral, we mostly welcome ad hoc sponsorships. If you are interested in a recurring sponsorship, please contact Docker at meetups@docker.com.
+  In an effort to keep our meetup events neutral, we mostly welcome ad hoc sponsorships. If you are interested in a recurring sponsorship, please contact Docker at communitys@docker.com.
 
   - **Venue**:
   Organizing a venue might take some time. Make sure this is one of the tasks you allocate resources to early.
@@ -125,7 +126,6 @@ Next, see the following tips for each category:
 
   What audio/visual equipment is available at the venue? Do they have a microphone, projector/Apple TV available for presentations?
 
-  When in doubt, feel free to reach out to Victor Coisne (victor@docker.com)
 
   - **Equipment:**
   Make sure you'll have presentation tools at the venue including a beamer, presenter, and AV if necessary.
