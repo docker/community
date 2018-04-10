@@ -2,7 +2,7 @@
 
 ## Overview
 - [Docker.com/community-edition](https://www.docker.com/community-edition)
-- [Get Docker CE from Docker Store](https://store.docker.com/search?type=edition&offering=community)
+- [Get Docker Community Edition (CE) from Docker Store](https://store.docker.com/search?type=edition&offering=community)
 
 ## Slides
 - [Docker Online Meetup: Docker CE + EE](https://www.slideshare.net/Docker/docker-online-meetup-announcing-docker-ce-ee)
