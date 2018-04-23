@@ -2,20 +2,17 @@
 
 ## Overview
 - [Docker.com/enterprise-edition](https://www.docker.com/enterprise-edition)
-- [Get Docker EE free 30 day trial from Docker Store](https://store.docker.com/search?offering=enterprise&type=edition)
+- [Get Docker EE free hosted trial](https://trial.docker.com/)
 
 ## Slides
-- [Docker Online Meetup: Docker EE + CE](https://www.slideshare.net/Docker/docker-online-meetup-announcing-docker-ce-ee)
+- [Docker EE 2.0](https://docs.google.com/presentation/d/1kF7qEtReyvJcf28uChilq_z_NhTyKkY1GR7Xo4EtqNY/edit?usp=sharing)
+
+## Articles
+- [Announcing Docker Enterprise Edition 2.0](https://blog.docker.com/2018/04/announcing-docker-enterprise-edition-2-0/)
+- [Docker Docs: EE 2.0](https://docs.docker.com/enterprise/)
+- [Case Studies: See how companies use Docker EE](https://www.docker.com/customers)
 
 ## Videos
 - [Docker and Kubernetes](https://www.youtube.com/watch?time_continue=2&v=jWupQjdjLN0)
 - [Docker Webinar: Docker EE Demo](https://www.youtube.com/watch?v=-8VAq9HF66I)
-- [Docker Online Meetup: Docker EE + CE](https://www.youtube.com/watch?v=XMR54Oa6thk)
 - [Docker Community and Enterprise Editions: How does this impact you?](https://www.youtube.com/watch?v=lT7tECVtgZs)
-
-## Articles
-- [Docker Docs: About Docker EE](https://docs.docker.com/enterprise/)
-- [Docker Blog: Webinar Docker EE Demo](https://blog.docker.com/2017/06/docker-enterprise-edition-webinar/)
-- [Docker Blog: Announcing Docker EE and CE](https://blog.docker.com/2017/03/docker-enterprise-edition/)
-- [Use cases](https://www.docker.com/use-cases)
-- [Case Studies: See how companies use Docker EE](https://www.docker.com/customers)
