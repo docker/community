@@ -39,8 +39,7 @@ As a community leader, you understand that Docker is an evolving platform. Ideal
 
 Docker reserves the right to remove any member from the Community Leader program for violating these guidelines. In the event of a violation, the Docker community team will review the situation and determine the consequences on a case by case basis. When a community leader is removed from the program, we retire the remaining benefits and his or her access to Docker Community Leader resources.
 
-#Additional Resources
+# Additional Resources
 
 - [Docker Meetup Guide](https://github.com/docker/community/blob/master/Organizers/Resources/Docker%20Meetup%20Guide.md)
-- [Docker Meetup FAQ](https://github.com/docker/community/blob/master/Organizers/Resources/Docker%20meetup%20FAQ.md)
 - [Meetup Sponsorship Guidelines](https://events.docker.com/get-involved/sponsor-an-event/)
