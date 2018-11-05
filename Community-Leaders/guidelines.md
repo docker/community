@@ -41,5 +41,5 @@ Docker reserves the right to remove any member from the Community Leader program
 
 # Additional Resources
 
-- [Docker Meetup Guide](https://github.com/docker/community/blob/master/Organizers/Resources/Docker%20Meetup%20Guide.md)
+- [Docker Meetup Guide](https://github.com/docker/community/blob/master/Community-Leaders/Resources/Docker-Meetup-Guide.md)
 - [Meetup Sponsorship Guidelines](https://events.docker.com/get-involved/sponsor-an-event/)
